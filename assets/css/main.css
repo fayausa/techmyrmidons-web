@@ -2885,6 +2885,11 @@
 			#header .logo .title {
 				font-size: 3em;
 			}
+		header h2{
+			text-transform: none;
+			letter-spacing: 0px;
+			
+		}
 		#header nav {
 			position: fixed;
 			right: 2em;
