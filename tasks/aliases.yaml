@@ -12,17 +12,17 @@ serve:
 build:
   - clean:build
   - jade
-  - stylus
+  # - stylus
   - autoprefixer
   - copy:dist
   - useminPrepare
-  - concat
-  - cssmin
-  - uglify
-  - imagemin
-  - svgmin
+  # - concat
+  # - cssmin
+  # - uglify
+  # - imagemin
+  # - svgmin
   - htmlmin
-  - rev
+  # - rev
   - usemin
 
 test:
