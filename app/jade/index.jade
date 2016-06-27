@@ -1,0 +1,88 @@
+extends /layouts/_default
+
+block content
+    header#header.home
+      nav
+        ul
+          li
+            a(href='#menu') Menu
+      .inner
+        .spotlight-content.spotlight-content-head
+          a.logo(href='/')
+            span.symbol
+              img(src='images/logo.png', alt='')
+            span.title TechMyrmidons
+        .spotlight-content
+          h1
+            | Are you Techno-Savvy?
+            br
+            |  Does Technology amaze you?
+            br
+            |  Here is where you belong to…
+        .spotlight-content-bottom
+          h2 Follow the Tech Myrmidons… Stay updated in the latest technologies!!!
+          p
+            | This space is for the technogeeks who are lost in the complex network of highways and cross-roads of Technological Advances. Follow the Myrmidons and let us build together a Context Aware Navigator for all the Technology Updates for the astray Technologists. Let us help them navigate through the shortest route to reach the zenith of Technology.
+    nav#menu
+      h2 Menu
+      ul
+        li
+          a(href='/') Home
+        li
+          a(href='android.html') Android Myrmidon
+        li
+          a(href='frontend.html') Front End Myrmidon
+        li
+          a(href='ios.html') iOS Myrmidon
+        li
+          a(href='web.html') Web Myrmidon
+        li
+          a(href='qa.html') QA Myrmidon
+        li
+          a(href='security.html') Security Myrmidon
+    #main.home
+      .inner
+        section.tiles
+          article.style
+            span.image
+              img(src='images/android.jpg', alt='Android')
+            a(href='android.html')
+              h2 Android
+              .content
+                p Do you breathe Android?? Follow the Android Myrmidon… Get Androidified!!!
+          article.style
+            span.image
+              img(src='images/ios.jpg', alt='iOS')
+            a(href='ios.html')
+              h2 iOS
+              .content
+                p Want to preach iOS?? Follow the iOS Myrmidon… Get the Trilemma solved!!!
+          article.style
+            span.image
+              img(src='images/frontend.jpg', alt='Front End')
+            a(href='frontend.html')
+              h2 Front End
+              .content
+                p Follow the UI Myrmidon & Dig deeper into the Front End Technologies!!
+          article.style
+            span.image
+              img(src='images/web.jpg', alt='Web')
+            a(href='web.html')
+              h2 Web
+              .content
+                p Is Web your Religion?? Follow the League of the Web Myrmidons & Get Webbed!!
+          article.style
+            span.image
+              img(src='images/qa.jpg', alt='QA')
+            a(href='qa.html')
+              h2 QA
+              .content
+                p Follow the QA Myrmidon to Assure Quality without Compromise!!
+          article.style
+            span.image
+              img(src='images/security.jpg', alt='Security')
+            a(href='security.html')
+              h2 Security
+              .content
+                p
+                  | Follow the Security Myrmidon & equip yourself with the Best Weapons of Security!!

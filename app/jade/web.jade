@@ -1,0 +1,41 @@
+extends /index
+
+block content
+    header#header
+      .inner
+        // Logo
+        div.logo
+          span.symbol
+            img(src='images/logo.svg', alt='')
+          span.title Web Myrmidon
+        // Nav
+        nav
+          ul
+            li
+              a(href='#menu') Menu
+    // Menu
+    nav#menu
+      h2 Menu
+      ul
+        li
+          a(href='/') Home
+        li
+          a(href='android.html') Android Myrmidon
+        li
+          a(href='frontend.html') Front End Myrmidon
+        li
+          a(href='ios.html') iOS Myrmidon
+        li
+          a(href='web.html') Web Myrmidon
+        li
+          a(href='qa.html') QA Myrmidon
+        li
+          a(href='security.html') Security Myrmidon
+    #main
+      .inner
+        span.image.main
+          img(src='images/pic13.jpg', alt='')
+        h2 Coming Soon
+        div(style='display:none')
+
+

@@ -1,0 +1,420 @@
+extends /index
+
+block content
+    header#header
+      .inner
+        // Logo
+        div.logo
+          span.symbol
+            img(src='images/logo.svg', alt='')
+          span.title Front End Myrmidon
+        // Nav
+        nav
+          ul
+            li
+              a(href='#menu') Menu
+    // Menu
+    nav#menu
+      h2 Menu
+      ul
+        li
+          a(href='/') Home
+        li
+          a(href='android.html') Android Myrmidon
+        li
+          a(href='frontend.html') Front End Myrmidon
+        li
+          a(href='ios.html') iOS Myrmidon
+        li
+          a(href='web.html') Web Myrmidon
+        li
+          a(href='qa.html') QA Myrmidon
+        li
+          a(href='security.html') Security Myrmidon
+    #main
+      .inner
+        span.image.main
+          img(src='images/frontend-myrmidon.jpg', alt='')
+        h2 Tools & Technologies
+        .list-wrap
+          #tab-container.tab-container
+            ul.etabs
+              li.tab.latest
+                a(href='#tabs1')
+                  h3 Latest
+              li.tab
+                a(href='#tabs2')
+                  h3 2015
+              li.tab
+                a(href='#tabs3')
+                  h3 2014
+            #tabs1
+              ul.icon-list
+                li
+                  a.popup-link(href='#angular')
+                    .iconlist__title
+                      h4 AngularJS
+                    .icon-list__img
+                      img(src='images/frontend/angular.jpg', alt='')
+                li
+                  a.popup-link(href='#gulp')
+                    .iconlist__title
+                      h4 Gulp
+                    .icon-list__img
+                      img(src='images/frontend/gulp.jpg', alt='')
+                li
+                  a.popup-link(href='#ember')
+                    .iconlist__title
+                      h4 Ember.js
+                    .icon-list__img
+                      img(src='images/frontend/ember.jpg', alt='')
+                li
+                  a.popup-link(href='#meteor')
+                    .iconlist__title
+                      h4 Meteor
+                    .icon-list__img
+                      img(src='images/frontend/meteor.jpg', alt='')
+                li
+                  a.popup-link(href='#sass')
+                    .iconlist__title
+                      h4 Sass
+                    .icon-list__img
+                      img(src='images/frontend/sass.jpg', alt='')
+                li
+                  a.popup-link(href='#yeoman')
+                    .iconlist__title
+                      h4 Yeoman
+                    .icon-list__img
+                      img(src='images/frontend/yeoman.jpg', alt='')
+                li
+                  a.popup-link(href='#bower')
+                    .iconlist__title
+                      h4 Bower
+                    .icon-list__img
+                      img(src='images/frontend/bower.jpg', alt='')
+                li
+                  a.popup-link(href='#bootstrap')
+                    .iconlist__title
+                      h4 Bootstrap
+                    .icon-list__img
+                      img(src='images/frontend/bootstrap.jpg', alt='')
+                li
+                  a.popup-link(href='#foundation')
+                    .iconlist__title
+                      h4 Foundation
+                    .icon-list__img
+                      img(src='images/frontend/fountation.jpg', alt='')
+                li
+                  a.popup-link(href='#boilerplate')
+                    .iconlist__title
+                      h4 HTML5 Boilerplate
+                    .icon-list__img
+                      img(src='images/frontend/boilerplate.jpg', alt='')
+                li
+                  a.popup-link(href='#normalize')
+                    .iconlist__title
+                      h4 Normalize
+                    .icon-list__img
+                      img(src='images/frontend/normalize.jpg', alt='')
+                li
+                  a.popup-link(href='#git')
+                    .iconlist__title
+                      h4 Git
+                    .icon-list__img
+                      img(src='images/android/git.jpg', alt='')
+                li
+                  a.popup-link(href='#firebase')
+                    .iconlist__title
+                      h4 Firebase
+                    .icon-list__img
+                      img(src='images/android/firebase.jpg', alt='')
+            #tabs2
+              ul.icon-list
+                li
+                  a.popup-link(href='#angular')
+                    .iconlist__title
+                      h4 AngularJS
+                    .icon-list__img
+                      img(src='images/frontend/angular.jpg', alt='')
+                li
+                  a.popup-link(href='#gulp')
+                    .iconlist__title
+                      h4 Gulp
+                    .icon-list__img
+                      img(src='images/frontend/gulp.jpg', alt='')
+                li
+                  a.popup-link(href='#ember')
+                    .iconlist__title
+                      h4 Ember.js
+                    .icon-list__img
+                      img(src='images/frontend/ember.jpg', alt='')
+                li
+                  a.popup-link(href='#meteor')
+                    .iconlist__title
+                      h4 Meteor
+                    .icon-list__img
+                      img(src='images/frontend/meteor.jpg', alt='')
+                li
+                  a.popup-link(href='#sass')
+                    .iconlist__title
+                      h4 Sass
+                    .icon-list__img
+                      img(src='images/frontend/sass.jpg', alt='')
+            #tabs3
+              ul.icon-list
+                li
+                  a.popup-link(href='#boilerplate')
+                    .iconlist__title
+                      h4 HTML5 Boilerplate
+                    .icon-list__img
+                      img(src='images/frontend/boilerplate.jpg', alt='')
+                li
+                  a.popup-link(href='#normalize')
+                    .iconlist__title
+                      h4 Normalize
+                    .icon-list__img
+                      img(src='images/frontend/normalize.jpg', alt='')
+                li
+                  a.popup-link(href='#git')
+                    .iconlist__title
+                      h4 Git
+                    .icon-list__img
+                      img(src='images/android/git.jpg', alt='')
+                li
+                  a.popup-link(href='#firebase')
+                    .iconlist__title
+                      h4 Firebase
+                    .icon-list__img
+                      img(src='images/android/firebase.jpg', alt='')
+
+
+        .list-wrap
+          h2 Follow the Best Blogs
+          ul.text-list
+            li
+              .text-list__title
+                a(href='http://dailyjs.com/', target='blank')
+                  h4 DailyJS
+            li
+              .text-list__title
+                a(href='http://code.tutsplus.com/', target='blank')
+                  h4 Nettuts+
+            li
+              .text-list__title
+                a(href='http://html5doctor.com/', target='blank')
+                  h4 HTML5 Doctor
+            li
+              .text-list__title
+                a(href='http://blog.teamtreehouse.com/', target='blank')
+                  h4 Treehouse Blog
+            li
+              .text-list__title
+                a(href='http://www.echojs.com/', target='blank')
+                  h4 EchoJS
+            li
+              .text-list__title
+                a(href='https://blog.webplatform.org/', target='blank')
+                  h4 Web Platform
+            li
+              .text-list__title
+                a(href='http://www.html5rocks.com/en/', target='blank')
+                  h4 HTML5 ROCKS
+            li
+              .text-list__title
+                a(href='http://css-tricks.com/', target='blank')
+                  h4 CSS-TRICKS
+        .list-wrap
+          h2 People to Follow
+          ul.text-list.follow
+            li
+              a(href='https://addyosmani.com/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/addy.jpg', alt='')
+                .text-list__title
+                    h4 Addy Osmani
+            li
+              a(href='http://christianheilmann.com/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/heilmann.jpg', alt='')
+                .text-list__title
+                    h4 Christian Heilmann
+            li
+              a(href='http://www.paulirish.com/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/irish.jpg', alt='')
+                .text-list__title
+                    h4 Paul Irish
+            li
+              a(href='http://stevesouders.com/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/souders.jpg', alt='')
+                .text-list__title
+                    h4 Steve Souders
+            li
+              a(href='http://getify.me/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/js.jpg', alt='')
+                .text-list__title
+                    h4 Kyle Simpson
+            li
+              a(href='http://ejohn.org/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/js.jpg', alt='')
+                .text-list__title
+                    h4 John Resig
+            li
+              a(href='https://jakearchibald.com/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/archibald.jpg', alt='')
+                .text-list__title
+                    h4 Jake Archibald
+            li
+              a(href='https://www.igvita.com/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/grigorik.jpg', alt='')
+                .text-list__title
+                    h4 Ilya Grigorik
+            li
+              a(href='http://lea.verou.me/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/verou.jpg', alt='')
+                .text-list__title
+                    h4 Lea Verou
+            li
+              a(href='http://www.nczonline.net/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/nicholas.jpg', alt='')
+                .text-list__title
+                    h4 Nicholas C. Zakas
+            li
+              a(href='http://www.stubbornella.org/', target='blank').text-list__link
+                .text-list__img
+                  img(src='images/frontend/sullivan.jpg', alt='')
+                .text-list__title
+                    h4 Nicole Sullivan
+        .list-wrap
+          h2 News
+          ul.text-list
+            li
+              .text-list__title
+                a(href='http://css-weekly.com/', target='blank')
+                  h4 CSS Weekly
+            li
+              .text-list__title
+                a(href='http://html5weekly.com/', target='blank')
+                  h4 HTML5 Weekly
+            li
+              .text-list__title
+                a(href='http://javascriptweekly.com/', target='blank')
+                  h4 JavaScript Weekly
+            li
+              .text-list__title
+                a(href='http://adripofjavascript.com/', target='blank')
+                  h4 A Drip of JavaScript
+            li
+              .text-list__title
+                a(href='https://wdrl.info/', target='blank')
+                  h4 Web Development Reading List
+            li
+              .text-list__title
+                a(href='http://tinyletter.com/front-end-rapport', target='blank')
+                  h4 Front-end Rapport
+        div(style='display:none')
+          #angular.popup
+            h4 AngularJS
+            p
+              | HTML is great for declaring static documents, but it falters when we try to use it for declaring dynamic views in web-applications. AngularJS lets you extend HTML vocabulary for your application. The resulting environment is extraordinarily expressive, readable, and quick to develop.
+            p
+              | Know more about AngularJS
+              a(href='http://android-developers.blogspot.in/2016/05/android-studio-22-preview-new-ui.html') https://www.angularjs.org/
+          #gulp.popup
+            h4 Gulp
+            p
+              | Gulp is a tool that helps you out with several tasks when it comes to web development. Gulp is a streaming build system, by using node’s streams file manipulation is all done in memory, and a file isn’t written until you tell it to do so.
+            p
+              | Get started with Gulp
+              a(href='http://gulpjs.com/') here
+              | <
+          #ember.popup
+            h4 Ember.js
+            p
+              | Ember is the spiritual successor to SproutCore, a powerful JavaScript framework that attempted to port the Cocoa UI to the web
+            p
+              | Get started with Ember
+              a(href='http://emberjs.com/') here
+          #meteor.popup
+            h4 Meteor
+            p
+              | Meteor is a new full-stack JavaScript, powered by Node.js. It's guaranteed to revolutionize the way that you approach writing highly responsive and dynamic web applications.
+            p
+              | Get started with Meteor
+              a(href='https://www.meteor.com/') here
+          #sass.popup
+            h4 Sass
+            p
+              | Sass is completely compatible with all versions of CSS. We take this compatibility seriously, so that you can seamlessly use any available CSS libraries.
+            p
+              | Get started with Sass
+              a(href='http://sass-lang.com/') here
+          #yeoman.popup
+            h4 Yeoman
+            p
+              | Yeoman helps you to kickstart new projects, prescribing best practices and tools to help you stay productive.
+            p
+              | To do so, we provide a generator ecosystem. A generator is basically a plugin that can be run with the `yo` command to scaffold complete projects or useful parts.
+            p
+              | Get started with Yeoman
+              a(href='http://yeoman.io/') here
+          #bower.popup
+            h4 Bower
+            p
+              | Web sites are made of lots of things — frameworks, libraries, assets, and utilities. Bower manages all these things for you.
+            p
+              | Get started with Bower
+              a(href='http://bower.io/') here
+            p
+          #bootstrap.popup
+            h4 Bootstrap
+            p
+              | Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+            p
+              | Get started with Bootstrap
+              a(href='http://getbootstrap.com/2.3.2/') here
+          #foundation.popup
+            h4 Foundation
+            p
+              | A Framework for any device, medium, and accessibility. Foundation is a family of responsive front-end frameworks that make it easy to design beautiful responsive websites, apps and emails that look amazing on any device. Foundation is semantic, readable, flexible, and completely customizable. We’re constantly adding new resources and code snippets, including these handy HTML templates to help get you started!
+            p
+              | Get started with Foundation
+              a(href='http://foundation.zurb.com/') here
+          #boilerplate.popup
+            h4 HTML5 Boilerplate
+            p
+              | HTML5 Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.
+            p
+              | Get started with HTML5 Boilerplate
+              a(href='https://html5boilerplate.com/') here
+          #normalize.popup
+            h4 Normalize
+            p
+              | Normalize makes all browsers render elements in as consistent a fashion as possible. Have you ever experienced the annoyance of debugging a three pixel input height inconsistency, from browser to browser? With Normalize, you'll never deal with that again!
+            p
+              | Dive deeper into Normalize
+              a(href='http://necolas.github.io/normalize.css/') here
+          #git.popup
+            h4 Git
+            p
+              | Git is a free distributed version control system. Android Studio comes with Git client. All we need to do is just enable and start using it. As a prerequisite, you need to have Git installed in the local system.
+            p
+              | Dive deeper into Git
+              a(href='https://source.android.com/source/developing.html') here
+              br
+              a(href='http://git-scm.com/downloads') Download Here
+          #firebase.popup
+            h4 Firebase
+            p
+              | Firebase is a mobile platform that helps you quickly develop high-quality apps, grow your user base, and earn more money. Firebase is made up of complementary features that you can mix-and-match to fit your needs.
+            p
+              | Dive deeper into Firebase
+              a(href='https://firebase.google.com/') here
+
