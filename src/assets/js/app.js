@@ -8,3 +8,4 @@ $( "#nav-toggle" ).on( "click", function() {
   $('#side-menu').toggle();
 });
 $('#tab-container').easytabs();
+$(".popup-link").colorbox({inline:true, width:"90%",maxWidth: '960px',});

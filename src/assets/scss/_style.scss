@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Maitree:400,700,200,300,500,600);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import 'components/colorbox';
 
 /* custom styles */
 body{
@@ -145,13 +146,16 @@ body{
     height: 60px;
     margin-bottom: 10px;
     margin-top: -30px;
-    padding-top: 10px;
     width: 60px;
+    img{
+      width: 35px;
+      padding-top: 10px;
+    }
   }
   .techwidget__head{
     text-transform: uppercase;
     font-size: 1.2em;
-    color:#636363;
+    color:#919191;
   }
   .techwidget__content{
     font-size: .9em;
@@ -170,7 +174,7 @@ h2.page-title{
   text-transform: uppercase;
   margin: 1.5em  0;
   text-align: center;
-  color:#888888;
+  color:#919191;
 }
 h3.sub-title{
   text-transform: uppercase;
@@ -347,6 +351,31 @@ footer{
 }
 .tab-container .columns:last-child:not(:first-child){
   float: left;
+}
+.popup{
+  .techwidget{
+    margin-bottom: 0;
+    margin-top: 20px;
+    .link{
+      color: #d64a00;
+    }
+    .techwidget__content{
+      padding:0 10%;
+      color:#999;
+      font-size:1em;
+    }
+  }
+}
+#colorbox{
+  #cboxClose{
+    position:absolute;
+    right: 10px;
+    top: 25px;
+    bottom:auto;
+  }
+}
+#cboxLoadedContent:focus{
+  outline:none;
 }
 @media screen and (max-width: 960px) {
 	.techlist li .techlist__item{
