@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Maitree:400,700,200,300,500,600);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
 /* custom styles */
 body{
 	background:#000 url("../img/bg.png");
@@ -17,11 +19,12 @@ body{
       margin:30px 0 10px;
     }
     .grey{
-      color: #999999;
+      color: #999;
       font-size: 2em;
     }
     .bottom-txt{
-      font-size:1.6em;
+      font-size:1.3em;
+      color:#999;
     }
   }
   .myrmidon-logo{
@@ -34,8 +37,9 @@ body{
   padding: 0;
   list-style: none;
   display: inline-block;
+  text-align: center;
   li{
-    float: left;
+    display: inline-block;
     margin:0 10px;
     .techlist__item{
       width: 130px;
@@ -50,14 +54,294 @@ body{
     }
   }
 }
+.menu-bar{
+  width: 300px;
+  position: fixed;
+  left: 0;
+  top:0;
+  height: 100%;
+  background-color:rgba(0, 0, 0, 0.7);
+  z-index: 9;
+}
+#side-menu{
+  display: none;
+}
+#nav-toggle {
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    padding: 13px 0 0 5px;
+    width: 40px;
+    z-index: 999;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+#nav-toggle span, #nav-toggle span::after, #nav-toggle span::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    cursor: pointer;
+    display: block;
+    height: 3px;
+    position: absolute;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    width: 32px;
+}
+#nav-toggle span,#nav-toggle span::after,  #nav-toggle span::before {
+    background: #fff;
+}
+#nav-toggle span::before {
+    top: -9px;
+}
+#nav-toggle span::after {
+    bottom: -9px;
+}
+#nav-toggle.active{
+ 
+}
+#nav-toggle.active span::before {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#nav-toggle.active span::after {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+#nav-toggle.active span {
+    background-color: transparent;
+}
+#nav-toggle.active span::after, #nav-toggle.active span::before {
+  bottom: 0;
+  top: 0;
+}
+.menu-list{
+  list-style-type: none;
+  margin: 60px 0 0;
+  padding: 0;
+  li{
+    margin: 10px 30px 10px 30px;
+    font-size: 1.3em;
+    border-bottom: 1px solid #646464;
+    padding-bottom: 10px;
+    a{
+      color: #fff;
+      &:hover{
+        color: #d24a2c;
+      }
+    }
+  }
+}
+.techwidget{
+  background: #0f0f0f;
+  margin-bottom: 40px;
+  padding: 0 10px 15px;
+  text-align: center;
+  .techwidget__logo{
+    background: #fff;
+    border-radius: 30px;
+    border: 1px solid #d24a2c;
+    display: inline-block;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: -30px;
+    padding-top: 10px;
+    width: 60px;
+  }
+  .techwidget__head{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color:#636363;
+  }
+  .techwidget__content{
+    font-size: .9em;
+    margin:10px 0;
+  }
+  .techwidget__more{
+    color: #d24a2c;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+}
+.text-center{
+  text-align: center;
+}
+h2.page-title{
+  text-transform: uppercase;
+  margin: 1.5em  0;
+  text-align: center;
+  color:#888888;
+}
+h3.sub-title{
+  text-transform: uppercase;
+  margin: .5em  0;
+  text-align: center;
+  color:#fff;
+}
+.blog{
+  background:#101010;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-bottom:30px;
+  .blog__name{
+    background: #646464;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 30px;
+    color: #000;
+    margin:10px;
+    &:hover{
+      background:#d64a00;
+    }
+  }
+}
+.follow{
+  text-align: center;
+  background:#101010;
+  margin-bottom: 50px;
+  padding-bottom:30px;
+  .follow__list{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  .follow__list__img{
+    border-radius: 50px;
+    display: inline-block;
+    height: 90px;
+    overflow: hidden;
+    width: 90px;
+  }
+  .follow__list__name{
+    color: #d64a00;
+    font-size: 1.1em;
+  }
+}
+footer{
+  background:#101010;
+  padding:20px 0 40px;
+}
+.copyright{
+  padding: 20px 0;
+  background:#000;
+  p{
+    margin: 0;
+  }
+}
+#footer{
+  h3{
+    text-transform: uppercase;
+    margin: .5em  0;
+    color:#fff;
+  }
+  ::-webkit-input-placeholder {
+    color: #d64a00;
+    font-style: italic;
+    font-weight:500;
+    font-size: 1.1em;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #d64a00;
+    font-style: italic;
+    font-weight:500;
+    font-size: 1.1em;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: #d64a00; 
+    font-style: italic;
+    font-weight:500;
+    font-size: 1.1em; 
+  }
+  :-ms-input-placeholder {  
+    color: #d64a00; 
+    font-style: italic;
+    font-weight:500;
+    font-size: 1.1em; 
+  }
+  input[type="text"],textarea{
+    background:transparent;
+    border:none;
+    color: #fff;
+    resize: none;
+    &:focus{
+      box-shadow:none;
+    }
+  }
+  #submit{
+    background:#d64a00;
+    color: #000;
+    border:none;
+    text-transform: uppercase;
+    padding:5px 25px;
+    border-radius:5px;
+  }
+  ul.social{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+    li {
+      display: inline-block;
+      padding: 0 1em 0 0;
+    }
+    .icon {
+      background-color: transparent;
+      border: solid 1px #c9c9c9;
+      border-radius: 4px;
+      width: 2.65em;
+      height: 2.65em;
+      display: inline-block;
+      text-align: center;
+      line-height: 2.65em;
+      color: #fff;
+      &:hover{
+        color: #d64a00;
+        border-color:#d64a00;
+      }
+    }
+    .icon:before {
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: 400;
+      text-transform: none!important;
+    }
+    .icon>.label {
+      display: none;
+    }
+    .fa-twitter:before {
+      content: "\f099";
+    }
+    .fa-facebook:before {
+        content: "\f09a";
+    }
+    .fa-github:before {
+        content: "\f09b";
+    }
+    .fa-envelope-o:before {
+        content: "\f003";
+    }
+  } 
+}
 @media screen and (max-width: 960px) {
-
 	.techlist li .techlist__item{
-		width: 100px;
     height: 100px;
+    width: 100px;
     img{
     	width: 60px;
     }
 	}
+  .social-wrap{
+    margin-top: 30px;
+  }
 }
-
+@media screen and (max-height: 690px) {
+  .techlist{
+    margin: 0;
+  }
+}
+@media screen and (max-height: 650px) {
+  .canvas{
+    display: block;
+  }
+}
