@@ -49,130 +49,30 @@ body{
       text-align: center;
       border: 2px dashed #913217;
       border-radius:70px;
+      position: relative;
       img{
       	margin-top: 15px;
-
-        &:hover {
-          animation: animationFrames linear 1s;
-          animation-iteration-count: 1;
-          transform-origin: 50% 0%;
-          -webkit-animation: animationFrames linear 1s;
-          -webkit-animation-iteration-count: 1;
-          -webkit-transform-origin: 50% 0%;
-          -moz-animation: animationFrames linear 1s;
-          -moz-animation-iteration-count: 1;
-          -moz-transform-origin: 50% 0%;
-          -o-animation: animationFrames linear 1s;
-          -o-animation-iteration-count: 1;
-          -o-transform-origin: 50% 0%;
-          -ms-animation: animationFrames linear 1s;
-          -ms-animation-iteration-count: 1;
-          -ms-transform-origin: 50% 0%;
-
-          @keyframes animationFrames{
-            0% {
-              transform:  rotate(0deg) ;
-            }
-            20% {
-              transform:  rotate(15deg) ;
-            }
-            40% {
-              transform:  rotate(-10deg) ;
-            }
-            60% {
-              transform:  rotate(5deg) ;
-            }
-            80% {
-              transform:  rotate(-5deg) ;
-            }
-            100% {
-              transform:  rotate(0deg) ;
-            }
-          }
-
-          @-moz-keyframes animationFrames{
-            0% {
-              -moz-transform:  rotate(0deg) ;
-            }
-            20% {
-              -moz-transform:  rotate(15deg) ;
-            }
-            40% {
-              -moz-transform:  rotate(-10deg) ;
-            }
-            60% {
-              -moz-transform:  rotate(5deg) ;
-            }
-            80% {
-              -moz-transform:  rotate(-5deg) ;
-            }
-            100% {
-              -moz-transform:  rotate(0deg) ;
-            }
-          }
-
-          @-webkit-keyframes animationFrames {
-            0% {
-              -webkit-transform:  rotate(0deg) ;
-            }
-            20% {
-              -webkit-transform:  rotate(15deg) ;
-            }
-            40% {
-              -webkit-transform:  rotate(-10deg) ;
-            }
-            60% {
-              -webkit-transform:  rotate(5deg) ;
-            }
-            80% {
-              -webkit-transform:  rotate(-5deg) ;
-            }
-            100% {
-              -webkit-transform:  rotate(0deg) ;
-            }
-          }
-
-          @-o-keyframes animationFrames {
-            0% {
-              -o-transform:  rotate(0deg) ;
-            }
-            20% {
-              -o-transform:  rotate(15deg) ;
-            }
-            40% {
-              -o-transform:  rotate(-10deg) ;
-            }
-            60% {
-              -o-transform:  rotate(5deg) ;
-            }
-            80% {
-              -o-transform:  rotate(-5deg) ;
-            }
-            100% {
-              -o-transform:  rotate(0deg) ;
-            }
-          }
-
-          @-ms-keyframes animationFrames {
-            0% {
-              -ms-transform:  rotate(0deg) ;
-            }
-            20% {
-              -ms-transform:  rotate(15deg) ;
-            }
-            40% {
-              -ms-transform:  rotate(-10deg) ;
-            }
-            60% {
-              -ms-transform:  rotate(5deg) ;
-            }
-            80% {
-              -ms-transform:  rotate(-5deg) ;
-            }
-            100% {
-              -ms-transform:  rotate(0deg) ;
-            }
-          }
+      }
+      span{
+        position: absolute;
+        bottom: 43px;
+        text-align: center;
+        width: 100%;
+        color: #eee;
+        left: 0;
+        font-size: 0em;
+        font-weight: 500;
+      }
+      &:hover{
+        border: 2px dashed #d24a2c;
+        span{
+          font-size: 1.5em;
+          -webkit-transition:all .5s;
+    -moz-transition:all .5s;
+    transition:all .5s;
+        }
+        img{
+          opacity: .4;
         }
       }
     }
@@ -221,16 +121,13 @@ body{
 #nav-toggle span::after {
     bottom: -9px;
 }
-#nav-toggle.active{
- 
-}
 #nav-toggle.active span::before {
-    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 #nav-toggle.active span::after {
-    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
+   -webkit-transform: rotate(-45deg);
 }
 #nav-toggle.active span {
     background-color: transparent;
@@ -253,6 +150,9 @@ body{
       &:hover{
         color: #d24a2c;
       }
+    }
+    &:last-child{
+      border:none;
     }
   }
 }
@@ -284,6 +184,7 @@ body{
   .techwidget__content{
     font-size: .9em;
     margin:10px 0;
+    height: 46px; overflow: hidden;
   }
   .techwidget__more{
     color: #d24a2c;
@@ -507,10 +408,21 @@ footer{
     width: 100px;
     img{
     	width: 60px;
+      height: 67px;
+    }
+    &:hover span{
+      font-size: 1.2em;
+      bottom:30px;
     }
 	}
+  .techwidget__content{
+    height: auto;
+  }
   .social-wrap{
     margin-top: 30px;
+  }
+  .follow .follow__list {
+    width: 170px;
   }
 }
 @media screen and (max-height: 690px) {
@@ -523,3 +435,4 @@ footer{
     display: block;
   }
 }
+
