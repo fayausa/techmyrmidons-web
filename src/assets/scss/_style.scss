@@ -86,6 +86,7 @@ body{
   height: 100%;
   background-color:rgba(0, 0, 0, 0.7);
   z-index: 9;
+  animation: pulse 5s infinite;
 }
 #side-menu{
   display: none;
@@ -184,7 +185,11 @@ body{
   .techwidget__content{
     font-size: .9em;
     margin:10px 0;
-    height: 46px; overflow: hidden;
+    height: 46px;
+    overflow: hidden;
+    display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; 
   }
   .techwidget__more{
     color: #d24a2c;
@@ -381,13 +386,17 @@ footer{
   .techwidget{
     margin-bottom: 0;
     margin-top: 20px;
+    border:1px solid #883a11;
     .link{
       color: #d64a00;
+      font-weight: 600;
     }
     .techwidget__content{
       padding:0 10%;
       color:#999;
       font-size:1em;
+      height: auto;
+      display: block;
     }
   }
 }
@@ -397,11 +406,24 @@ footer{
     right: 10px;
     top: 25px;
     bottom:auto;
+    span{
+      font-size: 0;
+    }
+    &:before{
+      content: "\f00d";
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      font-family: FontAwesome;
+      font-size: 20px;
+    }
+    
   }
 }
 #cboxLoadedContent:focus{
   outline:none;
 }
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
 @media screen and (max-width: 960px) {
 	.techlist li .techlist__item{
     height: 100px;
@@ -430,9 +452,10 @@ footer{
     margin: 0;
   }
 }
-@media screen and (max-height: 650px) {
+@media screen and (max-height: 750px) {
   .canvas{
     display: block;
   }
 }
+
 
