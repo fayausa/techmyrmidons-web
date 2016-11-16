@@ -226,6 +226,7 @@ h3.sub-title{
     margin:10px;
     &:hover{
       background:#d64a00;
+      color: #fff;
     }
   }
 }
@@ -308,6 +309,9 @@ footer{
     text-transform: uppercase;
     padding:5px 25px;
     border-radius:5px;
+    &:hover{
+      color: #fff;
+    }
   }
   ul.social{
     margin:0;
