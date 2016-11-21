@@ -383,8 +383,11 @@ footer{
     }
   }
 }
-.tab-container .columns:last-child:not(:first-child){
-  float: left;
+.tab-container {
+  min-width: 97px;
+  .columns:last-child:not(:first-child){
+    float: left;
+  }
 }
 .popup{
   .techwidget{
