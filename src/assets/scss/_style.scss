@@ -162,9 +162,10 @@ body{
   margin-bottom: 40px;
   padding: 0 10px 15px;
   text-align: center;
-  box-shadow: 0px 0px 10px 1px rgba(214,75,0,1);
-  -webkit-box-shadow: 0px 0px 10px 1px rgba(214,75,0,1);
-  -moz-box-shadow: 0px 0px 10px 1px rgba(214,75,0,1);
+  border: 1px solid #d24a2c;
+  &.dotted {
+    border-style: dashed;
+  }
 
   .techwidget__logo{
     background: #fff;
@@ -232,6 +233,11 @@ h3.sub-title{
       background:#d64a00;
       color: #fff;
     }
+    &.dotted {
+      border: 1px dashed #646464;
+      background: #101010;
+      color: #646464;
+    }
   }
 }
 .follow{
@@ -252,7 +258,7 @@ h3.sub-title{
     width: 90px;
   }
   .follow__list__name{
-    color: #d64a00;
+    color: #919191;
     font-size: 1.1em;
   }
 }
@@ -428,6 +434,52 @@ footer{
       font-size: 20px;
     }
     
+  }
+}
+.submit-form {
+  input[type="text"],textarea{
+    background:transparent;
+    border:none;
+    color: #fff;
+    resize: none;
+    &:focus{
+      box-shadow:none;
+    }
+  }
+  #submit{
+    background:#d64a00;
+    color: #000;
+    border:none;
+    text-transform: uppercase;
+    padding:5px 25px;
+    border-radius:5px;
+    &:hover{
+      color: #fff;
+    }
+  }
+  ::-webkit-input-placeholder {
+    color: #d64a00;
+    font-style: italic;
+    font-weight:500;
+    font-size: 1.1em;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #d64a00;
+    font-style: italic;
+    font-weight:500;
+    font-size: 1.1em;  
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+    color: #d64a00; 
+    font-style: italic;
+    font-weight:500;
+    font-size: 1.1em; 
+  }
+  :-ms-input-placeholder {  
+    color: #d64a00; 
+    font-style: italic;
+    font-weight:500;
+    font-size: 1.1em; 
   }
 }
 #cboxLoadedContent:focus{

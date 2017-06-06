@@ -159,6 +159,22 @@
         </a>
       </div>
     </div>
+    <div class="large-3 medium-6 columns">
+      <div class="techwidget dotted">
+        <div class="techwidget__logo">
+          <img src="assets/img/android/Android.jpg">
+        </div>
+        <div class="techwidget__head">
+          Submit your's
+        </div>
+        <p class="techwidget__content">
+          Submit your idea here
+        </p>
+        <a class="techwidget__more popup-link" href="#add-tech">
+          Click to add
+        </a>
+      </div>
+    </div>
   </div>
   <div id="2016">
    	<p class="text-center">No records found!!!</p>
@@ -184,9 +200,10 @@
   <a href="http://therockncoder.blogspot.in/2015/04/getting-started-with-android.html" target="blank" class="blog__name">The Rock n Coder</a>
   <a href="https://developer.android.com/topic/libraries/support-library/index.html" target="blank" class="blog__name">Developers</a>
   <a href="http://programmerguru.com/android-tutorial/" target="blank" class="blog__name">Programmer Guru</a>
-  <a href="http://www.talkandroid.com/" target="blank" class="blog__name">Talk Android/</a>
+  <a href="http://www.talkandroid.com/" target="blank" class="blog__name">Talk Android</a>
   <a href="http://phandroid.com/" target="blank" class="blog__name">Phandroid</a>
   <a href="http://android-developers.blogspot.in/" target="blank" class="blog__name">Developer Blog</a>
+  <a href="#add-tech" target="blank" class="blog__name dotted popup-link">Add Blog</a>
 </div>
 <div class="row follow">
   <h3 class="sub-title">People to Follow</h3>
@@ -249,6 +266,10 @@
   <a href="https://twitter.com/sundarpichai" target="blank" class="follow__list">
     <div class="follow__list__img grow"><img src="assets/img/android/sundarpichai.jpg"></div> 
     <div class="follow__list__name"> <span>Sundarpichai</span> </div>
+  </a>
+  <a href="#" target="blank" class="follow__list">
+    <div class="follow__list__img grow"><img src="assets/img/add.png"></div> 
+    <div class="follow__list__name"> <span><a href="#add-tech" class="popup-link">Add people</a></span> </div>
   </a>
   
  </div>
@@ -398,6 +419,35 @@
       <p class="techwidget__content">
        Dowoload here  <a class="link" target="blank" href="https://android-arsenal.com/">https://android-arsenal.com/</a>
       </p>
+    </div>
+  </div>
+  <div id="add-tech" class="popup">
+    <div class="techwidget">
+      <div class="techwidget__logo">
+         <img src="assets/img/android/Android.jpg">
+      </div>
+      <div class="techwidget__head">
+       Add 
+      </div>
+      <div class="techwidget__content">
+        Submit your idea here  
+      </div>
+      <div class="row submit-form">
+       <form>
+          <div class="columns medium-6">
+            <input id="name" type="text" name="name" placeholder="Name">
+          </div>
+          <div class="columns medium-6">
+            <input id="email" type="text" name="email" placeholder="Email">
+          </div>
+          <div class="textarea-wrapper columns medium-8">
+            <textarea id="message" name="message" placeholder="Message" rows="3"></textarea>
+          </div>
+          <div class="columns ">
+            <input id="submit" type="submit" name="submit" value="submit">
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </div>
