@@ -1,7 +1,7 @@
 $(document).foundation();
 
 $(document).ready(function() {
-    console.log("ready!");
+    $('.techwidget').matchHeight();
 });
 $( "#nav-toggle" ).on( "click", function() {
 	$(this).toggleClass("active");
