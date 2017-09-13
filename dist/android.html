@@ -1,211 +1,676 @@
-<!DOCTYPE html>
-<html>
+
+<!doctype html>
+<html class="no-js" lang="en">
   <head>
-    <title>TechMyrmidons</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1"><!--[if lte IE 8]>
-    <script src="scripts/ie/html5shiv.js"></script><!<![endif]-->
-    <!--link(rel='stylesheet', href='styles/tab.css')-->
-    <link rel="stylesheet" href="styles/colorbox.css">
-    <link rel="stylesheet" href="styles/main.css"><!--[if lte IE 9]>
-    <link rel="stylesheet" href="styles/ie9.css"><!<![endif]-->
-    <!--[if lte IE 8]>
-    <link rel="stylesheet" href="styles/ie8.css"><!<![endif]-->
-    <link href="favicon.ico" rel="icon" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techmyrmidons</title>
+    <link rel="stylesheet" href="assets/css/app.css">
   </head>
   <body>
-    <div id="wrapper">
-      <!-- Header-->
-      <header id="header">
-        <div class="inner">
-          <!-- Logo-->
-          <div class="logo"><span class="symbol"><img src="images/logo.svg" alt=""></span><span class="title">Android Myrmidons</span></div>
-          <!-- Nav-->
-          <nav>
-            <ul>
-              <li><a href="#menu">Menu</a></li>
-            </ul>
-          </nav>
+
+    <div class="menu-btn-wrap">
+      <a href="#" id="nav-toggle" class=""><span></span></a>
+    </div>
+    
+    <div class="menu-bar" id="side-menu">
+      <ul class="menu-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="android.html">Android myrmidon</a></li>
+        <li><a href="ios.html">iOS myrmidon</a></li>
+        <li><a href="frontend.html">Frontend myrmidon</a></li>
+        <li><a href="web.html">Web myrmidon</a></li>
+        <li><a href="devops.html">DevOps myrmidon</a></li>
+        <li><a href="qa.html">QA myrmidon</a></li>
+      </ul>
+    </div>
+    
+    <div class="banner">
+      <img src="assets/img/android.jpg">
+    </div>
+    <div class="row text-center">
+      <h2 class="page-title">ANDROID MYRMIDON</h2>
+    </div>
+    <div class="row">
+    <div id="tab-container" class="tab-container">
+    <!-- <div  class="tab-container"> -->
+      <ul class='etabs'>
+        <li class='tab'><a href="#latest">Latest</a></li>
+        <li class='tab'><a href="#2016">2016</a></li>
+      </ul>
+      <div id="latest">
+    
+        
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/android/AndroidStudio.jpg">
+            </div>
+            <div class="techwidget__head">
+              Android Studio 2.2
+            </div>
+            <p class="techwidget__content">
+              Android Studio is the official IDE for Android platform development.
+            </p>
+            <a class="techwidget__more popup-link" href="#studio">
+              Read More
+            </a>
+          </div>
         </div>
-      </header>
-      <!-- Menu-->
-      <nav id="menu">
-        <h2>Menu</h2>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="android.html">Android Myrmidon</a></li>
-          <li><a href="frontend.html">Front End Myrmidon</a></li>
-          <li><a href="ios.html">iOS Myrmidon</a></li>
-          <li><a href="web.html">Web Myrmidon</a></li>
-          <li><a href="qa.html">QA Myrmidon</a></li>
-          <li><a href="security.html">Security Myrmidon</a></li>
-        </ul>
-      </nav>
-      <!-- Main-->
-      <div id="main">
-        <div class="inner"><span class="image main"><img src="images/android-myrmidon.jpg" alt=""></span>
-          <div class="list-wrap">
-            <h2>Tools & Technologies</h2>
-            <ul class="icon-list">
-              <li><a href="#android_studio" class="popup-link">
-                  <div class="iconlist__title">
-                    <h4>Android Studio 2.2</h4>
-                  </div>
-                  <div class="icon-list__img"><img src="images/android/android-studio.jpg" alt=""></div></a></li>
-              <li><a href="#git" class="popup-link">
-                  <div class="iconlist__title">
-                    <h4>Git</h4>
-                  </div>
-                  <div class="icon-list__img"><img src="images/android/git.jpg" alt=""></div></a></li>
-              <li><a href="#firebase" class="popup-link">
-                  <div class="iconlist__title">
-                    <h4>Firebase</h4>
-                  </div>
-                  <div class="icon-list__img"><img src="images/android/firebase.jpg" alt=""></div></a></li>
-              <li><a href="#fastlane" class="popup-link">
-                  <div class="iconlist__title">
-                    <h4>Fastlane</h4>
-                  </div>
-                  <div class="icon-list__img"><img src="images/android/fastlane.jpg" alt=""></div></a></li>
-              <li><a href="#testfairy" class="popup-link">
-                  <div class="iconlist__title">
-                    <h4>Testfairy</h4>
-                  </div>
-                  <div class="icon-list__img"><img src="images/android/testfairy.jpg" alt=""></div></a></li>
-              <li><a href="#gradle" class="popup-link">
-                  <div class="iconlist__title">
-                    <h4>Gradle</h4>
-                  </div>
-                  <div class="icon-list__img"><img src="images/android/gradle.jpg" alt=""></div></a></li>
-              <li><a href="#crashlytics" class="popup-link">
-                  <div class="iconlist__title">
-                    <h4>Crashlytics</h4>
-                  </div>
-                  <div class="icon-list__img"><img src="images/android/crashlytics.jpg" alt=""></div></a></li>
-              <li><a href="#flurry" class="popup-link">
-                  <div class="iconlist__title">
-                    <h4>Flurry</h4>
-                  </div>
-                  <div class="icon-list__img"><img src="images/android/flurry.jpg" alt=""></div></a></li>
-              <li><a href="#asset_studio" class="popup-link">
-                  <div class="iconlist__title">
-                    <h4>Android Asset Studio</h4>
-                  </div>
-                  <div class="icon-list__img"><img src="images/android/android-asset-studio.jpg" alt=""></div></a></li>
-            </ul>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/frontend/git.jpg">
+            </div>
+            <div class="techwidget__head">
+              Git
+            </div>
+            <p class="techwidget__content">
+              Git is a free distributed version control system. Android Studio comes with Git client. 
+            </p>
+            <a class="techwidget__more popup-link" href="#git">
+              Read More
+            </a>
           </div>
-          <div class="list-wrap">
-            <h2>Follow the Best Sources</h2>
-            <ul class="text-list">
-              <li>
-                <div class="text-list__title"><a href="http://developer.android.com/index.html" target="blank">
-                    <h4>Android Developer</h4></a></div>
-              </li>
-              <li>
-                <div class="text-list__title"><a href="http://www.vogella.com/tutorials/android.html" target="blank">
-                    <h4>Vogella</h4></a></div>
-              </li>
-              <li>
-                <div class="text-list__title"><a href="https://www.raywenderlich.com" target="blank">
-                    <h4>Raywenderlich</h4></a></div>
-              </li>
-            </ul>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/ios/fastlane.jpg">
+            </div>
+            <div class="techwidget__head">
+              Fastlane
+            </div>
+            <p class="techwidget__content">
+              Fastlane is a set of tools that helps you unify and automate the app deployment or release process within a single streamlined workflow. 
+            </p>
+            <a class="techwidget__more popup-link" href="#fastlane">
+              Read More
+            </a>
           </div>
-          <div style="display:none">
-            <div id="android_studio" class="popup">
-              <h4>Android Studio 2.2</h4>
-              <p>Android Studio is the official IDE for Android platform development. It encompasses the fastest tools for building apps on Android devices.</p>
-              <p>The latest version 2.2 of the Studio was announced on May 18, 2016 during the Google I/O Conference. It is powered with a reengineered UI Designer and a Constraint Layout. Plunge deeper into the new version<a href="http://android-developers.blogspot.in/2016/05/android-studio-22-preview-new-ui.html"> here</a><br><a href="https://developer.android.com/studio/index.html#downloads">Download Here</a></p>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/ios/Testfairy.jpg">
             </div>
-            <div id="git" class="popup">
-              <h4>Git</h4>
-              <p>Git is a free distributed version control system. Android Studio comes with Git client. All we need to do is just enable and start using it. As a prerequisite, you need to have Git installed in the local system.</p>
-              <p>Dive deeper into Git<a href="https://source.android.com/source/developing.html"> here</a><br><a href="http://git-scm.com/downloads">Download Here</a></p>
+            <div class="techwidget__head">
+              Testfairy
             </div>
-            <div id="firebase" class="popup">
-              <h4>Firebase</h4>
-              <p>Firebase is a mobile platform that helps you quickly develop high-quality apps, grow your user base, and earn more money. Firebase is made up of complementary features that you can mix-and-match to fit your needs.</p>
-              <p>Dive deeper into Firebase<a href="https://firebase.google.com/"> here</a></p>
+            <p class="techwidget__content">
+              TestFairy is an Android app Beta Testing and Deployment platform that lets the developer know when and how people are using the app, 
+            </p>
+            <a class="techwidget__more popup-link" href="#testfairy">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/android/Gradle.jpg">
             </div>
-            <div id="fastlane" class="popup">
-              <h4>Fastlane</h4>
-              <p>Fastlane is a set of tools that helps you unify and automate the app deployment or release process within a single streamlined workflow. With fastlane, you establish Continuous Delivery (CD), a design practice used in software development to automate and improve the process of software delivery.</p>
-              <p>Get started with fastlane<a href="https://fastlane.tools/"> here</a></p>
+            <div class="techwidget__head">
+              Gradle
             </div>
-            <div id="testfairy" class="popup">
-              <h4>Testfairy</h4>
-              <p>TestFairy is an Android app Beta Testing and Deployment platform that lets the developer know when and how people are using the app, and provides with any metric needed to optimize for better user experience and better code.It paves way for better understanding of how the app performs on real devices.</p>
-              <p>All you need to do is just upload your android build (.apk) file to your TestFairy account and invite the beta testers. Once the users start playing around with the app, you will get to see the reports real time.</p>
-              <p>Know more about Testfairy<a href="https://testfairy.com/"> here</a><br><a href="http://docs.testfairy.com/">Testfairy API documentation</a></p>
+            <p class="techwidget__content">
+              Gradle is an advanced build toolkit used to automate and manage the build process,
+            </p>
+            <a class="techwidget__more popup-link" href="#gradle">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/ios/Crashlytics.jpg">
             </div>
-            <div id="gradle" class="popup">
-              <h4>Gradle</h4>
-              <p>Gradle is an advanced build toolkit used to automate and manage the build process, while allowing the developer to define flexible custom build configurations. Each build configuration can define its own set of code and resources, while reusing the parts common to all versions of the app..</p>
-              <p>Know more about Gradle<a href="http://gradle.org/getting-started-android/"> here</a></p>
+            <div class="techwidget__head">
+              Crashlytics
             </div>
-            <div id="crashlytics" class="popup">
-              <h4>Crashlytics</h4>
-              <p>Crashlytics delivers deep, rich crash reporting across devices in real-time. It performs a detailed analysis of every thread on every Android device to identify the most important issues.</p>
-              <p>Know more about Crashlytics<a href="http://try.crashlytics.com/"> here</a><br><a href="https://docs.fabric.io/android/crashlytics/index.html">SDK Documentation</a></p>
+            <p class="techwidget__content">
+              Crashlytics delivers deep, rich crash reporting across devices in real-time.
+            </p>
+            <a class="techwidget__more popup-link" href="#crashlytics">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/ios/Flurry.jpg">
             </div>
-            <div id="flurry" class="popup">
-              <h4>Flurry</h4>
-              <p>Flurry optimizes the mobile experience through better apps and more personal ads. It provides the tools and resources needed to gain a deep level of understanding about the users’ behavior in the apps. The user’s habits and performance can be tracked better by setting up advanced analysis of complex events, with metrics, segments and funnels.</p>
-              <p>Get started with Flurry Analytics<a href="https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android"> here</a></p>
+            <div class="techwidget__head">
+              Flurry
             </div>
-            <div id="asset_studio" class="popup">
-              <h4>Android Asset Studio</h4>
-              <p>The Android Asset Studio web app by Roman Nurik is a great resource for creating icons for your Android applications. Moreover it offers a growing list of utilities to help developers create good-looking widgets.</p>
-              <p>Know more about the Android Asset Studio<a href="https://romannurik.github.io/AndroidAssetStudio"> here</a></p><br>
-              <h4>Android Arsenal</h4>
-              <p>It is an online directory of libraries and tools for Android developers.</p>
-              <p>Get started with Android Arsenal<a href="https://android-arsenal.com/"> here</a><br><a href="http://git-scm.com/downloads">Download Here</a></p>
+            <p class="techwidget__content">
+              Flurry optimizes the mobile experience through better apps and more personal ads.
+            </p>
+            <a class="techwidget__more popup-link" href="#flurry">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/android/AndroidAssetStudio.jpg">
             </div>
+            <div class="techwidget__head">
+              Android Asset Studio
+            </div>
+            <p class="techwidget__content">
+              The Android Asset Studio web app by Roman Nurik is a great resource for creating icons for your Android applications. 
+            </p>
+            <a class="techwidget__more popup-link" href="#android">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/android/Android.jpg">
+            </div>
+            <div class="techwidget__head">
+              Android Arsenal
+            </div>
+            <p class="techwidget__content">
+              It is an online directory of libraries and tools for Android developers. Get started with Android Arsenal 
+            </p>
+            <a class="techwidget__more popup-link" href="#arsenal">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget dotted">
+            <div class="techwidget__logo">
+              <img src="assets/img/android/Android.jpg">
+            </div>
+            <div class="techwidget__head">
+              Submit your's
+            </div>
+            <p class="techwidget__content">
+              Submit your idea here
+            </p>
+            <a class="techwidget__more popup-link" href="#add-tech">
+              Click to add
+            </a>
           </div>
         </div>
       </div>
-      <footer id="footer">
-        <div class="inner">
-          <section>
-            <h2>Get in touch</h2>
-            <form method="post" action="#">
-              <div class="field half first">
+    
+    
+      
+      <div id="2016">
+        <!-- <p class="text-center">No records found!!!</p> -->
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/android/AndroidStudio.jpg">
+            </div>
+            <div class="techwidget__head">
+              Android Studio 2.2
+            </div>
+            <p class="techwidget__content">
+              Android Studio is the official IDE for Android platform development.
+            </p>
+            <a class="techwidget__more popup-link" href="#studio">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/frontend/git.jpg">
+            </div>
+            <div class="techwidget__head">
+              Git
+            </div>
+            <p class="techwidget__content">
+              Git is a free distributed version control system. Android Studio comes with Git client. 
+            </p>
+            <a class="techwidget__more popup-link" href="#git">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/ios/fastlane.jpg">
+            </div>
+            <div class="techwidget__head">
+              Fastlane
+            </div>
+            <p class="techwidget__content">
+              Fastlane is a set of tools that helps you unify and automate the app deployment or release process within a single streamlined workflow. 
+            </p>
+            <a class="techwidget__more popup-link" href="#fastlane">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/ios/Testfairy.jpg">
+            </div>
+            <div class="techwidget__head">
+              Testfairy
+            </div>
+            <p class="techwidget__content">
+              TestFairy is an Android app Beta Testing and Deployment platform that lets the developer know when and how people are using the app, 
+            </p>
+            <a class="techwidget__more popup-link" href="#testfairy">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/android/Gradle.jpg">
+            </div>
+            <div class="techwidget__head">
+              Gradle
+            </div>
+            <p class="techwidget__content">
+              Gradle is an advanced build toolkit used to automate and manage the build process,
+            </p>
+            <a class="techwidget__more popup-link" href="#gradle">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/ios/Crashlytics.jpg">
+            </div>
+            <div class="techwidget__head">
+              Crashlytics
+            </div>
+            <p class="techwidget__content">
+              Crashlytics delivers deep, rich crash reporting across devices in real-time.
+            </p>
+            <a class="techwidget__more popup-link" href="#crashlytics">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/ios/Flurry.jpg">
+            </div>
+            <div class="techwidget__head">
+              Flurry
+            </div>
+            <p class="techwidget__content">
+              Flurry optimizes the mobile experience through better apps and more personal ads.
+            </p>
+            <a class="techwidget__more popup-link" href="#flurry">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/android/AndroidAssetStudio.jpg">
+            </div>
+            <div class="techwidget__head">
+              Android Asset Studio
+            </div>
+            <p class="techwidget__content">
+              The Android Asset Studio web app by Roman Nurik is a great resource for creating icons for your Android applications. 
+            </p>
+            <a class="techwidget__more popup-link" href="#android">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget">
+            <div class="techwidget__logo">
+              <img src="assets/img/android/Android.jpg">
+            </div>
+            <div class="techwidget__head">
+              Android Arsenal
+            </div>
+            <p class="techwidget__content">
+              It is an online directory of libraries and tools for Android developers. Get started with Android Arsenal 
+            </p>
+            <a class="techwidget__more popup-link" href="#arsenal">
+              Read More
+            </a>
+          </div>
+        </div>
+        <div class="large-3 medium-6 columns">
+          <div class="techwidget dotted">
+            <div class="techwidget__logo">
+              <img src="assets/img/android/Android.jpg">
+            </div>
+            <div class="techwidget__head">
+              Submit your's
+            </div>
+            <p class="techwidget__content">
+              Submit your idea here
+            </p>
+            <a class="techwidget__more popup-link" href="#add-tech">
+              Click to add
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    </div>
+    <div class="row blog">
+      <h3 class="sub-title">Follow the best blogs</h3>
+      <a href="http://www.vogella.com/tutorials/android.html" target="blank" class="blog__name">Vogella</a>
+      <a href="http://source.android.com/" target="blank" class="blog__name">Android</a>
+      <a href="http://www.androidpolice.com/" target="blank" class="blog__name">Android Police</a>
+      <a href="http://www.androidhive.info/" target="blank" class="blog__name">Androidhive</a>
+      <a href="https://code.tutsplus.com/categories/android" target="blank" class="blog__name">tutsplus</a>
+      <a href="https://android-arsenal.com/" target="blank" class="blog__name">Android Arsenal</a>
+      <a href="https://newcircle.com/s/post/1017/android_bootcamp_series_2012_video_tutorial" target="blank" class="blog__name">Newcircle</a>
+      <a href="https://www.lynda.com/Mobile-training-tutorials/55-0.html?utm_medium=ldc-partner&utm_source=SSPRC&utm_content=10848&utm_campaign=CD15021&bid=10848&aid=CD15021" target="blank" class="blog__name">Lynda.com</a>
+      <a href="http://www.bongizmo.com/blog/android-resources-each-developer-should-know/" target="blank" class="blog__name">bongizmo</a>
+      <a href="http://cloudrail.com/best-resources-to-learn-android-programming/" target="blank" class="blog__name">CloudRAIL</a>
+      <a href="http://therockncoder.blogspot.in/2015/04/getting-started-with-android.html" target="blank" class="blog__name">The Rock n Coder</a>
+      <a href="https://developer.android.com/topic/libraries/support-library/index.html" target="blank" class="blog__name">Developers</a>
+      <a href="http://programmerguru.com/android-tutorial/" target="blank" class="blog__name">Programmer Guru</a>
+      <a href="http://www.talkandroid.com/" target="blank" class="blog__name">Talk Android</a>
+      <a href="http://phandroid.com/" target="blank" class="blog__name">Phandroid</a>
+      <a href="http://android-developers.blogspot.in/" target="blank" class="blog__name">Developer Blog</a>
+      <a href="#add-tech" target="blank" class="blog__name dotted popup-link">Add Blog</a>
+    </div>
+    <div class="row follow">
+      <h3 class="sub-title">People to Follow</h3>
+      <a href="https://twitter.com/cyanogen" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/cyanogen.jpg"></div> 
+        <div class="follow__list__name"> <span>Steve Kondik	</span> </div>
+      </a>
+      <a href="https://twitter.com/Arubin" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/AndyRubin.jpg"></div> 
+        <div class="follow__list__name"> <span>Andy Rubin</span> </div>
+      </a>
+      <a href="https://twitter.com/crafty" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/NickButcher.jpg"></div> 
+        <div class="follow__list__name"> <span>Nick Butcher</span> </div>
+      </a>
+      <a href="https://twitter.com/lehtimaeki" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/JuhaniLehtimaki.jpg"></div> 
+        <div class="follow__list__name"> <span>Juhani Lehtimäki</span> </div>
+      </a>
+      <a href="https://twitter.com/droidxav" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/XavierDucrohet.jpg"></div> 
+        <div class="follow__list__name"> <span>Xavier Ducrohet</span> </div>
+      </a>
+      <a href="https://twitter.com/ginatrapani" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/GinaTrapani.jpg"></div> 
+        <div class="follow__list__name"> <span>Gina Trapani</span> </div>
+      </a>
+      <a href="https://twitter.com/jkendrick" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/JamesKendrick.jpg"></div> 
+        <div class="follow__list__name"> <span>James Kendrick</span> </div>
+      </a>
+      <a href="https://twitter.com/romainguy" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/RomainGuy.jpg"></div> 
+        <div class="follow__list__name"> <span>Romain Guy</span> </div>
+      </a>
+      <a href="https://twitter.com/saschasegan" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/saschasegan.jpg"></div> 
+        <div class="follow__list__name"> <span>Sascha Segan</span> </div>
+      </a>
+      <a href="https://twitter.com/MatiasDuarte" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/MatiasDuarte.jpg"></div> 
+        <div class="follow__list__name"> <span>Matías Duarte</span> </div>
+      </a>
+      <a href="https://twitter.com/chrisbanes" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/ChrisBanes.jpg"></div> 
+        <div class="follow__list__name"> <span>Chris Banes</span> </div>
+      </a>
+      <a href="https://twitter.com/chrismlacy" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/ChrisLacy.jpg"></div> 
+        <div class="follow__list__name"> <span>Chris Lacy</span> </div>
+      </a>
+      <a href="https://twitter.com/devunwired" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/DroidSmith.jpg"></div> 
+        <div class="follow__list__name"> <span>DroidSmith</span> </div>
+      </a>
+      <a href="https://twitter.com/joenrv" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/JoaquimVerges.jpg"></div> 
+        <div class="follow__list__name"> <span>Joaquim Vergès</span> </div>
+      </a>
+      <a href="https://twitter.com/sundarpichai" target="blank" class="follow__list">
+        <div class="follow__list__img grow"><img src="assets/img/android/sundarpichai.jpg"></div> 
+        <div class="follow__list__name"> <span>Sundarpichai</span> </div>
+      </a>
+      <a href="#add-tech" target="blank" class="follow__list popup-link">
+        <div class="follow__list__img grow"><img src="assets/img/add.png"></div> 
+        <div class="follow__list__name"> <span>Add people</span> </div>
+      </a>
+      
+     </div>
+    <div style="display:none">
+      <div id="studio" class="popup">
+        <div class="techwidget">
+          <div class="techwidget__logo">
+             <img src="assets/img/android/AndroidStudio.jpg">
+          </div>
+          <div class="techwidget__head">
+           Android Studio 2.2
+          </div>
+          <div class="techwidget__content">
+            Android Studio is the official IDE for Android platform development. It encompasses the fastest tools for building apps on Android devices.
+          The latest version 2.2 of the Studio was announced on May 18, 2016 during the Google I/O Conference. It is powered with a reengineered UI Designer and a Constraint Layout. Plunge deeper into the new version at http://android-developers.blogspot.in/2016/05/android-studio-22-preview-new-ui.html  
+          </div>
+          <p class="techwidget__content">
+            Dowoload here <a class="link" target="blank" href="https://developer.android.com/studio/index.html#downloads">https://developer.android.com/studio/index.html#downloads</a>
+          </p>
+        </div>
+      </div>
+       <div id="git" class="popup">
+        <div class="techwidget">
+          <div class="techwidget__logo">
+             <img src="assets/img/frontend/git.jpg">
+          </div>
+          <div class="techwidget__head">
+           Git
+          </div>
+          <div class="techwidget__content">
+            Git is a free distributed version control system. Android Studio comes with Git client. All we need to do is just enable and start using it. As a prerequisite, you need to have Git installed in the local system. Dive deeper into Git at https://source.android.com/source/developing.html
+          </div>
+          <p class="techwidget__content">
+            Dowoload here <a class="link" target="blank" href="http://git-scm.com/downloads"> http://git-scm.com/downloads</a>
+          </p>
+        </div>
+      </div>
+      <div id="fastlane" class="popup">
+        <div class="techwidget">
+          <div class="techwidget__logo">
+             <img src="assets/img/ios/fastlane.jpg">
+          </div>
+          <div class="techwidget__head">
+           Fastlane
+          </div>
+          <div class="techwidget__content">
+            TestFairy is an Android app Beta Testing and Deployment platform that lets the developer know when and how people are using the app, and provides with any metric needed to optimize for better user experience and better code.It paves way for better understanding of how the app performs on real devices. 
+            All you need to do is just upload your android build (.apk) file to your TestFairy account and invite the beta testers. Once the users start playing around with the app, you will get to see the reports real time.
+          </div>
+          <p class="techwidget__content">
+            Dowoload here <a class="link" target="blank" href="https://testfairy.com/"> https://testfairy.com/</a>
+          </p>
+        </div>
+      </div>
+      <div id="testfairy" class="popup">
+        <div class="techwidget">
+          <div class="techwidget__logo">
+             <img src="assets/img/ios/Testfairy.jpg">
+          </div>
+          <div class="techwidget__head">
+           Testfairy
+          </div>
+          <div class="techwidget__content">
+            TestFairy is an Android app Beta Testing and Deployment platform that lets the developer know when and how people are using the app, and provides with any metric needed to optimize for better user experience and better code.It paves way for better understanding of how the app performs on real devices. 
+     All you need to do is just upload your android build (.apk) file to your TestFairy account and invite the beta testers. Once the users start playing around with the app, you will get to see the reports real time.
+          </div>
+          <p class="techwidget__content">
+            Dowoload here <a class="link" target="blank" href="http://docs.testfairy.com/">http://docs.testfairy.com/</a>
+          </p>
+        </div>
+      </div>
+      <div id="gradle" class="popup">
+        <div class="techwidget">
+          <div class="techwidget__logo">
+             <img src="assets/img/android/Gradle.jpg">
+          </div>
+          <div class="techwidget__head">
+           Gradle
+          </div>
+          <div class="techwidget__content">
+            Gradle is an advanced build toolkit used to automate and manage the build process, while allowing the developer to define flexible custom build configurations. Each build configuration can define its own set of code and resources, while reusing the parts common to all versions of the app. 
+          </div>
+          <p class="techwidget__content">
+            Dowoload here <a class="link" target="blank" href="http://gradle.org/getting-started-android/">http://gradle.org/getting-started-android/</a>
+          </p>
+        </div>
+      </div>
+      <div id="crashlytics" class="popup">
+        <div class="techwidget">
+          <div class="techwidget__logo">
+             <img src="assets/img/ios/Crashlytics.jpg">
+          </div>
+          <div class="techwidget__head">
+           Crashlytics
+          </div>
+          <div class="techwidget__content">
+            Crashlytics delivers deep, rich crash reporting across devices in real-time. It performs a detailed analysis of every thread on every Android device to identify the most important issues.
+          </div>
+          <p class="techwidget__content">
+            Dowoload here <a class="link" target="blank" href="http://try.crashlytics.com/">http://try.crashlytics.com/</a>
+          </p>
+        </div>
+      </div>
+      <div id="flurry" class="popup">
+        <div class="techwidget">
+          <div class="techwidget__logo">
+             <img src="assets/img/ios/Flurry.jpg">
+          </div>
+          <div class="techwidget__head">
+           Flurry
+          </div>
+          <div class="techwidget__content">
+            Flurry optimizes the mobile experience through better apps and more personal ads. It provides the tools and resources needed to gain a deep level of understanding about the users’ behavior in the apps. The user’s habits and performance can be tracked better by setting up advanced analysis of complex events, with metrics, segments and funnels. 
+          </div>
+          <p class="techwidget__content">
+            Dowoload here <a class="link" target="blank" href="https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android/">https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android/</a>
+          </p>
+        </div>
+      </div>
+      <div id="android" class="popup">
+        <div class="techwidget">
+          <div class="techwidget__logo">
+             <img src="assets/img/android/AndroidAssetStudio.jpg">
+          </div>
+          <div class="techwidget__head">
+           Android Asset Studio
+          </div>
+          <div class="techwidget__content">
+            The Android Asset Studio web app by Roman Nurik is a great resource for creating icons for your Android applications. Moreover it offers a growing list of utilities to help developers create good-looking widgets.
+          </div>
+          <p class="techwidget__content">
+           Dowoload here  <a class="link" target="blank" href="https://romannurik.github.io/AndroidAssetStudio/">https://romannurik.github.io/AndroidAssetStudio/</a>
+          </p>
+        </div>
+      </div>
+      <div id="arsenal" class="popup">
+        <div class="techwidget">
+          <div class="techwidget__logo">
+             <img src="assets/img/android/Android.jpg">
+          </div>
+          <div class="techwidget__head">
+           Flurry
+          </div>
+          <div class="techwidget__content">
+            It is an online directory of libraries and tools for Android developers. Get started with Android Arsenal  
+          </div>
+          <p class="techwidget__content">
+           Dowoload here  <a class="link" target="blank" href="https://android-arsenal.com/">https://android-arsenal.com/</a>
+          </p>
+        </div>
+      </div>
+      <div id="add-tech" class="popup">
+        <div class="techwidget">
+          <div class="techwidget__logo">
+             <img src="assets/img/android/Android.jpg">
+          </div>
+          <div class="techwidget__head">
+           Add 
+          </div>
+          <div class="techwidget__content">
+            Submit your idea here  
+          </div>
+          <div class="row submit-form">
+           <form>
+              <div class="columns medium-6">
                 <input id="name" type="text" name="name" placeholder="Name">
               </div>
-              <div class="field half">
-                <input id="email" type="email" name="email" placeholder="Email">
+              <div class="columns medium-6">
+                <input id="email" type="text" name="email" placeholder="Email">
               </div>
-              <div class="field">
-                <textarea id="message" name="message" placeholder="Message"></textarea>
+              <div class="textarea-wrapper columns medium-8">
+                <textarea id="message" name="message" placeholder="Message" rows="3"></textarea>
               </div>
-              <ul class="actions">
-                <li>
-                  <input type="submit" value="Send" class="special">
-                </li>
-              </ul>
+              <div class="columns ">
+                <input id="submit" type="submit" name="submit" value="submit">
+              </div>
             </form>
-          </section>
-          <section>
-            <h2>Follow</h2>
-            <ul class="icons">
-              <li><a href="#" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
-              <li><a href="#" class="icon style2 fa-facebook"><span class="label">Facebook</span></a></li>
-              <li><a href="#" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
-              <li><a href="#" class="icon style2 fa-envelope-o"><span class="label">Email.</span></a></li>
-            </ul>
-          </section>
-          <ul class="copyright">
-            <li>© techmyrmidons.com</li>
-          </ul>
+          </div>
         </div>
-      </footer>
+      </div>
     </div>
-    <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/skel.min.js"></script>
-    <script src="scripts/util.js"></script>
-    <script src="scripts/ie/respond.min.js"></script>
-    <script src="scripts/jquery.colorbox.js"></script>
-    <script src="scripts/jquery.easytabs.min.js"></script>
-    <script src="scripts/main.js"></script>
+    <footer>
+      <div id="footer" class="row">
+          <div class="large-8 columns">
+            <h3>Get in touch</h3>
+            <form>
+              <div class="columns medium-6">
+                <input id="name" type="text" name="name" placeholder="Name">
+              </div>
+              <div class="columns medium-6">
+                <input id="email" type="text" name="email" placeholder="Email">
+              </div>
+              <div class="textarea-wrapper columns">
+                <textarea id="message" name="message" placeholder="Message" rows="2"></textarea>
+              </div>
+              <div class="columns ">
+                <input id="submit" type="submit" name="submit" value="submit">
+              </div>
+            </form>
+          </div>
+          <div class="large-4 columns social-wrap">
+            <h3>Follow</h3>
+            <ul class="social"> 
+              <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> 
+              <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> 
+              <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li> 
+              <li><a href="#" class="icon fa-envelope-o"><span class="label">Email.</span></a></li> 
+            </ul>
+          </div>     
+      </div>
+    </footer>
+    <div class="small-12 columns copyright">
+      <p class="text-center">© techmyrmidons.com</p> 
+    </div>
+    <script src="assets/js/app.js"></script>
   </body>
 </html>
