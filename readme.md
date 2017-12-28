@@ -1,5 +1,7 @@
 # Techmyrmidons
 
+![Licence](https://img.shields.io/dub/l/vibe-d.svg)
+
 ## Installation
 
 To use this template, your computer needs:
@@ -40,3 +42,5 @@ http://localhost:8000
 ```
 
 To create compressed, production-ready assets, run `npm run build`.
+
+## License : MIT
