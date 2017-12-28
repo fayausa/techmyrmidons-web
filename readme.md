@@ -28,7 +28,7 @@ git clone git@github.com:fayausa/techmyrmidons-web.git
 Then open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectname
+cd techmyrmidons-web
 npm install
 bower install
 ```
