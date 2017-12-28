@@ -1,6 +1,6 @@
 # Techmyrmidons
 
-[Licence](https://img.shields.io/dub/l/vibe-d.svg)
+![Licence](https://img.shields.io/dub/l/vibe-d.svg)
 
 ## Installation
 
