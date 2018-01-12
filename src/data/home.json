@@ -1,0 +1,46 @@
+{
+   "home": [
+      {
+        "technology": "Android",
+        "page" :"android.html",
+        "logo": "android-logo.png",
+        "logoAlt": "android"
+      },
+
+      {
+        "technology": "iOS",
+        "page" :"ios.html",
+        "logo": "ios-logo.png",
+        "logoAlt": "ios"
+      },
+
+      {
+        "technology": "Frontend",
+        "page" :"frontend.html",
+        "logo": "frontend-logo.png",
+        "logoAlt": "Frontend"
+      },
+
+      {
+        "technology": "Web",
+        "page" :"web.html",
+        "logo": "web-logo.png",
+        "logoAlt": "web"
+      },
+
+      {
+        "technology": "DevOps",
+        "page" :"devops.html",
+        "logo": "security-logo.png",
+        "logoAlt": "devops"
+      },
+
+      {
+        "technology": "QA",
+        "page" :"qa.html",
+        "logo": "qa-logo.png",
+        "logoAlt": "QA"
+      }
+   ]
+}
+

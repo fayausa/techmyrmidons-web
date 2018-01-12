@@ -1,0 +1,95 @@
+{
+
+  "androidFolowPeople": [
+
+   {
+      "followLink":"https://twitter.com/cyanogen", 
+      "photo":"cyanogen.jpg",
+      "name":"Steve Kondik "
+    },
+
+    {
+      "followLink":"https://twitter.com/Arubin", 
+      "photo":"AndyRubin.jpg",
+      "name":"Andy Rubin"
+    },
+
+    {
+      "followLink":"https://twitter.com/crafty", 
+      "photo":"NickButcher.jpg",
+      "name":"Nick Butcher"
+    },
+
+    {
+      "followLink":"https://twitter.com/lehtimaeki", 
+      "photo":"JuhaniLehtimaki.jpg",
+      "name":"Juhani Lehtimäki"
+    },
+
+    {
+      "followLink":"https://twitter.com/droidxav", 
+      "photo":"XavierDucrohet.jpg",
+      "name":"Xavier Ducrohet"
+    },
+
+    {
+      "followLink":"https://twitter.com/ginatrapani", 
+      "photo":"GinaTrapani.jpg",
+      "name":"Gina Trapani"
+    },
+
+    {
+      "followLink":"https://twitter.com/jkendrick", 
+      "photo":"JamesKendrick.jpg",
+      "name":"James Kendrick"
+    },
+
+    {
+      "followLink":"https://twitter.com/romainguy", 
+      "photo":"RomainGuy.jpg",
+      "name":"Romain Guy"
+    },
+
+    {
+      "followLink":"https://twitter.com/saschasegan", 
+      "photo":"saschasegan.jpg",
+      "name":"Sascha Segan"
+    },
+
+    {
+      "followLink":"https://twitter.com/MatiasDuarte", 
+      "photo":"MatiasDuarte.jpg",
+      "name":"Matías Duarte"
+    },
+
+    {
+      "followLink":"https://twitter.com/chrisbanes", 
+      "photo":"ChrisBanes.jpg",
+      "name":"Chris Banes"
+    },
+
+    {
+      "followLink":"https://twitter.com/chrismlacy", 
+      "photo":"ChrisLacy.jpg",
+      "name":"Chris Lacy"
+    },
+
+    {
+      "followLink":"https://twitter.com/devunwired", 
+      "photo":"DroidSmith.jpg",
+      "name":"DroidSmith"
+    },
+
+    {
+      "followLink":"https://twitter.com/joenrv", 
+      "photo":"JoaquimVerges.jpg",
+      "name":"Joaquim Vergès"
+    },
+
+    {
+      "followLink":"https://twitter.com/sundarpichai", 
+      "photo":"sundarpichai.jpg",
+      "name":"Sundarpichai"
+    }
+  ]
+}
