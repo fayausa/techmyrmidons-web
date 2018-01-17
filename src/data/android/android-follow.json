@@ -1,94 +1,109 @@
 {
 
-  "androidFolowPeople": [
+  "android": [
 
    {
       "followLink":"https://twitter.com/cyanogen", 
       "photo":"cyanogen.jpg",
+      "test":"/android/android-follow",
       "name":"Steve Kondik "
     },
 
     {
       "followLink":"https://twitter.com/Arubin", 
       "photo":"AndyRubin.jpg",
+      "test":"android-follow",
       "name":"Andy Rubin"
     },
 
     {
       "followLink":"https://twitter.com/crafty", 
       "photo":"NickButcher.jpg",
+      "test":"android-follow",
       "name":"Nick Butcher"
     },
 
     {
       "followLink":"https://twitter.com/lehtimaeki", 
       "photo":"JuhaniLehtimaki.jpg",
+      "test":"android-follow",
       "name":"Juhani Lehtimäki"
     },
 
     {
       "followLink":"https://twitter.com/droidxav", 
       "photo":"XavierDucrohet.jpg",
+      "test":"android-follow",
       "name":"Xavier Ducrohet"
     },
 
     {
       "followLink":"https://twitter.com/ginatrapani", 
       "photo":"GinaTrapani.jpg",
+      "test":"android-follow",
       "name":"Gina Trapani"
     },
 
     {
       "followLink":"https://twitter.com/jkendrick", 
       "photo":"JamesKendrick.jpg",
+      "test":"android-follow",
       "name":"James Kendrick"
     },
 
     {
       "followLink":"https://twitter.com/romainguy", 
       "photo":"RomainGuy.jpg",
+      "test":"android-follow",
       "name":"Romain Guy"
     },
 
     {
       "followLink":"https://twitter.com/saschasegan", 
       "photo":"saschasegan.jpg",
+      "test":"android-follow",
       "name":"Sascha Segan"
     },
 
     {
       "followLink":"https://twitter.com/MatiasDuarte", 
       "photo":"MatiasDuarte.jpg",
+      "test":"android-follow",
       "name":"Matías Duarte"
     },
 
     {
       "followLink":"https://twitter.com/chrisbanes", 
       "photo":"ChrisBanes.jpg",
+      "test":"android-follow",
       "name":"Chris Banes"
     },
 
     {
       "followLink":"https://twitter.com/chrismlacy", 
       "photo":"ChrisLacy.jpg",
+      "test":"android-follow",
       "name":"Chris Lacy"
     },
 
     {
       "followLink":"https://twitter.com/devunwired", 
       "photo":"DroidSmith.jpg",
+      "test":"android-follow",
       "name":"DroidSmith"
     },
 
     {
       "followLink":"https://twitter.com/joenrv", 
       "photo":"JoaquimVerges.jpg",
+      "test":"android-follow",
       "name":"Joaquim Vergès"
     },
 
     {
       "followLink":"https://twitter.com/sundarpichai", 
       "photo":"sundarpichai.jpg",
+      "test":"android-follow",
       "name":"Sundarpichai"
     }
   ]

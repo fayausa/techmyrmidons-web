@@ -2,43 +2,49 @@
    "home": [
       {
         "technology": "Android",
-        "page" :"android.html",
+        "page" :"view.html",
         "logo": "android-logo.png",
-        "logoAlt": "android"
+        "logoAlt": "android",
+        "techData": "android"
       },
 
       {
         "technology": "iOS",
-        "page" :"ios.html",
+        "page" :"view.html",
         "logo": "ios-logo.png",
+        "techData": "ios",
         "logoAlt": "ios"
       },
 
       {
         "technology": "Frontend",
-        "page" :"frontend.html",
+        "page" :"view.html",
         "logo": "frontend-logo.png",
+        "techData": "frontend",
         "logoAlt": "Frontend"
       },
 
       {
         "technology": "Web",
-        "page" :"web.html",
+        "page" :"view.html",
         "logo": "web-logo.png",
+        "techData": "web",
         "logoAlt": "web"
       },
 
       {
         "technology": "DevOps",
-        "page" :"devops.html",
+        "page" :"view.html",
         "logo": "security-logo.png",
+        "techData": "devops",
         "logoAlt": "devops"
       },
 
       {
         "technology": "QA",
-        "page" :"qa.html",
+        "page" :"view.html",
         "logo": "qa-logo.png",
+        "techData": "qa",
         "logoAlt": "QA"
       }
    ]
