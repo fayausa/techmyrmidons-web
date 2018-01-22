@@ -13,7 +13,7 @@ $(function() {
 
     $.each(data[tech], function(i, f) {
 
-      var follow = "<a href='" + f.followLink + "' target='blank' class='follow__list'><div class='follow__list__img grow'><img src='" +'assets/img/' +tech+ '/' + f.photo + "'></div><div class='follow__list__name'> <span>" + f.name + "</span> </div></a>"
+      var follow = "<a href='" + f.followLink + "' target='blank' class='follow__list'><div class='follow__list__img grow'><img src="+'data/'+ tech +'/'+tech+'/' + f.photo +"></div><div class='follow__list__name'> <span>" + f.name + "</span> </div></a>"
 
       $(follow).appendTo("#follow");
 
@@ -76,9 +76,9 @@ $(function() {
       $("#" + year).html('');
       $.each(data[year], function(i, f) {
 
-        var techRow = "<div class='large-3 medium-6 columns'><div class='techwidget'><div class='techwidget__logo'><img src=' " +'assets/img/'+tech+'/' + f.icon + " '></div><div class='techwidget__head'>" + f.title + "</div><p class='techwidget__content'>" + f.description + "</p><a class='techwidget__more popup-link' href='"+ '#' + f.morelink + "'>Read More</a></div></div>"
+        var techRow = "<div class='large-3 medium-6 columns'><div class='techwidget'><div class='techwidget__logo'><img src='"+'data/'+ tech +'/'+tech+'/' + f.icon + "'></div><div class='techwidget__head'>" + f.title + "</div><p class='techwidget__content'>" + f.description + "</p><a class='techwidget__more popup-link' href='"+ '#' + f.morelink + "'>Read More</a></div></div>"
 
-        var techRowDetail = "<div id='"+ f.morelink + "' class='popup'><div class='techwidget'><div class='techwidget__logo'><img src='" +'assets/img/'+tech+'/' + f.icon + "'></div><div class='techwidget__head'>" + f.title + "</div><div class='techwidget__content'>" + f.description + "</div><p class='techwidget__content'>Dowoload here <a class='link' target='blank' href='" + f.url + "'> " + f.url + "</a></p></div></div>"
+        var techRowDetail = "<div id='"+ f.morelink + "' class='popup'><div class='techwidget'><div class='techwidget__logo'><img src='"+'data/'+ tech +'/'+tech+'/' + f.icon + "'></div><div class='techwidget__head'>" + f.title + "</div><div class='techwidget__content'>" + f.description + "</div><p class='techwidget__content'>Dowoload here <a class='link' target='blank' href='" + f.url + "'> " + f.url + "</a></p></div></div>"
 
         $(techRowDetail).appendTo("#detailPop");
         $(techRow).appendTo("#" + year);
