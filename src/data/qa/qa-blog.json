@@ -1,0 +1,70 @@
+{
+  "qa": [
+
+    {
+      "blog": "https://www.ministryoftesting.com/",
+      "author":"Ministry of Testing"
+    },
+
+    {
+      "blog": "https://testlio.com/blog/",
+      "author":"Integrating Quality+"
+    },
+
+    {
+      "blog": "https://www.utest.com/utest-blog",
+      "author":"U Test"
+    },
+
+    {
+      "blog": "http://www.cigniti.com/blog/",
+      "author":"Cigniti"
+    },
+
+    {
+      "blog": "https://club.ministryoftesting.com/",
+      "author":"Software Testing Club"
+    },
+
+    {
+      "blog": "http://www.softwaretestingtricks.com/",
+      "author":"Software Testing Tricks"
+    },
+
+    {
+      "blog": "https://www.stickyminds.com/",
+      "author":"Sticky Minds"
+    },
+
+    {
+      "blog": "https://www.testing-whiz.com/",
+      "author":"Testing Whiz"
+    },
+
+    {
+      "blog": "http://www.gallop.net/blog/",
+      "author":"Gallop"
+    },
+
+    {
+      "blog": "http://qablog.practitest.com/",
+      "author":"PractiTest"
+    },
+
+    {
+      "blog": "https://blog.testfort.com/",
+      "author":"Testfort"
+    },
+
+    {
+      "blog": "http://www.kualitee.com/blog/",
+      "author":"Kualitee"
+    },
+
+    {
+      "blog": "http://tuppad.com/blog/",
+      "author":"Software Testing Blog"
+    }
+
+  ]
+}
