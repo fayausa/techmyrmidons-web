@@ -34,7 +34,22 @@
         "technology": "Blockchain",
         "logo": "blockchain-logo.png",
         "folderName": "blockchain"
-      }
+      },      
+      {
+        "technology": "Artificial Intelligence",
+        "logo": "ai-logo.png",
+        "folderName": "ai"
+      },      
+      {
+        "technology": "Biotech",
+        "logo": "biotech-logo.png",
+        "folderName": "biotech"
+      },      
+      {
+        "technology": "AR/VR",
+        "logo": "arvr-logo.png",
+        "folderName": "arvr"
+      }     
    ]
 }
 
