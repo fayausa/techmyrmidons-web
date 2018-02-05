@@ -8,12 +8,9 @@ To use this template, your computer needs:
 
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
+- [.editorconfig](http://editorconfig.org/)
 
-### .editorconfig
-
-The `.editorconfig` file is provided in order to encourage and help us maintain consistent coding styles between different
-editors and IDEs. [Read more about the `.editorconfig` file](misc.md#editorconfig).
-
+The `.editorconfig` file is provided in order to encourage and help contributors define and maintain consistent coding styles between different editors and IDEs.
 
 ## Installation
 
