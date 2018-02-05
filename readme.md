@@ -8,7 +8,7 @@ To use this template, your computer needs:
 
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
-- [.editorconfig](http://editorconfig.org/)
+- Text editor like [Sublime](https://www.sublimetext.com/), [VS Code](https://code.visualstudio.com/) or [Atom](https://atom.io/) with [.editorconfig](http://editorconfig.org/) plugin enabled.
 
 The `.editorconfig` file is provided in order to encourage and help contributors define and maintain consistent coding styles between different editors and IDEs.
 
