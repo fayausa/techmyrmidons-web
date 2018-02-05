@@ -2,12 +2,20 @@
 
 ![Licence](https://img.shields.io/dub/l/vibe-d.svg)
 
-## Installation
+## Prerequisite
 
 To use this template, your computer needs:
 
 - [NodeJS](https://nodejs.org/en/) (0.12 or greater)
 - [Git](https://git-scm.com/)
+
+### .editorconfig
+
+The `.editorconfig` file is provided in order to encourage and help us maintain consistent coding styles between different
+editors and IDEs. [Read more about the `.editorconfig` file](misc.md#editorconfig).
+
+
+## Installation
 
 This template can be installed with the Foundation CLI, or downloaded and set up manually.
 
