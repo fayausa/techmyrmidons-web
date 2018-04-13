@@ -1,0 +1,16 @@
+{
+  "follow": [
+
+    {
+      "followLink":"https://twitter.com/VitalikButerin",
+      "photo":"VitalikButerin.jpeg",
+      "name":"Vitalik Buterin"
+    },
+    {
+      "followLink":"https://twitter.com/dtapscott",
+      "photo":"dtapscott.jpeg",
+      "name":"Don Tapscott"
+    }
+
+  ]
+}
