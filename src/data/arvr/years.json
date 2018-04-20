@@ -3,12 +3,12 @@
 
     {
       "year": "2018",
-      "url": "data/ar-vr/2018.json"
+      "url": "data/arvr/2018.json"
     },
 
     {
       "year": "2017",
-      "url": "data/ar-vr/2017.json"
+      "url": "data/arvr/2017.json"
     }
 
   ]
