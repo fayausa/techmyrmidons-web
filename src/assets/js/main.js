@@ -9,7 +9,7 @@ $(function() {
   // People to Follow
 
   $.getJSON('/data/'+ tech +'/' + 'follow.json', function(data) {
-    console.log(data['follow'])
+  //  console.log(data['follow'])
     $.each(data['follow'], function(i, f) {
 
       var follow = "<a href='" + f.followLink + "' target='blank' class='follow__list'><div class='follow__list__img grow'><img src="+'data/'+ tech +'/images/' + f.photo +"></div><div class='follow__list__name'> <span>" + f.name + "</span> </div></a>"
