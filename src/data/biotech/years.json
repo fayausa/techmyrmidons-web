@@ -1,0 +1,20 @@
+{
+  "years": [
+
+    {
+      "year": "2018",
+      "url": "/data/biotech/2018.json"
+    },
+
+    {
+      "year": "2017",
+      "url": "/data/biotech/2017.json"
+    },
+
+    {
+      "year": "2016",
+      "url": "/data/biotech/2016.json"
+    }
+
+  ]
+}
