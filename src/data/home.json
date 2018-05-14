@@ -44,6 +44,11 @@
         "technology": "AR/VR",
         "logo": "arvr-logo.png",
         "folderName": "arvr"
+      },
+      {
+        "technology": "Actions on Google",
+        "logo": "arvr-logo.png",
+        "folderName": "actions-on-google"
       }
    ]
 }
