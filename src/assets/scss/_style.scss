@@ -494,6 +494,9 @@ footer{
 }
 .grow { transition: all .2s ease-in-out; }
 .grow:hover { transform: scale(1.1); }
+.red {
+  color: red;
+}
 @media screen and (max-width: 960px) {
 	.techlist li .techlist__item{
     height: 100px;
