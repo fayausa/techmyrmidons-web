@@ -28,6 +28,18 @@
         "title": "Solidity",
         "description":"Solidity is a contract-oriented, high-level language for implementing smart contracts. It was influenced by C++, Python and JavaScript and is designed to target the Ethereum Virtual Machine (EVM).",
         "url": "https://solidity.readthedocs.io/en/v0.4.23/"
+      },
+
+      {
+        "title": "MultiChain",
+        "description":"MultiChain helps organizations to build and deploy blockchain applications with speed.",
+        "url": "https://www.multichain.com/"
+      },
+
+      {
+        "title": "Corda",
+        "description":"Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda’s smart contract technology allows businesses to transact directly, with value.",
+        "url": "https://www.corda.net"
       }
    ]
 
