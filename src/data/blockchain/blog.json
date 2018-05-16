@@ -8,7 +8,7 @@
 
   {
     "blog": "https://www.ibm.com/blogs/blockchain/",
-    "author": "IBM"
+    "author": "Blockchain Unleashed"
   },
 
   {
@@ -19,6 +19,26 @@
   {
     "blog": "https://azure.microsoft.com/en-us/blog/topics/blockchain/",
     "author": "AZZURE TEAM"
+  },
+
+  {
+    "blog": "https://blockchainatberkeley.blog/",
+    "author": "Blockchain at Berkeley "
+  },
+
+  {
+    "blog": "https://www.technologyreview.com/newsletters/chain-letter/",
+    "author": "Chain Letter"
+  },
+
+  {
+    "blog": "http://coindesk.com/",
+    "author": "CoinDesk"
+  },
+
+  {
+    "blog": "https://hackernoon.com/",
+    "author": "Hackernoon"
   }
   ]
 }
