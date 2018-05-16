@@ -10,6 +10,11 @@
       "followLink":"https://twitter.com/dtapscott",
       "photo":"dtapscott.jpeg",
       "name":"Don Tapscott"
+    },
+    {
+      "followLink":"https://twitter.com/cordablockchain",
+      "photo":"corda.jpg",
+      "name":"Corda"
     }
 
   ]
