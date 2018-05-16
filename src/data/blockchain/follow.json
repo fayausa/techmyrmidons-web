@@ -15,6 +15,26 @@
       "followLink":"https://twitter.com/cordablockchain",
       "photo":"corda.jpg",
       "name":"Corda"
+    },
+    {
+      "followLink":"https://twitter.com/iam_preethi",
+      "photo":"preethi.jpg",
+      "name":"Preethi Kasireddy"
+    },
+    {
+      "followLink":"https://twitter.com/aantonop",
+      "photo":"Andreas.png",
+      "name":"Andreas M. Antonopoulos"
+    },
+    {
+      "followLink":"https://twitter.com/davidmarcus",
+      "photo":"david.jpg",
+      "name":"David Marcus"
+    },
+    {
+      "followLink":"https://twitter.com/wmougayar",
+      "photo":"william.jpg",
+      "name":"William Mougayar"
     }
 
   ]
