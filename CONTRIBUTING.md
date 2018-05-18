@@ -1,3 +1,7 @@
+Thank you for considering contributing to Techmyrmidon. It's people like you that make Active Admin such a great tool.
+
+Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project. In return, they should reciprocate that respect in addressing your issue, assessing changes, and helping you finalize your pull requests.
+
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
