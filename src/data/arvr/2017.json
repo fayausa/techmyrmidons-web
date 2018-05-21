@@ -1,0 +1,48 @@
+{
+   "2017": [
+     {
+       "title": "Unreal Engine",
+       "description":"The Unreal Engine is very well known in the games industry. This package is incredibly versatile, allowing for creation of games from 2d hand drawn looking platformers up to cinematic almost movie like experiences. They have charged into virtual reality head-on and support the latest technologies natively. There is a built in marketplace where you can find and purchase assets to include in your projects and a very large community sharing tutorials and inspiration. Most impressively, the Unreal Engine is absolutely free. You can download it now and get started creating virtual reality experiences with zero cost.",
+       "url": "https://www.unrealengine.com"
+     },
+     {
+       "title": "Unity 3D",
+       "description":"Over the last several years, Unity has grown from a plucky little startup to go toe to toe with the likes of the Unreal Engine. The upcoming release of the first major commercially available VR headsets has only helped level the playing field as Unity has been aggressively courting this community. You can download Unity and begin building VR environments immediately with no prior experience.",
+       "url": "https://unity3d.com"
+     },
+     {
+       "title": "Cryengine",
+       "description":"The Cryengine has long been known for its rich visual abilities, the flagship games from this engine often being used as benchmarks to determine a computer’s strength. Up till very recently, there were costs associated with this engine that kept it from the hands of many small developers. Now, it is a pay-what-you-want model which means you could download it for free just to try it out and see if you like it",
+       "url": "https://www.cryengine.com/get-cryengine"
+     },
+     {
+       "title": "Lumberyard",
+       "description":"Lumberyard was recently unveiled by Amazon. This is a recent addition to the market, and the community is just beginning to grow. On the technical side, this is a previous version of the crytech engine, but with Amazon backing it, some tweaks have been made.",
+       "url": "https://aws.amazon.com/lumberyard/"
+     },
+     {
+       "title": "Blender",
+       "description":"Blender is an open source, cross platform modeling animation and rendering tool. It has grown to be incredibly robust and powerful, rivaling the industry names like Maya, Softimage, and 3DS max. The feature set included with the absolutely free product is enough to take you through the entire production pipeline of game creation. It even has its own built-in game engine, though VR support is still not as strong as you’ll see in the real-time engines above.",
+       "url": "https://www.blender.org/"
+     },
+     {
+       "title": "Sculptris",
+       "description":"This free software is very limited in functionality, but does its singular task quite well. If you find yourself encumbered by the interface of a typical modeling software, give this a try. The interface mimics sculpting a piece of clay, and it feels very natural.",
+       "url": "http://pixologic.com/sculptris/"
+     },
+     {
+       "title": "Gimp",
+       "description":"Gimp, or GNU Image Manipulation Program is a very powerful tool for image manipulation. Users jumping directly from photoshop may get frustrated with workflow and interface differences, but make no mistake, this package can get the job done. If you are doing backgrounds, UI elements, textures, or anything else, GIMP can handle it. It is cross platform too, which is nice.",
+       "url": "https://www.gimp.org/"
+     },
+     {
+       "title": "Audacity",
+       "description":"There are a ton of ways that you can use Audacity. The most common uses for a beginner would be to record a sound, and bring it into Audacity to clean it up and tweak the speed and pitch. From there, you can expand into the many, many features of the software.",
+       "url": "http://www.audacityteam.org/"
+     }
+
+
+
+   ]
+
+}

@@ -1,0 +1,22 @@
+{
+  "blog": [
+
+    {
+      "blog": "http://www.augmented.org/blog/",
+      "author":"Augmented Blog"
+    },
+    {
+      "blog": "http://gigantico.squarespace.com/",
+      "author":"Gigantico"
+    },
+    {
+      "blog": "https://uploadvr.com/",
+      "author":"Upload VR"
+    },
+    {
+      "blog": "https://www.roadtovr.com",
+      "author":"Road Tovr"
+    }
+
+  ]
+}

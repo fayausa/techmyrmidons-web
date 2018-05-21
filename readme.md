@@ -1,6 +1,7 @@
 # Techmyrmidons
 
 ![Licence](https://img.shields.io/dub/l/vibe-d.svg)
+[ ![Codeship Status for fayausa/techmyrmidons-web](https://app.codeship.com/projects/d3a1cc60-1e0f-0136-3165-4ab32878fbe3/status?branch=master)](https://app.codeship.com/projects/284812)
 
 ## Installation
 
