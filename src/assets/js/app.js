@@ -9,3 +9,4 @@ $( "#nav-toggle" ).on( "click", function() {
 });
 
 $(".popup-link").colorbox({inline:true, width:"90%",maxWidth: '960px',});
+$(".about-us_link").colorbox({inline:true, width:"90%",maxWidth: '960px',});

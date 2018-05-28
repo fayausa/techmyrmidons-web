@@ -501,17 +501,23 @@ footer{
 .red {
   color: red;
 }
+.about-us_link {
+    color: #d24a2c;
+    font-size: 1.2em;
+    margin: 30px 0 10px;
 
+    &:hover {
+      color: #d24a2c;
+    }
+}
 .about-us {
-  max-width: 1500px;
-  margin: 0 auto;
   color: #999;
   background: #000;
   padding: 1rem;
+  border: 1px solid #913217;
 
   h3 {
     font-size: 1.5em;
-    border-bottom: 1px dashed #913217;
     display: inline-block;
   }
   p {
