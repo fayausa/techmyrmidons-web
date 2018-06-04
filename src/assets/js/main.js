@@ -71,7 +71,8 @@ $(function() {
 
   function getJson(url, year) {
     $.getJSON(url, function(data) {
-
+      $("#detailPop").html('');
+      $("#" + year).html('');
       $.each(data[year], function(i, f) {
 
         var techRow = "<div class='large-3 medium-6 columns'><div class='techwidget'><div class='techwidget__head'>" + f.title + "</div><p class='techwidget__content'>" + f.description + "</p><a class='techwidget__more popup-link' href='"+ '#' + f.title.replace(/\W/g, '') + "'>Read More</a></div></div>"
