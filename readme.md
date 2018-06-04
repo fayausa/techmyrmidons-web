@@ -1,5 +1,8 @@
 # Techmyrmidons
 
+![Licence](https://img.shields.io/dub/l/vibe-d.svg)
+[ ![Codeship Status for fayausa/techmyrmidons-web](https://app.codeship.com/projects/d3a1cc60-1e0f-0136-3165-4ab32878fbe3/status?branch=master)](https://app.codeship.com/projects/284812)
+
 ## Installation
 
 To use this template, your computer needs:
@@ -28,7 +31,7 @@ git clone git@github.com:fayausa/techmyrmidons-web.git
 Then open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectname
+cd techmyrmidons-web
 npm install
 bower install
 ```
@@ -40,3 +43,5 @@ http://localhost:8000
 ```
 
 To create compressed, production-ready assets, run `npm run build`.
+
+## License : MIT
