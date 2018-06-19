@@ -69,6 +69,11 @@
         "title": "FIREBASE REALM",
         "description":"Firebase provides a real-time database and handles authentication among many other interesting features. Developers can now rely on building amazing apps and not worry about their backend. This enables the clients to share one real-time Database instance and automatically receive updates with the newest data.",
         "url": "https://realm.io/news/360andev-adrian-catalan-firebase-android-realtime-sync/"
+      },
+      {
+        "title": "Alcatraz",
+        "description":"If you’re looking to add on to Xcode, try Alcatraz. It’s a package manager for Xcode that allows you to install additional plug-ins inside your IDE. Alcatraz is only available for OSX 10.9+ and Xcode 5+.",
+        "url": "https://github.com/alcatraz/Alcatraz"
       }
 
    ]
