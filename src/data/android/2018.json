@@ -68,6 +68,11 @@
         "title": "AIDE",
         "description":"It would seem that Android developer tools have a fondness for acronyms! AIDE is ‘Android IDE’ and is unique to this list in that it runs on Android. That means that you can create apps using your phone or tablet and then test them right there on that same device.",
         "url": "http://www.android-ide.com"
+      },
+      {
+        "title": "B4X",
+        "description":"B4A (or Basic for Android) is a lesser known Android development tool from Anywhere Software, focused on ‘rapid’ development. As the name suggests, this is an IDE and interpreter that allows developers to create apps using the BASIC programming language. For those that aren’t familiar with BASIC, it’s essentially a much simpler, procedural programming language that reads closer to regular English. Despite essentially being a one-man project, B4A manages to pack in a lot of useful advanced features, including wireless debugging over Bluetooth, a visual editor for adding and arranging views and more. It’s not free but it’s how I got started on Android and I highly recommend it.",
+        "url": "https://www.b4x.com/"
       }
 
    ]
