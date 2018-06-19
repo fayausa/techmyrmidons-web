@@ -59,11 +59,15 @@
         "description":"Stetho is a debug bridge for Android applications, enabling the powerful Chrome Developer Tools and much more.",
         "url": "https://github.com/facebook/stetho"
       },
-
       {
         "title": "AVD Manager",
         "description":"The AVD Manager tool is bundled with Android Studio. AVD stands for ‘Android Virtual Device’, so essentially this is an emulator for running Android applications on your PC. This is useful because it means that you can test your apps quickly without having to constantly install them on physical devices.",
         "url": "https://developer.android.com/studio/run/managing-avds"
+      },
+      {
+        "title": "AIDE",
+        "description":"It would seem that Android developer tools have a fondness for acronyms! AIDE is ‘Android IDE’ and is unique to this list in that it runs on Android. That means that you can create apps using your phone or tablet and then test them right there on that same device.",
+        "url": "http://www.android-ide.com"
       }
 
    ]
