@@ -1,7 +1,7 @@
 {
    "2017": [
       {
-        "title": "Swift 3.0",
+        "title": "Swift 2.0",
         "description":"Swift is a powerful and intuitive programming language for iOS apps that builds on the best of C and Objective-C, without the constraints of C compatibility. Swift adopts safe programming patterns and adds modern features to make programming easier, more flexible, and more fun. A Swift 3.0 roadmap was announced on the Swift blog on December 3, 2015. Swift 3.0 is the first major release developed in the open at Swift.org, with source code, a bug tracker, mailing lists, and regular development builds available for everyone.",
         "url": "https://developer.apple.com/swift/",
         "morelink": "swift"
@@ -12,7 +12,7 @@
         "description":"Git is a free distributed version control system. Android Studio comes with Git client. All we need to do is just enable and start using it. As a prerequisite, you need to have Git installed in the local system. Dive deeper into Git at https://source.android.com/source/developing.html",
         "url": "http://git-scm.com/downloads",
         "morelink": "git"
-      },  
+      },
 
       {
         "title": "Fastlane",
@@ -40,7 +40,7 @@
         "description":"CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. Cocoapods shares their credibility over 1.2 million apps and contains over 23 thousand libraries. It can help to scale projects elegantly. Instead of manually importing files via drop and drop when working on an app, Cocoapods automatically analyses all the required framework and aligns it accordingly.",
         "url": "https://cocoapods.org/",
         "morelink": "CocoaPods"
-      },  
+      },
 
       {
         "title": "Jenkins",
@@ -68,7 +68,7 @@
         "description":"Core Data is a framework that lets developers store (or retrieve) data in database in an object-oriented manner. With Core Data, you can easily map the objects in your apps to the table in the database. It is the best one to use for non-trivial data storage. It can reduce the memory overhead of your app, increase responsiveness, and save you from writing a lot of boilerplate code.",
         "url": "",
         "morelink": "coreData"
-      },      
+      },
 
       {
         "title": "FLURRY",
@@ -99,12 +99,3 @@
    ]
 
 }
-
-
-
-  
-
-
-
-
-

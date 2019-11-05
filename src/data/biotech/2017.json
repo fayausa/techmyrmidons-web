@@ -12,7 +12,7 @@
         "description":"Hyperledger Indy is a distributed ledger, purpose-built for decentralized identity. It provides tools, libraries, and reusable components for creating and using independent digital identities rooted on blockchains or other distributed ledgers so that they are interoperable across administrative domains, applications, and any other 'silo'. Because distributed ledgers cannot be altered after the fact, it is essential that use cases for ledger-based identity carefully consider foundational components, including performance, scale, trust model, and privacy. In particular, Privacy by Design and privacy-preserving technologies are critically important for a public identity ledger where correlation can take place on a global scale. <br> For all these reasons, Hyperledger Indy has developed specifications, terminology, and design patterns for decentralized identity along with an implementation of these concepts that can be leveraged and consumed both inside and outside the Hyperledger Consortium.",
         "url": "https://www.hyperledger.org/projects/hyperledger-indy",
         "morelink": "indy"
-      },  
+      },
 
       {
         "title": "Hyperledger Iroha ",
@@ -30,12 +30,3 @@
    ]
 
 }
-
-
-
-  
-
-
-
-
-
