@@ -2,6 +2,11 @@
   "years": [
 
     {
+      "year": "2019",
+      "url": "/data/devops/2019.json"
+    },
+
+    {
       "year": "2018",
       "url": "/data/devops/2018.json"
     },
@@ -9,11 +14,6 @@
     {
       "year": "2017",
       "url": "/data/devops/2017.json"
-    },
-
-    {
-      "year": "2016",
-      "url": "/data/devops/2016.json"
     }
 
   ]

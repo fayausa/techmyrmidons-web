@@ -46,11 +46,6 @@
         "title": "Accord.NET",
         "description":"Accord.NET is a .NET open source machine learning framework for scientific computing, and consists of multiple libraries for diverse applications like statistical data processing, pattern recognition, linear algebra, artificial neural networks, image and signal processing, etc. The framework is divided into libraries via the installer, compressed archives and NuGet packages, which include Accord.Math, Accord.Statistics, Accord.MachineLearning, Accord.Neuro, Accord.Imaging, Accord.Audio, Accord.Vision, Accord.Controls, Accord.Controls.Imaging, Accord.Controls.Audio, Accord.Controls.Vision, etc.",
         "url": "https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android/"
-      },
-      {
-        "title": "Torch",
-        "description":"Torch is a scientific computing framework with wide support for machine learning algorithms that puts GPUs first. It is easy to use and efficient, thanks to an easy and fast scripting language, LuaJIT, and an underlying C/CUDA implementation.",
-        "url": "http://torch.ch/"
       }
 
    ]

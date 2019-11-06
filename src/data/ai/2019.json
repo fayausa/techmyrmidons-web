@@ -1,5 +1,5 @@
 {
-   "2017": [
+   "2019": [
      {
        "title": "Apache Singa",
        "description":"The Singa Project was initiated by the DB System Group at the National University of Singapore in 2014, with a primary focus on distributed deep learning by partitioning the model and data onto nodes in a cluster and parallelising the training. Apache Singa provides a simple programming model and works across a cluster of machines. It is primarily used in natural language processing (NLP) and image recognition. A Singa prototype accepted by Apache Incubator in March 2015 provides a flexible architecture of scalable distributed training and is extendable to run over a wide range of hardware.",
@@ -46,6 +46,11 @@
         "title": "Accord.NET",
         "description":"Accord.NET is a .NET open source machine learning framework for scientific computing, and consists of multiple libraries for diverse applications like statistical data processing, pattern recognition, linear algebra, artificial neural networks, image and signal processing, etc. The framework is divided into libraries via the installer, compressed archives and NuGet packages, which include Accord.Math, Accord.Statistics, Accord.MachineLearning, Accord.Neuro, Accord.Imaging, Accord.Audio, Accord.Vision, Accord.Controls, Accord.Controls.Imaging, Accord.Controls.Audio, Accord.Controls.Vision, etc.",
         "url": "https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android/"
+      },
+      {
+        "title": "Torch",
+        "description":"Torch is a scientific computing framework with wide support for machine learning algorithms that puts GPUs first. It is easy to use and efficient, thanks to an easy and fast scripting language, LuaJIT, and an underlying C/CUDA implementation.",
+        "url": "http://torch.ch/"
       }
 
    ]
