@@ -1,5 +1,9 @@
 {
   "years": [
+    {
+      "year": "2019",
+      "url": "data/arvr/2019.json"
+    },
 
     {
       "year": "2018",
