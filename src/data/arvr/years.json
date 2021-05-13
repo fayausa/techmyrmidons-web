@@ -1,6 +1,10 @@
 {
   "years": [
     {
+      "year": "2020",
+      "url": "data/arvr/2020.json"
+    },
+    {
       "year": "2019",
       "url": "data/arvr/2019.json"
     },
