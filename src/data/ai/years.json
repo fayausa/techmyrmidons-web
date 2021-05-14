@@ -1,6 +1,13 @@
 {
   "years": [
-
+    {
+      "year": "2021",
+      "url": "data/ai/2021.json"
+    },
+    {
+      "year": "2020",
+      "url": "data/ai/2020.json"
+    },
     {
       "year": "2019",
       "url": "data/ai/2019.json"
