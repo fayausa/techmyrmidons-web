@@ -2,6 +2,10 @@
   "years": [
 
     {
+      "year": "2020",
+      "url": "data/android/2019.json"
+    },
+    {
       "year": "2019",
       "url": "data/android/2019.json"
     },
