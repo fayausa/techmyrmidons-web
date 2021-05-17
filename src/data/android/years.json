@@ -1,9 +1,12 @@
 {
   "years": [
-
+    {
+      "year": "2021",
+      "url": "data/android/2021.json"
+    },
     {
       "year": "2020",
-      "url": "data/android/2019.json"
+      "url": "data/android/2020.json"
     },
     {
       "year": "2019",
