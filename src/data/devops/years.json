@@ -1,5 +1,13 @@
 {
   "years": [
+    {
+      "year": "2021",
+      "url": "/data/devops/2021.json"
+    },
+    {
+      "year": "2020",
+      "url": "/data/devops/2020.json"
+    },
 
     {
       "year": "2019",
