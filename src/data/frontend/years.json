@@ -2,6 +2,14 @@
   "years": [
 
     {
+      "year": "2021",
+      "url": "/data/frontend/2021.json"
+    },
+    {
+      "year": "2020",
+      "url": "/data/frontend/2020.json"
+    },
+    {
       "year": "2019",
       "url": "/data/frontend/2019.json"
     },
