@@ -2,25 +2,25 @@
   "years": [
     {
       "year": "2021",
-      "url": "data/android/2021.json"
+      "url": "data/quantum computing/2021.json"
     },
     {
       "year": "2020",
-      "url": "data/android/2020.json"
+      "url": "data/quantum computing/2020.json"
     },
     {
       "year": "2019",
-      "url": "data/android/2019.json"
+      "url": "data/quantum computing/2019.json"
     },
 
     {
       "year": "2018",
-      "url": "data/android/2018.json"
+      "url": "data/quantum computing/2018.json"
     },
 
     {
       "year": "2017",
-      "url": "data/android/2017.json"
+      "url": "data/quantum computing/2017.json"
     }
 
   ]
