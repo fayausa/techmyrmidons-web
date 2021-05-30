@@ -7,6 +7,12 @@
        },
  
        {
+         "title": "LeakCanary",
+         "Benjamin Franklin once said, A tiny leak can sink a huge ship. Therefore, LeakCanary is just meant for the same. LeakCanary is a memory leak detection tool. In case of a memory leak, this tool will automatically",
+         "url": "https://square.github.io/leakcanary/"
+       ,
+ 
+       {
          "title": "GIT",
          "description":"Git is a free distributed version control system. Android Studio comes with Git client. All we need to do is just enable and start using it. As a prerequisite, you need to have Git installed in the local system. Dive deeper into Git at https://source.android.com/source/developing.html",
          "url": "http://git-scm.com/downloads"
