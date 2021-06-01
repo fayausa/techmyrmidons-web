@@ -31,6 +31,12 @@
        },
  
        {
+         "title": "Instabug",
+         "description":"Instabug empowers mobile teams to release with confidence through comprehensive bug and crash reports, performance monitoring, and real-time user surveys and feedback.",
+         "url": "http:/instabug.com"
+       },
+ 
+       {
          "title": "Gradle",
          "description":"Gradle is an advanced build toolkit used to automate and manage the build process, while allowing the developer to define flexible custom build configurations. Each build configuration can define its own set of code and resources, while reusing the parts common to all versions of the app.",
          "url": "http://gradle.org/getting-started-android/"
