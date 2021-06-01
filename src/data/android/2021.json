@@ -1,7 +1,7 @@
 {
     "2021": [
        {
-         "title": "Android Studio 3.0",
+         "title": "Android Studio 4.2",
          "description":"Android Studio is the official IDE for Android platform development. It encompasses the fastest tools for building apps on Android devices. The latest version 2.2 of the Studio was announced on May 18, 2016 during the Google I/O Conference. It is powered with a reengineered UI Designer and a Constraint Layout. Plunge deeper into the new version at http://android-developers.blogspot.in/2016/05/android-studio-22-preview-new-ui.html",
          "url": "https://developer.android.com/studio/index.html#downloads"
        },
@@ -28,6 +28,12 @@
          "title": "Testfairy",
          "description":"TestFairy is an Android app Beta Testing and Deployment platform that lets the developer know when and how people are using the app, and provides with any metric needed to optimize for better user experience and better code.It paves way for better understanding of how the app performs on real devices. All you need to do is just upload your android build (.apk) file to your TestFairy account and invite the beta testers. Once the users start playing around with the app, you will get to see the reports real time.",
          "url": "http://docs.testfairy.com/"
+       },
+ 
+       {
+         "title": "Instabug",
+         "description":"Instabug empowers mobile teams to release with confidence through comprehensive bug and crash reports, performance monitoring, and real-time user surveys and feedback.",
+         "url": "http:/instabug.com"
        },
  
        {
