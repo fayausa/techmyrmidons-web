@@ -1,6 +1,10 @@
 {
   "years": [
-
+    {
+      "year": "2019",
+      "url": "/data/web/2019.json"
+    },
+   
     {
       "year": "2019",
       "url": "/data/web/2019.json"
