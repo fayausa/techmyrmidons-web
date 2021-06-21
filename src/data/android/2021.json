@@ -8,9 +8,9 @@
  
        {
          "title": "LeakCanary",
-         "Benjamin Franklin once said, A tiny leak can sink a huge ship. Therefore, LeakCanary is just meant for the same. LeakCanary is a memory leak detection tool. In case of a memory leak, this tool will automatically",
+         "description": "Benjamin Franklin once said, A tiny leak can sink a huge ship. Therefore, LeakCanary is just meant for the same. LeakCanary is a memory leak detection tool. In case of a memory leak, this tool will automatically",
          "url": "https://square.github.io/leakcanary/"
-       ,
+       },
  
        {
          "title": "GIT",
