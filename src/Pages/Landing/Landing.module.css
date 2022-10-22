@@ -168,12 +168,16 @@
 }
 
 @media only screen and (min-width: 1000px) {
+  .cards_view_container {
+    max-width: 1300px;
+    margin: auto;
+  }
   .cards_view {
     margin: 2rem;
     margin-top: 4rem;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
   }
