@@ -56,6 +56,8 @@
 
 .fvimage {
   width: 18rem;
+  display: block;
+  margin: auto;
 }
 
 .ev_heading {
@@ -99,7 +101,7 @@
   margin-top: 1rem;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 786px) {
   .first_view {
     margin: 2rem;
     margin-top: 4rem;
@@ -167,7 +169,7 @@
   align-items: center;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 786px) {
   .cards_view_container {
     max-width: 1300px;
     margin: auto;
