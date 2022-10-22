@@ -50,6 +50,8 @@ section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5rem;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .section-title {

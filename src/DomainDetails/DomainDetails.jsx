@@ -4,6 +4,7 @@ import Card from "../components/Card/Card";
 import SectionBtn from "../components/SectionBtn/SectionBtn";
 
 import Topics2021 from "../data/android/2021.json";
+import People from "../data/android/follow.json";
 
 const DomainDetails = () => {
   return (
@@ -20,6 +21,7 @@ const DomainDetails = () => {
           </form>
         </div>
       </header>
+
       <main>
         <section id='topics'>
           <div className='container'>
@@ -35,6 +37,7 @@ const DomainDetails = () => {
             <SectionBtn />
           </div>
         </section>
+
         <section id='blogs'>
           <div className='container'>
             <h2 className='section-title'>Blogs to follow</h2>
@@ -71,30 +74,12 @@ const DomainDetails = () => {
           <div className='container'>
             <h2 className='section-title'>People to follow</h2>
             <div className='cards-wrapper'>
-              <Card
-                linkText='Tony Stark'
-                img='https://www.lanacion.com.ar/resizer/iQFInaJdSTVs9IgWMbaR4Sdq_sE=/309x206/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/H6ETMQNEORB6RE6JHEKAZL52HE.jpg'
-              />
-              <Card
-                linkText='Tony Stark'
-                img='https://www.lanacion.com.ar/resizer/iQFInaJdSTVs9IgWMbaR4Sdq_sE=/309x206/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/H6ETMQNEORB6RE6JHEKAZL52HE.jpg'
-              />
-              <Card
-                linkText='Tony Stark'
-                img='https://www.lanacion.com.ar/resizer/iQFInaJdSTVs9IgWMbaR4Sdq_sE=/309x206/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/H6ETMQNEORB6RE6JHEKAZL52HE.jpg'
-              />
-              <Card
-                linkText='Tony Stark'
-                img='https://www.lanacion.com.ar/resizer/iQFInaJdSTVs9IgWMbaR4Sdq_sE=/309x206/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/H6ETMQNEORB6RE6JHEKAZL52HE.jpg'
-              />
-              <Card
-                linkText='Tony Stark'
-                img='https://www.lanacion.com.ar/resizer/iQFInaJdSTVs9IgWMbaR4Sdq_sE=/309x206/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/H6ETMQNEORB6RE6JHEKAZL52HE.jpg'
-              />
-              <Card
-                linkText='Tony Stark'
-                img='https://www.lanacion.com.ar/resizer/iQFInaJdSTVs9IgWMbaR4Sdq_sE=/309x206/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/H6ETMQNEORB6RE6JHEKAZL52HE.jpg'
-              />
+              {People.follow.map((person) => (
+                <Card
+                  img={`../data/android/images/${person.photo}`}
+                  linkText={person.name}
+                />
+              ))}
             </div>
           </div>
         </section>
