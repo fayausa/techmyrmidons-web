@@ -3,6 +3,8 @@ import "./DomainDetails.css";
 import Card from "../components/Card/Card";
 import SectionBtn from "../components/SectionBtn/SectionBtn";
 
+import Topics2021 from "../data/android/2021.json";
+
 const DomainDetails = () => {
   return (
     <>
@@ -22,30 +24,13 @@ const DomainDetails = () => {
         <section id='topics'>
           <div className='container'>
             <div className='cards-wrapper'>
-              <Card
-                title='Android Studio 3.0'
-                desc='Designed to give you a comprehensive understanding of the current Android ecosystem, resources & learning paths.'
-              />
-              <Card
-                title='Android Studio 3.0'
-                desc='Designed to give you a comprehensive understanding of the current Android ecosystem, resources & learning paths.'
-              />
-              <Card
-                title='Android Studio 3.0'
-                desc='Designed to give you a comprehensive understanding of the current Android ecosystem, resources & learning paths.'
-              />
-              <Card
-                title='Android Studio 3.0'
-                desc='Designed to give you a comprehensive understanding of the current Android ecosystem, resources & learning paths.'
-              />
-              <Card
-                title='Android Studio 3.0'
-                desc='Designed to give you a comprehensive understanding of the current Android ecosystem, resources & learning paths.'
-              />
-              <Card
-                title='Android Studio 3.0'
-                desc='Designed to give you a comprehensive understanding of the current Android ecosystem, resources & learning paths.'
-              />
+              {Topics2021["2021"].map((topic) => (
+                <Card
+                  title={topic.title}
+                  desc={topic.description}
+                  link={topic.url}
+                />
+              ))}
             </div>
             <SectionBtn />
           </div>
