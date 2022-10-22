@@ -3,6 +3,14 @@
   padding: 0;
 }
 
+.main_container {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: linear-gradient(#f9f9f9 3.1px, transparent 3.1px),
+    linear-gradient(to right, #f9f9f9 3.1px, #ffffff 3.1px);
+  background-size: 62px 62px;
+}
+
 .first_view {
   margin: 2rem;
   margin-top: 4rem;

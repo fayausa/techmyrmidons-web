@@ -36,15 +36,15 @@ const Landing = () => {
 
       <div className={styles.cards_view_container}>
         <div className={styles.cards_view}>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          <Card image="/assets/landing/android.png" name="Android" />
+          <Card image="/assets/landing/ios.png" name="iOS" />
+          <Card image="/assets/landing/devops.png" name="DevOps" />
+          <Card image="/assets/landing/backend.png" name="Back-End" />
+          <Card image="/assets/landing/blockchain.png" name="Blockchain" />
+          <Card image="/assets/landing/ai.png" name="Articial Intelligence" />
+          <Card image="/assets/landing/arvr.png" name="AR/VR" />
+          <Card image="/assets/landing/google.png" name="Actions On Google" />
+          <Card image="/assets/landing/qa.png" name="QA" />
         </div>
       </div>
     </div>
