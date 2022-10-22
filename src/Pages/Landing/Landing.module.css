@@ -17,7 +17,6 @@
 }
 
 .get_started {
-  margin-top: 1rem;
   padding: 16px 32px;
   gap: 4px;
 
@@ -31,6 +30,10 @@
 
   font-size: 1.25rem;
   text-align: center;
+
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
 }
 
 .fv_heading {
@@ -39,7 +42,7 @@
   font-weight: 700;
   line-height: 4rem;
   letter-spacing: -0.03em;
-  text-align: left;
+  text-align: center;
 }
 
 .fv_tagline {
@@ -48,7 +51,7 @@
   font-weight: 300;
   line-height: 1.5rem;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
 }
 
 .fvimage {
@@ -61,6 +64,7 @@
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 4rem;
+  text-align: center;
 }
 
 .explore_view {
@@ -74,10 +78,10 @@
   font-size: 1rem;
   color: #000000;
   margin-top: 0.25rem;
+  text-align: center;
 }
 
 .search_button {
-  margin-top: 1rem;
   padding: 16px 32px;
   gap: 4px;
 
@@ -90,6 +94,9 @@
   border: 1px solid #000000;
   font-size: 1.15rem;
   text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -147,7 +154,10 @@
 /* Styles for Card Container */
 
 .cards_view {
-  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 1000px) {
