@@ -39,6 +39,7 @@ const Landing = () => {
           <Card image="/assets/landing/android.png" name="Android" />
           <Card image="/assets/landing/ios.png" name="iOS" />
           <Card image="/assets/landing/devops.png" name="DevOps" />
+          <Card image="/assets/landing/frontend.png" name="Front-End" />
           <Card image="/assets/landing/backend.png" name="Back-End" />
           <Card image="/assets/landing/blockchain.png" name="Blockchain" />
           <Card image="/assets/landing/ai.png" name="Articial Intelligence" />
