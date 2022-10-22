@@ -76,8 +76,9 @@ const DomainDetails = () => {
             <div className='cards-wrapper'>
               {People.follow.map((person) => (
                 <Card
-                  img={`../data/android/images/${person.photo}`}
+                  photo={person.photo}
                   linkText={person.name}
+                  link={person.followLink}
                 />
               ))}
             </div>

@@ -1,24 +1,23 @@
 import "./Card.css";
-import ArrowTopRight from "../../assets/common/arrow-top-right.svg";
 
-const Card = ({ title, desc, img, link = "#", linkText = "Read More" }) => {
+const Card = ({ title, desc, photo, link = "#", linkText = "Read More" }) => {
   return (
     <div className='topic-card'>
-      {img && (
+      {photo && (
         <div className='img-wrapper'>
           <img
-            src={img}
+            src={require(`../../data/android/images/${photo}`)}
             alt=''
             onError={({ currentTarget }) => {
               currentTarget.onerror = null;
-              // currentTarget.src = "../../assets/common/avatar.svg";
+              currentTarget.src = require("../../assets/common/avatar.jpg");
             }}
           />
         </div>
       )}
       {title && <h2>{title}</h2>}
       {desc && <p>{desc}</p>}
-      <a href={link}>
+      <a href={link} target='_blank'>
         <span className='link-text'>{linkText}</span>
         <svg
           width='12'
