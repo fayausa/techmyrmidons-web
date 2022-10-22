@@ -1,0 +1,93 @@
+{
+    "2021": [
+       {
+         "title": "Android Studio 4.2",
+         "description":"Android Studio is the official IDE for Android platform development. It encompasses the fastest tools for building apps on Android devices. The latest version 2.2 of the Studio was announced on May 18, 2016 during the Google I/O Conference. It is powered with a reengineered UI Designer and a Constraint Layout. Plunge deeper into the new version at http://android-developers.blogspot.in/2016/05/android-studio-22-preview-new-ui.html",
+         "url": "https://developer.android.com/studio/index.html#downloads"
+       },
+ 
+       {
+         "title": "LeakCanary",
+         "description": "Benjamin Franklin once said, A tiny leak can sink a huge ship. Therefore, LeakCanary is just meant for the same. LeakCanary is a memory leak detection tool. In case of a memory leak, this tool will automatically",
+         "url": "https://square.github.io/leakcanary/"
+       },
+ 
+       {
+         "title": "GIT",
+         "description":"Git is a free distributed version control system. Android Studio comes with Git client. All we need to do is just enable and start using it. As a prerequisite, you need to have Git installed in the local system. Dive deeper into Git at https://source.android.com/source/developing.html",
+         "url": "http://git-scm.com/downloads"
+       },
+ 
+       {
+         "title": "Fastlane",
+         "description":"TestFairy is an Android app Beta Testing and Deployment platform that lets the developer know when and how people are using the app, and provides with any metric needed to optimize for better user experience and better code.It paves way for better understanding of how the app performs on real devices. All you need to do is just upload your android build (.apk) file to your TestFairy account and invite the beta testers. Once the users start playing around with the app, you will get to see the reports real time.",
+         "url": "https://fastlane.tools/"
+       },
+ 
+       {
+         "title": "Testfairy",
+         "description":"TestFairy is an Android app Beta Testing and Deployment platform that lets the developer know when and how people are using the app, and provides with any metric needed to optimize for better user experience and better code.It paves way for better understanding of how the app performs on real devices. All you need to do is just upload your android build (.apk) file to your TestFairy account and invite the beta testers. Once the users start playing around with the app, you will get to see the reports real time.",
+         "url": "http://docs.testfairy.com/"
+       },
+ 
+       {
+         "title": "Instabug",
+         "description":"Instabug empowers mobile teams to release with confidence through comprehensive bug and crash reports, performance monitoring, and real-time user surveys and feedback.",
+         "url": "http:/instabug.com"
+       },
+ 
+       {
+         "title": "Gradle",
+         "description":"Gradle is an advanced build toolkit used to automate and manage the build process, while allowing the developer to define flexible custom build configurations. Each build configuration can define its own set of code and resources, while reusing the parts common to all versions of the app.",
+         "url": "http://gradle.org/getting-started-android/"
+       },
+ 
+       {
+         "title": "Crashlytics",
+         "description":"Crashlytics delivers deep, rich crash reporting across devices in real-time. It performs a detailed analysis of every thread on every Android device to identify the most important issues.",
+         "url": "http://try.crashlytics.com/"
+       },
+ 
+       {
+         "title": "Flurry",
+         "description":"Flurry optimizes the mobile experience through better apps and more personal ads. It provides the tools and resources needed to gain a deep level of understanding about the users’ behavior in the apps. The user’s habits and performance can be tracked better by setting up advanced analysis of complex events, with metrics, segments and funnels.",
+         "url": "https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android/"
+       },
+ 
+       {
+         "title": "Android Asset Studio",
+         "description":"The Android Asset Studio web app by Roman Nurik is a great resource for creating icons for your Android applications. Moreover it offers a growing list of utilities to help developers create good-looking widgets.",
+         "url": "https://romannurik.github.io/AndroidAssetStudio/"
+       },
+ 
+       {
+         "title": "Android Arsenal",
+         "description":"It is an online directory of libraries and tools for Android developers. Get started with Android Arsenal",
+         "url": "https://android-arsenal.com/"
+       },
+ 
+       {
+         "title": "Stetho",
+         "description":"Stetho is a debug bridge for Android applications, enabling the powerful Chrome Developer Tools and much more.",
+         "url": "https://github.com/facebook/stetho"
+       },
+       {
+         "title": "AVD Manager",
+         "description":"The AVD Manager tool is bundled with Android Studio. AVD stands for ‘Android Virtual Device’, so essentially this is an emulator for running Android applications on your PC. This is useful because it means that you can test your apps quickly without having to constantly install them on physical devices.",
+         "url": "https://developer.android.com/studio/run/managing-avds"
+       },
+       {
+         "title": "AIDE",
+         "description":"It would seem that Android developer tools have a fondness for acronyms! AIDE is ‘Android IDE’ and is unique to this list in that it runs on Android. That means that you can create apps using your phone or tablet and then test them right there on that same device.",
+         "url": "http://www.android-ide.com"
+       },
+       {
+         "title": "B4X",
+         "description":"B4A (or Basic for Android) is a lesser known Android development tool from Anywhere Software, focused on ‘rapid’ development. As the name suggests, this is an IDE and interpreter that allows developers to create apps using the BASIC programming language. For those that aren’t familiar with BASIC, it’s essentially a much simpler, procedural programming language that reads closer to regular English. Despite essentially being a one-man project, B4A manages to pack in a lot of useful advanced features, including wireless debugging over Bluetooth, a visual editor for adding and arranging views and more. It’s not free but it’s how I got started on Android and I highly recommend it.",
+         "url": "https://www.b4x.com/"
+       }
+ 
+    ]
+ 
+ }
+ 

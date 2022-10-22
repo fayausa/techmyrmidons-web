@@ -1,0 +1,81 @@
+{
+   "2019": [
+      {
+        "title": "Swift 4.0",
+        "description":"Swift is a powerful and intuitive programming language for iOS apps that builds on the best of C and Objective-C, without the constraints of C compatibility. Swift adopts safe programming patterns and adds modern features to make programming easier, more flexible, and more fun. A Swift 3.0 roadmap was announced on the Swift blog on December 3, 2015. Swift 3.0 is the first major release developed in the open at Swift.org, with source code, a bug tracker, mailing lists, and regular development builds available for everyone.",
+        "url": "https://developer.apple.com/swift/"
+      },
+      {
+        "title": "GIT",
+        "description":"Git is a free distributed version control system. Android Studio comes with Git client. All we need to do is just enable and start using it. As a prerequisite, you need to have Git installed in the local system. Dive deeper into Git at https://source.android.com/source/developing.html",
+        "url": "http://git-scm.com/downloads"
+      },
+      {
+        "title": "Fastlane",
+        "description":"TestFairy is an Android app Beta Testing and Deployment platform that lets the developer know when and how people are using the app, and provides with any metric needed to optimize for better user experience and better code.It paves way for better understanding of how the app performs on real devices. All you need to do is just upload your android build (.apk) file to your TestFairy account and invite the beta testers. Once the users start playing around with the app, you will get to see the reports real time.",
+        "url": "https://testfairy.com/"
+      },
+      {
+        "title": "Testflight",
+        "description":"TestFlight Beta Testing is an Apple product that makes it easy to invite users to test iOS, watchOS and tvOS apps before it is released into the App Store. It is exclusively offered to developers within the iOS Developer Program. The Developers who subscribe for the service can distribute their apps to internal or external beta testers. These testers can in turn send feedback on the apps to the developers, thereby improving the testing time and reaction time. Besides Tester Feedback, the TestFlight SDK also allows the developers to receive remote logs and crash reports of the apps.",
+        "url": "https://developer.apple.com/testflight/"
+      },
+      {
+        "title": "Testfairy",
+        "description":"TestFairy is an Android app Beta Testing and Deployment platform that lets the developer know when and how people are using the app, and provides with any metric needed to optimize for better user experience and better code.It paves way for better understanding of how the app performs on real devices. All you need to do is just upload your android build (.apk) file to your TestFairy account and invite the beta testers. Once the users start playing around with the app, you will get to see the reports real time.",
+        "url": "http://docs.testfairy.com/"
+      },
+      {
+        "title": "CocoaPods",
+        "description":"CocoaPods is a dependency manager for Swift and Objective-C Cocoa projects. Cocoapods shares their credibility over 1.2 million apps and contains over 23 thousand libraries. It can help to scale projects elegantly. Instead of manually importing files via drop and drop when working on an app, Cocoapods automatically analyses all the required framework and aligns it accordingly.",
+        "url": "https://cocoapods.org/"
+      },
+      {
+        "title": "Jenkins",
+        "description":"The leading open source automation server, Jenkins provides hundreds of plugins to support building, deploying and automating any project. There are several factors that supports Jenkins to root their base. Continuous Integration, Continuous Delivery, easy installation and easy configuration are few of its highlights. Jerkins can easily distribute work across different machines.",
+        "url": "https://jenkins.io/"
+      },
+      {
+        "title": "Crashlytics",
+        "description":"Crashlytics is the most secure, powerful and lightweight solution available for mobile crash. Crashlytics holds proven history of their performance benchmarks in hundreds of applications like Yammer, Flydelta and many more. Crashlytics for iOS and tvOS delivers interactive, detailed crash reports in real time. Each and every thread is analysed and prioritized.This helps to list the important ones so you can spend less time finding and more time fixing issues.",
+        "url": "http://try.crashlytics.com/sdk/"
+      },
+      {
+        "title": "BAAS",
+        "description":"Backend as a Service, or BaaS (sometimes referred to as mBaaS) is a cloud computing category that make it easier for developers to setup, use and operate a cloud backend for their mobile, tablet and web apps.It provides web and mobile app developers with a way to link their applications to the cloud storage. They also add features such as user management, push notifications, and integration with social networking services for enhancement. These services are provided through customized Software Development Kits (SDKs) and Application Programming Interfaces (APIs).",
+        "url": "http://opensource.baasbox.com/download/"
+      },
+      {
+        "title": "Core Data",
+        "description":"Core Data is a framework that lets developers store (or retrieve) data in database in an object-oriented manner. With Core Data, you can easily map the objects in your apps to the table in the database. It is the best one to use for non-trivial data storage. It can reduce the memory overhead of your app, increase responsiveness, and save you from writing a lot of boilerplate code.",
+        "url": ""
+      },
+      {
+        "title": "FLURRY",
+        "description":"It is pretty difficult to match an app’s built purpose with customer usage. A proper analytics bridges this gap. Getting started with Flurry SDKs is easy and fast. Flurry helps to measure and analyze activity across your app portfolio to optimize your app experience. By using Flurry Analytics, you can witness an improved in-app purchase rates. It supports your action to serve the customer with confidence.",
+        "url": "https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/ios/"
+      },
+      {
+        "title": "Metal",
+        "description":"Metal is a new fantasy for game developers. It is aimed to push the performance of iOS 8, both on the older A7 processor and the new A8 CPU within the iPhone 6 and iPhone 6 Plus. Inspite of the existence of the new SceneKit for casual game makers, Metal has become popular faster for it’s new features. Metal offers up to 10 times faster draw call rates, which are used to render all objects in a 3D game. It improves the responsiveness of your GPU and the capabilities of your photography, videos and audio amongst other things.",
+        "url": "http://www.trustedreviews.com/opinions/ios-8-metal-explained-how-does-it-affect-your-iphone-or-ipad"
+      },
+      {
+        "title": "SpriteKit",
+        "description":"SpriteKit provides a graphics rendering and animation infrastructure that can be used to animate arbitrary textured images, or sprites. SpriteKit is optimized so that the positions of sprites can be changed arbitrarily in each frame of animation. It also provides other functionality that is useful for games, including basic sound playback support and physics simulation. The combination of framework and tools makes SpriteKit a good choice for games and other apps that require similar kinds of animation.",
+        "url": "https://developer.apple.com/SpriteKit_PG/Introduction/Introduction.html"
+      },
+      {
+        "title": "FIREBASE REALM",
+        "description":"Firebase provides a real-time database and handles authentication among many other interesting features. Developers can now rely on building amazing apps and not worry about their backend. This enables the clients to share one real-time Database instance and automatically receive updates with the newest data.",
+        "url": "https://realm.io/news/360andev-adrian-catalan-firebase-android-realtime-sync/"
+      },
+      {
+        "title": "Alcatraz",
+        "description":"If you’re looking to add on to Xcode, try Alcatraz. It’s a package manager for Xcode that allows you to install additional plug-ins inside your IDE. Alcatraz is only available for OSX 10.9+ and Xcode 5+.",
+        "url": "https://github.com/alcatraz/Alcatraz"
+      }
+
+   ]
+
+}

@@ -14,6 +14,18 @@ const Card = ({ title, desc, img, link = "#", linkText = "Read More" }) => {
       <a href={link}>
         <span className='link-text'>{linkText}</span>
         <span className='link-icon'></span>
+        <svg
+          width='15'
+          height='15'
+          viewBox='0 0 15 15'
+          fill='none'
+          xmlns='http://www.w3.org/2000/svg'
+        >
+          <path
+            d='M12.1711 3.983L2.12965 14.0245L0.47998 12.3748L10.5203 2.33333H1.67115V0H14.5045V12.8333H12.1711V3.983Z'
+            fill='white'
+          />
+        </svg>
       </a>
     </div>
   );
