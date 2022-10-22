@@ -9,15 +9,12 @@
 }
 
 .get_started {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   margin-top: 1rem;
   padding: 16px 32px;
   gap: 4px;
 
-  width: 211px;
-  height: 64px;
+  width: 200px;
+  height: 55px;
 
   background: #000000;
   color: white;
@@ -48,6 +45,43 @@
 
 .fvimage {
   width: 18rem;
+}
+
+.ev_heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.75rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 4rem;
+}
+
+.explore_view {
+  margin: 2rem;
+}
+
+.ev_tagline {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #000000;
+  margin-top: 0.25rem;
+}
+
+.search_button {
+  margin-top: 1rem;
+  padding: 16px 32px;
+  gap: 4px;
+
+  width: 200px;
+  height: 55px;
+
+  background-color: white;
+  border-radius: 84.5px;
+  border: none;
+  border: 1px solid #000000;
+  font-size: 1.15rem;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -83,5 +117,21 @@
 
   .fvimage {
     width: 28rem;
+  }
+
+  .explore_view {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ev_heading {
+    font-size: 3.25rem;
+  }
+
+  .ev_tagline {
+    font-size: 1.5rem;
   }
 }

@@ -22,6 +22,16 @@ const Landing = () => {
           </div>
         </div>
       </div>
+
+      <div className={styles.explore_view_container}>
+        <div className={styles.explore_view}>
+          <p className={styles.ev_heading}>Domains To Explore</p>
+          <p className={styles.ev_tagline}>
+            The best guide for you to start the next world
+          </p>
+          <button className={styles.search_button}>Search Now</button>
+        </div>
+      </div>
     </div>
   );
 };
