@@ -47,6 +47,8 @@ const Landing = () => {
           <Card image="/assets/landing/qa.png" name="QA" />
         </div>
       </div>
+
+      <div className={styles.cw_text}>© Copyright 2022 Tech Myrmidons</div>
     </div>
   );
 };
