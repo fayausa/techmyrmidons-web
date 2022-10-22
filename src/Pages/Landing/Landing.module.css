@@ -116,12 +116,19 @@
   .fv_heading {
     font-size: 6rem;
     line-height: 6rem;
+    text-align: left;
   }
 
   .fv_tagline {
     font-size: 1.5rem;
     margin-top: 1rem;
     line-height: 2rem;
+    text-align: left;
+  }
+
+  .get_started {
+    margin: 0;
+    margin-top: 1rem;
   }
 
   .first_view_container {
@@ -165,6 +172,7 @@
     margin: 2rem;
     margin-top: 4rem;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
