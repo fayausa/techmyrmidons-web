@@ -41,9 +41,19 @@ h1 {
   background: url(../assets/common/search.svg) no-repeat center center;
 }
 
+section {
+  margin: 5rem 0;
+}
+
 /* Main cards */
 .cards-wrapper {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 5rem;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 4.8rem;
+  margin-bottom: 3rem;
 }
