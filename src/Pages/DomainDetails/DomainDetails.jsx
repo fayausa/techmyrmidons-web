@@ -13,19 +13,18 @@ import Domains from "../../data/home.json";
 const DomainDetails = () => {
   let { id } = useParams();
   const [domain, setDomain] = useState();
+  const [years, setYears] = useState();
+
   useEffect(() => {
     setDomain(
       Domains.home.filter(function (domain) {
         return domain.folderName === id;
       })
     );
+    import(`../../data/${id}/years.json`).then((response) =>
+      setYears(response.years)
+    );
   }, []);
-
-  let data = Domains.home.filter(function (domain) {
-    return domain.folderName === id;
-  });
-
-  console.log(data);
 
   if (domain) {
     return (
@@ -46,6 +45,12 @@ const DomainDetails = () => {
         <main>
           <section id={styles.topics}>
             <div className={styles.container}>
+              <div className={styles.years}>
+                {years &&
+                  years.map((year) => (
+                    <p className={styles.year}>{year.year}</p>
+                  ))}
+              </div>
               <div className={styles.cards_wrapper}>
                 {Topics2021["2021"].map((topic) => (
                   <Card
