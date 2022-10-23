@@ -13,6 +13,13 @@ import Domains from "../../data/home.json";
 const DomainDetails = () => {
   let { id } = useParams();
   const [domain, setDomain] = useState();
+  useEffect(() => {
+    setDomain(
+      Domains.home.filter(function (domain) {
+        return domain.folderName === id;
+      })
+    );
+  }, []);
 
   let data = Domains.home.filter(function (domain) {
     return domain.folderName === id;
@@ -20,12 +27,12 @@ const DomainDetails = () => {
 
   console.log(data);
 
-  if (data && data.folderName) {
+  if (domain) {
     return (
       <>
         <header>
           <div className={styles.container}>
-            <h1>Android Myrmidon</h1>
+            <h1>{domain && domain[0].technology} Myrmidon</h1>
             <p className={styles.tagline}>
               The best guide for you to start the next world Search Now
             </p>
