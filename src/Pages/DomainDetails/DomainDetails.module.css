@@ -63,11 +63,27 @@ h1 {
   text-align: center;
 }
 
+.topics {
+  transition: 0.2s ease-in-out all;
+}
+
 .years {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
+}
+
+.year_active {
+  align-items: center;
+  padding: 16px 32px;
+  gap: 4px;
+
+  background: #000000;
+  border-radius: 84.5px;
+  margin-right: 1rem;
+  color: white;
+  transition: 0.2s ease-in-out all;
 }
 
 .year {

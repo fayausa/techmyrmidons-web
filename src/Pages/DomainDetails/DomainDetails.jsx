@@ -15,6 +15,7 @@ const DomainDetails = () => {
   const [domain, setDomain] = useState();
   const [years, setYears] = useState();
   const [year, setYear] = useState();
+  const [localyear, setLocalYear] = useState();
   const [tools, setTools] = useState();
 
   const [blogs, setBlogs] = useState();
@@ -42,6 +43,10 @@ const DomainDetails = () => {
   useEffect(() => {
     setYear(years && years[0].year);
   }, [years]);
+
+  useEffect(() => {
+    setLocalYear(year);
+  }, [year]);
 
   useEffect(() => {
     import(`../../data/${id}/${year}.json`).then((response) =>
@@ -73,7 +78,11 @@ const DomainDetails = () => {
                   years.map((year) => (
                     <p
                       onClick={() => setYear(year.year)}
-                      className={styles.year}
+                      className={
+                        localyear === year.year
+                          ? styles.year_active
+                          : styles.year
+                      }
                     >
                       {year.year}
                     </p>
@@ -92,8 +101,7 @@ const DomainDetails = () => {
               {/* <SectionBtn /> */}
             </div>
           </section>
-
-          <section id={"blogs"}>
+          <section id={styles.blogs}>
             <div className={styles.container}>
               <h2 className={styles.section_title}>Blogs to follow</h2>
               <div className={styles.cards_wrapper}>
