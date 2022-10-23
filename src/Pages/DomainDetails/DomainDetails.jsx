@@ -18,6 +18,7 @@ const DomainDetails = () => {
   const [tools, setTools] = useState();
 
   const [blogs, setBlogs] = useState();
+  const [people, setPeople] = useState();
 
   useEffect(() => {
     setDomain(
@@ -32,9 +33,11 @@ const DomainDetails = () => {
     import(`../../data/${id}/blog.json`).then((response) => {
       setBlogs(response["blog"]);
     });
-  }, []);
 
-  console.log(blogs);
+    import(`../../data/${id}/follow.json`).then((response) => {
+      setPeople(response["follow"]);
+    });
+  }, []);
 
   useEffect(() => {
     setYear(years && years[0].year);
@@ -106,13 +109,15 @@ const DomainDetails = () => {
             <div className={styles.container}>
               <h2 className={styles.section_title}>People to follow</h2>
               <div className={styles.cards_wrapper}>
-                {People.follow.map((person) => (
-                  <Card
-                    photo={person.photo}
-                    linkText={person.name}
-                    link={person.followLink}
-                  />
-                ))}
+                {people &&
+                  people.map((person) => (
+                    <Card
+                      id={id}
+                      photo={person.photo}
+                      linkText={person.name}
+                      link={person.followLink}
+                    />
+                  ))}
               </div>
             </div>
           </section>

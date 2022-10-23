@@ -1,12 +1,19 @@
 import "./Card.css";
 
-const Card = ({ title, desc, photo, link = "#", linkText = "Read More" }) => {
+const Card = ({
+  id,
+  title,
+  desc,
+  photo,
+  link = "#",
+  linkText = "Read More",
+}) => {
   return (
     <div className="topic-card">
       {photo && (
         <div className="img-wrapper">
           <img
-            src={require(`../../../data/android/images/${photo}`)}
+            src={require(`../../../data/${id}/images/${photo}`)}
             onError={({ currentTarget }) => {
               currentTarget.onerror = null;
               currentTarget.src = require("../../../assets/common/avatar.jpg");
