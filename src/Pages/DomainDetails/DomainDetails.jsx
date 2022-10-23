@@ -38,7 +38,7 @@ const DomainDetails = () => {
           </div>
         </section>
 
-        <section id="blogs">
+        <section id={"blogs"}>
           <div className={styles.container}>
             <h2 className={styles.section_title}>Blogs to follow</h2>
             <div className={styles.cards_wrapper}>

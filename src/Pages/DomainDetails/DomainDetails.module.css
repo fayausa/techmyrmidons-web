@@ -3,23 +3,25 @@ header {
 }
 
 .container {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  max-width: 1200px;
+  margin: 2rem;
 }
 
 h1 {
-  margin-top: 3.125rem;
-  font-size: 3.125rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 3.25rem;
   font-weight: 600;
+  line-height: 4rem;
+  letter-spacing: -0.03em;
+  text-align: center;
 }
 
 .tagline {
-  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
   font-weight: 300;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .search {
@@ -41,21 +43,45 @@ h1 {
   background: url(../../assets/common/search.svg) no-repeat center center;
 }
 
-section {
+/* section {
   margin: 3.125rem 0 3.125rem 0;
-}
+} */
 
 /* Main cards */
 .cards_wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3.125rem;
-  width: 100%;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section_title {
   font-weight: 600;
   font-size: 3rem;
-  margin-bottom: 1.875rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Main cards */
+
+@media only screen and (min-width: 768px) {
+  .cards_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }

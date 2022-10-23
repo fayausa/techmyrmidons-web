@@ -7,7 +7,8 @@
   background: #ffffff;
   box-shadow: 8px 8px 28px rgb(0 0 0 / 12%);
   border-radius: 0.615.625rem;
-  max-width: 15.625rem;
+  max-width: 20rem;
+  margin: 1rem 0;
 }
 
 .img-wrapper {
@@ -57,4 +58,10 @@
   position: absolute;
   right: -1.7rem;
   bottom: 0.3rem;
+}
+
+@media only screen and (min-width: 1000px) {
+  .topic-card {
+    margin: 1rem;
+  }
 }
