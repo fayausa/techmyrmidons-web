@@ -130,7 +130,11 @@ const DomainDetails = () => {
               <div className={styles.cards_wrapper}>
                 {blogs &&
                   blogs.map((blog) => (
-                    <Card title={blog.author} linkText={blog.link} />
+                    <Card
+                      title={blog.author}
+                      linkText={blog.link}
+                      link={blog.blog}
+                    />
                   ))}
               </div>
               {/* <SectionBtn /> */}
