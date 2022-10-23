@@ -18,6 +18,11 @@ body.active-modal {
   right: 0;
   bottom: 0;
   position: fixed;
+  z-index: 0;
+}
+
+.modal-content a {
+  font-weight: 800;
 }
 
 .heading,
