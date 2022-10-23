@@ -1,5 +1,5 @@
 header {
-  padding: 8rem 0;
+  padding: 3.125rem 0;
 }
 
 .container {
@@ -12,29 +12,29 @@ header {
 }
 
 h1 {
-  margin-top: 5rem;
-  font-size: 5rem;
+  margin-top: 3.125rem;
+  font-size: 3.125rem;
   font-weight: 600;
 }
 
 .tagline {
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
 .search {
   align-items: center;
   border: 1px solid #000000;
-  border-radius: 5rem;
+  border-radius: 3.125rem;
   display: flex;
   flex-direction: row;
-  margin: 2rem auto;
+  margin: 1.25rem auto;
   max-width: 40rem;
-  padding: 1.5rem 4rem;
+  padding: 0.93rem 2.5rem;
 }
 
 .search input {
-  font-size: 2.4rem;
+  font-size: 1.5rem;
 }
 
 .search button {
@@ -42,20 +42,20 @@ h1 {
 }
 
 section {
-  margin: 5rem 0 5rem 0;
+  margin: 3.125rem 0 3.125rem 0;
 }
 
 /* Main cards */
 .cards_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5rem;
+  grid-gap: 3.125rem;
   width: 100%;
   justify-content: space-between;
 }
 
 .section_title {
   font-weight: 600;
-  font-size: 4.8rem;
-  margin-bottom: 3rem;
+  font-size: 3rem;
+  margin-bottom: 1.875rem;
 }
