@@ -1,9 +1,13 @@
+import Navbar from './Components/Navbar/Navbar.jsx'
+import React from "react";
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
-        <p>Tech Myrmidons</p>
+        <p>Android Myrmidons</p>
       </header>
+
     </div>
   );
 }
