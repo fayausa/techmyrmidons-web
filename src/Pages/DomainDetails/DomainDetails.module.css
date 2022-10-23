@@ -43,6 +43,15 @@ h1 {
   background: url(../../assets/common/search.svg) no-repeat center center;
 }
 
+.cw_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
 /* section {
   margin: 3.125rem 0 3.125rem 0;
 } */

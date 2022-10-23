@@ -130,6 +130,8 @@ const DomainDetails = () => {
             </div>
           </section>
         </main>
+
+        <div className={styles.cw_text}>© Copyright 2022 Tech Myrmidons</div>
       </>
     );
   } else {

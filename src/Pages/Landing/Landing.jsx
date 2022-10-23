@@ -19,7 +19,9 @@ const Landing = () => {
             <p className={styles.fv_tagline}>
               Follow the Techmyrmidons and stay updated in the latest Technology
             </p>
-            <button className={styles.get_started}>Get Started</button>
+            <a href="#cards">
+              <span className={styles.get_started}>Get Started </span>
+            </a>
           </div>
         </div>
       </div>
@@ -30,22 +32,50 @@ const Landing = () => {
           <p className={styles.ev_tagline}>
             The best guide for you to start the next world
           </p>
-          <button className={styles.search_button}>Search Now</button>
+          {/* <button className={styles.search_button}>Search Now</button> */}
         </div>
       </div>
 
       <div className={styles.cards_view_container}>
-        <div className={styles.cards_view}>
-          <Card image="/assets/landing/android.png" name="Android" />
-          <Card image="/assets/landing/ios.png" name="iOS" />
-          <Card image="/assets/landing/devops.png" name="DevOps" />
-          <Card image="/assets/landing/frontend.png" name="Front-End" />
-          <Card image="/assets/landing/backend.png" name="Back-End" />
-          <Card image="/assets/landing/blockchain.png" name="Blockchain" />
-          <Card image="/assets/landing/ai.png" name="Articial Intelligence" />
-          <Card image="/assets/landing/arvr.png" name="AR/VR" />
-          <Card image="/assets/landing/google.png" name="Actions On Google" />
-          <Card image="/assets/landing/qa.png" name="QA" />
+        <div id="cards" className={styles.cards_view}>
+          <Card
+            image="/assets/landing/android.png"
+            name="Android"
+            link="/android"
+          />
+          <Card image="/assets/landing/ios.png" name="iOS" link="/ios" />
+          <Card
+            image="/assets/landing/devops.png"
+            name="DevOps"
+            link="/android"
+          />
+          <Card
+            image="/assets/landing/frontend.png"
+            name="Front-End"
+            link="/frontend"
+          />
+          {/* <Card
+            image="/assets/landing/backend.png"
+            name="Back-End"
+            link="/android"
+          /> */}
+          <Card
+            image="/assets/landing/blockchain.png"
+            name="Blockchain"
+            link="/blockchain"
+          />
+          <Card
+            image="/assets/landing/ai.png"
+            name="Articial Intelligence"
+            link="/ai"
+          />
+          <Card image="/assets/landing/arvr.png" name="AR/VR" link="/arvr" />
+          <Card
+            image="/assets/landing/google.png"
+            name="Actions On Google"
+            link="/actions-on-google"
+          />
+          <Card image="/assets/landing/qa.png" name="QA" link="/qa" />
         </div>
       </div>
 
