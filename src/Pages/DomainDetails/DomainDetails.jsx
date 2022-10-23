@@ -14,6 +14,8 @@ const DomainDetails = () => {
   let { id } = useParams();
   const [domain, setDomain] = useState();
   const [years, setYears] = useState();
+  const [year, setYear] = useState();
+  const [tools, setTools] = useState();
 
   useEffect(() => {
     setDomain(
@@ -25,6 +27,14 @@ const DomainDetails = () => {
       setYears(response.years)
     );
   }, []);
+
+  const getTools = (year) => {};
+
+  useEffect(() => {
+    import(`../../data/${id}/${year}.json`).then((response) =>
+      setTools(response[year])
+    );
+  }, [year, tools]);
 
   if (domain) {
     return (
@@ -48,17 +58,23 @@ const DomainDetails = () => {
               <div className={styles.years}>
                 {years &&
                   years.map((year) => (
-                    <p className={styles.year}>{year.year}</p>
+                    <p
+                      onClick={() => setYear(year.year)}
+                      className={styles.year}
+                    >
+                      {year.year}
+                    </p>
                   ))}
               </div>
               <div className={styles.cards_wrapper}>
-                {Topics2021["2021"].map((topic) => (
-                  <Card
-                    title={topic.title}
-                    desc={topic.description}
-                    link={topic.url}
-                  />
-                ))}
+                {tools &&
+                  tools.map((tool) => (
+                    <Card
+                      title={tool.title}
+                      desc={tool.description}
+                      link={tool.url}
+                    />
+                  ))}
               </div>
               <SectionBtn />
             </div>
