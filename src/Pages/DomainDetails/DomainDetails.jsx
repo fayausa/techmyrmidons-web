@@ -17,6 +17,8 @@ const DomainDetails = () => {
   const [year, setYear] = useState();
   const [tools, setTools] = useState();
 
+  const [blogs, setBlogs] = useState();
+
   useEffect(() => {
     setDomain(
       Domains.home.filter(function (domain) {
@@ -26,7 +28,13 @@ const DomainDetails = () => {
     import(`../../data/${id}/years.json`).then((response) =>
       setYears(response.years)
     );
+
+    import(`../../data/${id}/blog.json`).then((response) => {
+      setBlogs(response["blog"]);
+    });
   }, []);
+
+  console.log(blogs);
 
   useEffect(() => {
     setYear(years && years[0].year);
@@ -78,7 +86,7 @@ const DomainDetails = () => {
                     />
                   ))}
               </div>
-              <SectionBtn />
+              {/* <SectionBtn /> */}
             </div>
           </section>
 
@@ -86,32 +94,12 @@ const DomainDetails = () => {
             <div className={styles.container}>
               <h2 className={styles.section_title}>Blogs to follow</h2>
               <div className={styles.cards_wrapper}>
-                <Card
-                  title="We've officially released our new app. meh!"
-                  linkText="Read Now"
-                />
-                <Card
-                  title="We've officially released our new app. meh!"
-                  linkText="Read Now"
-                />
-                <Card
-                  title="We've officially released our new app. meh!"
-                  linkText="Read Now"
-                />
-                <Card
-                  title="We've officially released our new app. meh!"
-                  linkText="Read Now"
-                />
-                <Card
-                  title="We've officially released our new app. meh!"
-                  linkText="Read Now"
-                />
-                <Card
-                  title="We've officially released our new app. meh!"
-                  linkText="Read Now"
-                />
+                {blogs &&
+                  blogs.map((blog) => (
+                    <Card title={blog.author} linkText={blog.link} />
+                  ))}
               </div>
-              <SectionBtn />
+              {/* <SectionBtn /> */}
             </div>
           </section>
           <section id={styles.people}>
