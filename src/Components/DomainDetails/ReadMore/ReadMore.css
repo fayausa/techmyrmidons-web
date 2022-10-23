@@ -31,6 +31,10 @@ body.active-modal {
   margin: 1rem 0;
 }
 
+a p.link {
+  font-weight: 500;
+}
+
 .overlay {
   background: rgba(49, 49, 49, 0.8);
 }
