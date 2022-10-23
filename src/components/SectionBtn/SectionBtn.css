@@ -1,0 +1,17 @@
+.section-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  gap: 1rem;
+  background: black;
+  margin: 3rem auto;
+  border-radius: 5rem;
+}
+
+.section-btn {
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.5;
+}

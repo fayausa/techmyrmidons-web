@@ -1,11 +1,15 @@
-import Landing from "./Pages/Landing/Landing";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import DomainDetails from "./DomainDetails/DomainDetails";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Landing />
-      </header>
+      <Router>
+        <Routes>
+          <Route path="/domain" element={<DomainDetails />} />
+        </Routes>
+        </Router>
     </div>
   );
 }

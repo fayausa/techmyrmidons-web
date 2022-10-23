@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+  border: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  background: rgb(255, 255, 255);
+  background-image: linear-gradient(#0000000d 0.1em, transparent 0.1em),
+    linear-gradient(90deg, #0000000d 0.1em, transparent 0.1em);
+  background-size: 6em 6em;
+}
+
+a {
+  color: rgb(0, 7, 56);
+  text-decoration: none;
+}
