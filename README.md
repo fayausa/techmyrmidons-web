@@ -1,3 +1,3 @@
-# GTech µLearn
+# Tech Myrmidons
 
-![GTech µLearn Logo](public/assets/tm-logo.png)
+![Tech Myrmidons](public/assets/tm-logo.png)
