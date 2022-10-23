@@ -35,12 +35,10 @@ h1 {
   padding: 0.93rem 2.5rem;
 }
 
-.search input {
-  font-size: 1.5rem;
-}
-
-.search button {
-  background: url(../../assets/common/search.svg) no-repeat center center;
+.search {
+  font-size: 1rem;
+  width: 20rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .cw_text {

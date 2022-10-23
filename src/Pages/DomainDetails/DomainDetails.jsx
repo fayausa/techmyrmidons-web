@@ -17,6 +17,9 @@ const DomainDetails = () => {
   const [year, setYear] = useState();
   const [localyear, setLocalYear] = useState();
   const [tools, setTools] = useState();
+  const [localtools, setLocalTools] = useState();
+
+  const [search, setSearch] = useState("");
 
   const [blogs, setBlogs] = useState();
   const [people, setPeople] = useState();
@@ -27,6 +30,7 @@ const DomainDetails = () => {
         return domain.folderName === id;
       })
     );
+
     import(`../../data/${id}/years.json`).then((response) =>
       setYears(response.years)
     );
@@ -41,6 +45,16 @@ const DomainDetails = () => {
   }, []);
 
   useEffect(() => {
+    let result =
+      tools &&
+      tools.filter((f) =>
+        f.title.toLowerCase().startsWith(search.toLowerCase())
+      );
+    setLocalTools(result);
+    console.log(result);
+  }, [search]);
+
+  useEffect(() => {
     setYear(years && years[0].year);
   }, [years]);
 
@@ -49,10 +63,14 @@ const DomainDetails = () => {
   }, [year]);
 
   useEffect(() => {
+    setSearch("");
     import(`../../data/${id}/${year}.json`).then((response) =>
       setTools(response[year])
     );
-  }, [year, tools]);
+    import(`../../data/${id}/${year}.json`).then((response) =>
+      setLocalTools(response[year])
+    );
+  }, [year]);
 
   if (domain) {
     return (
@@ -63,10 +81,13 @@ const DomainDetails = () => {
             <p className={styles.tagline}>
               The best guide for you to start the next world Search Now
             </p>
-            <form action="" className={styles.search}>
-              <button type="submit"></button>
-              <input type="text" placeholder="Search Now" />
-            </form>
+
+            <input
+              className={styles.search}
+              type="text"
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search Now"
+            />
           </div>
         </header>
 
@@ -89,8 +110,8 @@ const DomainDetails = () => {
                   ))}
               </div>
               <div className={styles.cards_wrapper}>
-                {tools &&
-                  tools.map((tool) => (
+                {localtools &&
+                  localtools.map((tool) => (
                     <Card
                       title={tool.title}
                       desc={tool.description}
