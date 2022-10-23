@@ -28,7 +28,9 @@ const DomainDetails = () => {
     );
   }, []);
 
-  const getTools = (year) => {};
+  useEffect(() => {
+    setYear(years && years[0].year);
+  }, [years]);
 
   useEffect(() => {
     import(`../../data/${id}/${year}.json`).then((response) =>
