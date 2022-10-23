@@ -56,10 +56,11 @@ h1 {
 
 /* Main cards */
 .cards_wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: grid;
   align-items: center;
+  justify-items: center;
+  grid-gap: 2rem;
+  align-items: stretch;
 }
 
 .section_title {
@@ -111,11 +112,7 @@ h1 {
 
 @media only screen and (min-width: 768px) {
   .cards_wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -127,5 +124,8 @@ h1 {
     justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
+  }
+  .cards_wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

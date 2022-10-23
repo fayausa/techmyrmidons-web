@@ -7,8 +7,9 @@
   background: #ffffff;
   box-shadow: 8px 8px 28px rgb(0 0 0 / 12%);
   border-radius: 0.615.625rem;
-  width: 20rem;
-  margin: 1rem 0;
+  max-width: 20rem;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .img-wrapper {
