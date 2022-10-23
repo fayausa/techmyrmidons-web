@@ -7,22 +7,22 @@ import { Link } from "react-router-dom";
 const Landing = () => {
   return (
     <>
-      <nav>
-        <Link to="/">
-          <img
-            src="/assets/tm-logo.png"
-            className="Navbar_image"
-            alt="logo"
-          ></img>
-        </Link>
-        <ul>
-          <li>
-            <a href="#cards">Domains</a>
-          </li>
-        </ul>
-      </nav>
       <div className={styles.main_container}>
         <div className={styles.first_view_container}>
+          <nav>
+            <Link to="/">
+              <img
+                src="/assets/tm-logo.png"
+                className="Navbar_image"
+                alt="logo"
+              ></img>
+            </Link>
+            <ul>
+              <li>
+                <a href="#cards">Domains</a>
+              </li>
+            </ul>
+          </nav>
           <div className={styles.first_view}>
             <div className={styles.image_container}>
               <img

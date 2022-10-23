@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import Card from "../../Components/DomainDetails/Card/Card";
 import SectionBtn from "../../Components/DomainDetails/SectionBtn/SectionBtn";
 
-import Navbar from "../../Components/Navbar/Navbar"
+import Navbar from "../../Components/Navbar/Navbar";
 import { useEffect, useState } from "react";
 
 import Domains from "../../data/home.json";
@@ -74,7 +74,9 @@ const DomainDetails = () => {
   if (domain) {
     return (
       <>
-        <Navbar />
+        <div className={styles.navbar_container}>
+          <Navbar />
+        </div>
         <header>
           <div className={styles.container}>
             <h1>{domain && domain[0].technology} Myrmidon</h1>
