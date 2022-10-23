@@ -2,9 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
 }
-
 
 header {
   padding: 3.125rem 0;
@@ -135,5 +133,10 @@ h1 {
   }
   .cards_wrapper {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .navbar_container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
