@@ -38,7 +38,7 @@ h1 {
 }
 
 .search button {
-  background: url(../assets/common/search.svg) no-repeat center center;
+  background: url(../../assets/common/search.svg) no-repeat center center;
 }
 
 section {
@@ -46,7 +46,7 @@ section {
 }
 
 /* Main cards */
-.cards-wrapper {
+.cards_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5rem;
@@ -54,7 +54,7 @@ section {
   justify-content: space-between;
 }
 
-.section-title {
+.section_title {
   font-weight: 600;
   font-size: 4.8rem;
   margin-bottom: 3rem;

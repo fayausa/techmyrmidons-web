@@ -1,21 +1,21 @@
-import "./DomainDetails.css";
+import styles from "./DomainDetails.module.css";
 
-import Card from "../components/Card/Card";
-import SectionBtn from "../components/SectionBtn/SectionBtn";
+import Card from "../../Components/DomainDetails/Card/Card";
+import SectionBtn from "../../Components/DomainDetails/SectionBtn/SectionBtn";
 
-import Topics2021 from "../data/android/2021.json";
-import People from "../data/android/follow.json";
+import Topics2021 from "../../data/android/2021.json";
+import People from "../../data/android/follow.json";
 
 const DomainDetails = () => {
   return (
     <>
       <header>
-        <div className="container">
+        <div className={styles.container}>
           <h1>Android Myrmidon</h1>
-          <p className="tagline">
+          <p className={styles.tagline}>
             The best guide for you to start the next world Search Now
           </p>
-          <form action="" className="search">
+          <form action="" className={styles.search}>
             <button type="submit"></button>
             <input type="text" placeholder="Search Now" />
           </form>
@@ -23,9 +23,9 @@ const DomainDetails = () => {
       </header>
 
       <main>
-        <section id="topics">
-          <div className="container">
-            <div className="cards-wrapper">
+        <section id={styles.topics}>
+          <div className={styles.container}>
+            <div className={styles.cards_wrapper}>
               {Topics2021["2021"].map((topic) => (
                 <Card
                   title={topic.title}
@@ -39,9 +39,9 @@ const DomainDetails = () => {
         </section>
 
         <section id="blogs">
-          <div className="container">
-            <h2 className="section-title">Blogs to follow</h2>
-            <div className="cards-wrapper">
+          <div className={styles.container}>
+            <h2 className={styles.section_title}>Blogs to follow</h2>
+            <div className={styles.cards_wrapper}>
               <Card
                 title="We've officially released our new app. meh!"
                 linkText="Read Now"
@@ -70,10 +70,10 @@ const DomainDetails = () => {
             <SectionBtn />
           </div>
         </section>
-        <section id="people">
-          <div className="container">
-            <h2 className="section-title">People to follow</h2>
-            <div className="cards-wrapper">
+        <section id={styles.people}>
+          <div className={styles.container}>
+            <h2 className={styles.section_title}>People to follow</h2>
+            <div className={styles.cards_wrapper}>
               {People.follow.map((person) => (
                 <Card
                   photo={person.photo}
