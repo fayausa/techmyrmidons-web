@@ -4,8 +4,7 @@ import { useParams } from "react-router-dom";
 import Card from "../../Components/DomainDetails/Card/Card";
 import SectionBtn from "../../Components/DomainDetails/SectionBtn/SectionBtn";
 
-import Topics2021 from "../../data/android/2021.json";
-import People from "../../data/android/follow.json";
+import Navbar from "../../Components/Navbar/Navbar"
 import { useEffect, useState } from "react";
 
 import Domains from "../../data/home.json";
@@ -75,6 +74,7 @@ const DomainDetails = () => {
   if (domain) {
     return (
       <>
+        <Navbar />
         <header>
           <div className={styles.container}>
             <h1>{domain && domain[0].technology} Myrmidon</h1>
@@ -92,7 +92,7 @@ const DomainDetails = () => {
         </header>
 
         <main>
-          <section id={styles.topics}>
+          <section id="topics">
             <div className={styles.container}>
               <div className={styles.years}>
                 {years &&
@@ -122,7 +122,7 @@ const DomainDetails = () => {
               {/* <SectionBtn /> */}
             </div>
           </section>
-          <section id={styles.blogs}>
+          <section id="blogs">
             <div className={styles.container}>
               <h2 className={styles.section_title}>Blogs to follow</h2>
               <div className={styles.cards_wrapper}>
@@ -134,7 +134,7 @@ const DomainDetails = () => {
               {/* <SectionBtn /> */}
             </div>
           </section>
-          <section id={styles.people}>
+          <section id="people">
             <div className={styles.container}>
               <h2 className={styles.section_title}>People to follow</h2>
               <div className={styles.cards_wrapper}>
