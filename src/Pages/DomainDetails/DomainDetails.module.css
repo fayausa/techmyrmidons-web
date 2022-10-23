@@ -103,6 +103,8 @@ h1 {
 
   margin-right: 1rem;
   color: #000000;
+
+  cursor: pointer;
 }
 
 /* Main cards */
