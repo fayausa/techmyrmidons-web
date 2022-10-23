@@ -1,0 +1,44 @@
+  {
+    "blog": [
+
+  {
+    "blog": "https://blog.blockchain.com//",
+    "author": "BLOCKCHAIN TEAM"
+  },
+
+  {
+    "blog": "https://www.ibm.com/blogs/blockchain/",
+    "author": "Blockchain Unleashed"
+  },
+
+  {
+    "blog": "https://www.myblockchainblog.com/",
+    "author": "Vegard Nordahl & Meghana Rao"
+  },
+
+  {
+    "blog": "https://azure.microsoft.com/en-us/blog/topics/blockchain/",
+    "author": "AZZURE TEAM"
+  },
+
+  {
+    "blog": "https://blockchainatberkeley.blog/",
+    "author": "Blockchain at Berkeley "
+  },
+
+  {
+    "blog": "https://www.technologyreview.com/newsletters/chain-letter/",
+    "author": "Chain Letter"
+  },
+
+  {
+    "blog": "http://coindesk.com/",
+    "author": "CoinDesk"
+  },
+
+  {
+    "blog": "https://hackernoon.com/",
+    "author": "Hackernoon"
+  }
+  ]
+}

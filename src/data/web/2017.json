@@ -1,0 +1,144 @@
+{
+   "2017": [
+      {
+        "title": "PHP 7.0.6",
+        "description":"PHP is a popular general purpose programming language. The concept is now polished to as server-side scripting language designed primarily for web development. During 2014 and 2015, a new major PHP version was developed, which was numbered PHP 7. The original, only complete and most widely used PHP implementation is powered by the Zend Engine and known simply as PHP.",
+        "url": "http://php.net/downloads.php",
+        "morelink": "php"
+      },
+
+      {
+        "title": "Sublime text 3 (beta)",
+        "description":"Sublime Text is a sophisticated text editor for code, markup and prose. The slick user interface, extraordinary features and amazing performance are the most loved among the users. The first beta of Sublime Text 3 is now available to download for registered users.The most popular added features include Symbol Indexing, Pane management,Speed, API.",
+        "url": "https://www.sublimetext.com/3",
+        "morelink": "sublime"
+      },
+
+      {
+        "title": "PDT 3.7",
+        "description":"PHP Development Tools (PDT) encompasses the development components necessary to develop PHP-based Web Applications and facilitates extensibility. It leverages the existing Web Tools Project in providing developers with PHP capabilities. PDT 3.7.0 will improve PHP 7 support. It provides improvements in performance, usability and consistency. The PDT source code is contained in the org.eclipse.pdt.git repo and for this release is tagged R3_7_0.",
+        "url": "https://eclipse.org/pdt/#download",
+        "morelink": "pdt"
+      },
+
+      {
+        "title": "Zend",
+        "description":"Zend Framework is a collection of professional PHP packages with more than 76 million installations. It can be used to develop web applications and services using PHP 5.6+, and provides 100% object-oriented code using a broad spectrum of language features.Zend Framework 3 evolved from both Zend Framework 2 and 1.",
+        "url": "http://www.zend.com/en/downloads",
+        "morelink": "zend"
+      },
+
+      {
+        "title": "Laravel 5.3",
+        "description":"Laravel is a free, open-source PHP web framework intended for the development of web applications following the model–view–controller (MVC) architectural pattern. Its modular packaging system with a dedicated dependency manager, different ways for accessing relational databases, utilities that aid in application deployment and maintenance has made it popular among the developers. Laravel 5.3 continues the improvements made in Laravel 5.2 by adding a driver based notification system, robust realtime support via Laravel Echo, painless OAuth2 servers via Laravel Passport, full-text model searching via Laravel Scout, explicit separation of web and api routes, single-action controllers, improved default frontend scaffolding, and many more.",
+        "url": "http://learninglaravel.net/laravel-52-is-released",
+        "morelink": "Laravel"
+      },
+
+      {
+        "title": "Symfony 3.0",
+        "description":"Symfony is a set of PHP Components, a Web Application framework, a Philosophy, and a Community — all working together in harmony. Symfony 3.0 is a more standard version than Symfony 2.x. They fixes architectural mistakes and are more decoupled and usable.",
+        "url": "http://symfony.com/what-is-symfony",
+        "morelink": "Symfony"
+      },
+
+      {
+        "title": "Codeigniter 3.1.2",
+        "description":"CodeIgniter is an Application Development Framework - a toolkit - for people who build full-featured web applications using PHP. CodeIgniter project developments are set much faster and minimizes the amount of code needed for a given task. It provides a large number of classes that are included for working with different objects: calendar, database, email, image editing, FTP, language, tables, sessions, ZIP compression, etc.",
+        "url": "https://www.codeigniter.com/",
+        "morelink": "Codeigniter"
+      },
+
+      {
+        "title": "CakePHP 3.3",
+        "description":"CakePHP is an open-source web framework written in PHP that follows the model–view–controller (MVC) approach and modeled after the concepts of Ruby on Rails, and distributed under the MIT License. It makes building web applications simpler and faster, while requiring less code. A modern PHP 5.5+ framework offering a flexible database access layer and a powerful scaffolding system that makes building both small and complex systems simpler and easier. It will run on a variety of web servers such as NGINX, LightHTTPD, or Microsoft IIS.",
+        "url": "https://cakephp.org/",
+        "morelink": "CakePHP"
+      },
+
+      {
+        "title": "Apigility 1.3.3",
+        "description":"Apigility supports you in building APIs that enable mobile apps, developer communities, and any other consumer controlled access to your applications. It is designed to simplify the creation and maintenance of useful, easy to consume, and well structured application programming interfaces (APIs). They use technologies like Zend Framework , Bootstrap , jQuery , AngularJS.",
+        "url": "https://apigility.org/documentation",
+        "morelink": "Apigility"
+      },
+
+      {
+        "title": "Postman",
+        "description":"Postman is the swiss army knife of API tools. This allows you to design, build, test, document and monitor your services, all in one place. Postman is available as a Chrome browser plugin, but now it is a stand alone application which requires download. It is also a free tool that helps you be more efficient while working with APIs.",
+        "url": "https://www.getpostman.com/docs/",
+        "morelink": "Postman"
+      },
+
+      {
+        "title": "Composer",
+        "description":"Composer is an application-level package manager for the PHP programming language. It provides a standard format for managing dependencies of PHP software and required libraries. It allows you to declare the libraries your project depends on and it will manage them for you. Like Yum or Apt, Composer is not a package manager. It deals with 'packages' or libraries, but manages them on a per-project basis, installing them in a directory inside your project.",
+        "url": "https://getcomposer.org/",
+        "morelink": "Composer"
+      },
+
+      {
+        "title": "Magento 2.1",
+        "description":"Magento is the most flexible and customizable open-source e-commerce platform written in PHP. Rich, out-of-the-box functionality, an unlimited ability to customize, and seamless third-party integrations makes Magento the most sought after platforms among businesses. Magento 2.1 has been power packed with improved features such as Paypal enhancements, Braintree HOsted Fields, improved management interfaces and other security enhancements.",
+        "url": "http://devdocs.magento.com/",
+        "morelink": "Magento"
+      },      {
+        "title": "Sylius",
+        "description":"Sylius is an open source e-commerce solution for PHP, based on the Symfony2 framework. Sylius is completely open source and free, maintained by diverse and creative community of developers and companies. It is constructed from fully decoupled components which means that every feature can be used in any other application.",
+        "url": "http://sylius.org/why-sylius",
+        "morelink": "Sylius"
+      },
+
+      {
+        "title": "Lumen",
+        "description":"Lumen is the perfect solution for building Laravel based micro-services and blazing fast APIs. The stunningly fast speed of Lumen, combined with the convenience of Laravel's features gives 'best of both worlds' micro-framework that is truly a joy to work with. Lumen strips away many of the configuration and customization options that Laravel provides. It lets to harness the full power of Laravel's features, such as routing, dependency injection, the Eloquent ORM, migrations, queued jobs, and even scheduled commands.",
+        "url": "https://lumen.laravel.com/",
+        "morelink": "Lumen"
+      },
+
+      {
+        "title": "HHVM",
+        "description":"HHVM is a PHP interpreter tool designed for executing programs written in Hack and PHP. HHVM uses a just-in-time (JIT) compilation approach to achieve superior performance while maintaining the development flexibility that PHP provides. It supports Hack, PHP 5 and the major features of PHP 7. It also reduces loading time for any page you view while logged in, and for saving pages that you've edited whether you are logged in or not.",
+        "url": "http://hhvm.com/",
+        "morelink": "hhmv"
+      },
+      {
+        "title": "Docker",
+        "description":"Docker is an open platform for developers and system admins to build, ship, and run distributed applications, whether on laptops, data center, VMs, or cloud. Docker containers are based on open standards. The software is wrapped in a complete filesystem that contains anything that can be installed on a server. Docker for Windows is a native Windows application with a native user interface and auto-update capability deeply integrated with Windows native virtualization, Hyper-V, networking and file system, making it faster and more reliable than previous ways of getting Docker on a Windows PC.",
+        "url": "https://www.docker.com/",
+        "morelink": "Docker"
+      },
+      {
+        "title": "Swagger",
+        "description":"Swagger is supported in almost every modern programming language and deployment environment. The idea behind swagger is to define a standard, language-agnostic interface to REST APIs .This allows both humans and computers to discover and understand the capabilities of the service without access to source code, documentation, or through network traffic inspection. Provisions for consumer interactions are easier and convenient.In short, Swagger is a formal specification surrounded by a large ecosystem of tools, which includes everything from front-end user interfaces, low-level code libraries and commercial API management solutions.",
+        "url": "http://swagger.io/",
+        "morelink": "Swagger"
+      },
+      {
+        "title": "PHPUnit",
+        "description":"PHPUnit is a unit testing framework for the PHP programming language. It is an instance of the xUnit architecture for unit testing frameworks that originated with SUnit and became popular with JUnit. PHPUnit was created by Sebastian Bergmann and its development is hosted on GitHub. PHPUnit supports developers by analyzing their mistakes in the newly committed code and assert that no code regression has occurred in other parts of the code base. Much like other unit testing frameworks, PHPUnit uses assertions to verify that the behavior of the specific component - or 'unit' - being tested behaves as expected.",
+        "url": "https://phpunit.de/",
+        "morelink": "PHPUnit"
+      },
+      {
+        "title": "phpDocumentor",
+        "description":"phpDocumentor 2 is a tool that makes it possible to generate documentation directly from your PHP source code. Documentation generated by phpDocumentor 2 does not aim to be a replacement for conventional documentation but is rather supplemental, or reference, documentation. Apart from just providing details on what is usable to the consumer from the user interface, phpdoc can provide your consumers with more information regarding the functionality embedded within your source code.",
+        "url": "https://www.phpdoc.org/",
+        "morelink": "phpDocumentor"
+      },
+      {
+        "title": "Pimple",
+        "description":"Pimple is a small Dependency Injection Container for PHP which takes advantage of PHP’s closures to define dependencies in manageable way. As many other dependency injection containers, Pimple is able to manage two different kind of data: services and parameters.",
+        "url": "http://pimple.sensiolabs.org/",
+        "morelink": "Pimple"
+      },
+      {
+        "title": "React",
+        "description":"React is an open-source JavaScript library providing a view for data rendered as HTML. React views are typically rendered using components that contain additional components specified as custom HTML tags. React promises programmers a model in which subcomponents cannot directly affect enclosing components, efficient updating of the HTML document when data changes and a clean separation between components on a modern single-page application.",
+        "url": "https://facebook.github.io/react/",
+        "morelink": "React"
+      }
+
+   ]
+
+}
