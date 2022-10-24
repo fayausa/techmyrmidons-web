@@ -1,5 +1,5 @@
 # Tech Myrmidons
-
+![Repo Banner](public/helpers/myrmidons-banner.png)
 ## About Us
 Too many technological developments and innovations occurring at rocket speed! Many of us do not even dare catch up with this, being already convinced that we cannot stay abreast of the current and latest buzz. If at all you do, you find yourself so lost in the sea of knowledge you just stepped in. Here is where Techmyrmidons come to help you get wet without drowning!
 
