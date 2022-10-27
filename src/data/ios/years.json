@@ -1,5 +1,19 @@
 {
   "years": [
+    {
+      "year": "2022",
+      "url": "/data/ios/2022.json"
+    },
+
+    {
+      "year": "2021",
+      "url": "/data/ios/2021.json"
+    },
+
+    {
+      "year": "2020",
+      "url": "/data/ios/2020.json"
+    },
 
     {
       "year": "2019",
@@ -15,6 +29,5 @@
       "year": "2017",
       "url": "/data/ios/2017.json"
     }
-
   ]
 }

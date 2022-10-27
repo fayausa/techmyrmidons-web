@@ -1,6 +1,10 @@
 {
   "years": [
     {
+      "year": "2022",
+      "url": "/data/qa/2022.json"
+    },
+    {
       "year": "2021",
       "url": "/data/qa/2021.json"
     },
@@ -23,6 +27,5 @@
       "year": "2017",
       "url": "/data/qa/2017.json"
     }
-
   ]
 }
