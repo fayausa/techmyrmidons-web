@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 
 const Card = ({ name, image, link, description }) => {
   return (
+    <>
+    <Link to={link}>
     <div className={styles.card}>
       <div className={styles.card_image}>
         <img src={image} alt="" className={styles.card_img} />
@@ -32,6 +34,8 @@ const Card = ({ name, image, link, description }) => {
         <span className={styles.explore_more}>Coming Soon!</span>
       )}
     </div>
+    </Link>
+    </>
   );
 };
 
