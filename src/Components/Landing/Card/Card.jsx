@@ -5,13 +5,16 @@ import { Link } from "react-router-dom";
 
 const Card = ({ name, image, link, description }) => {
   return (
+    <>
+    <Link to={link}>
     <div className={styles.card}>
       <div className={styles.card_image}>
         <img src={image} alt="" className={styles.card_img} />
       </div>
       <p className={styles.card_heading}>{name}</p>
       <p className={styles.card_description}>{description}</p>
-      <Link to={link}>
+      
+      <div className="readmore">
         <span className={styles.explore_more}>Explore More </span>
         <svg
           width="12"
@@ -25,8 +28,11 @@ const Card = ({ name, image, link, description }) => {
             fill="#000738"
           />
         </svg>
-      </Link>
+        </div>
+      
     </div>
+    </Link>
+    </>
   );
 };
 

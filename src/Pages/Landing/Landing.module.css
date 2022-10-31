@@ -53,8 +53,8 @@ nav ul li a:hover {
 
 
 .first_view {
-  margin: 2rem;
-  margin-top: 4rem;
+  margin: 1rem;
+  margin-top: 0;
 }
 
 .get_started {
@@ -74,6 +74,11 @@ nav ul li a:hover {
   display: block;
   margin: auto;
   margin-top: 1rem;
+  transition: 0.3s;
+}
+.get_started:hover {
+  background: rgb(42, 42, 42);
+  transform: translateY(-5px);
 }
 
 .fv_heading {
@@ -83,6 +88,15 @@ nav ul li a:hover {
   line-height: 4rem;
   letter-spacing: -0.03em;
   text-align: center;
+
+  font-family: "Poppins", sans-serif;
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 2.5rem;
+letter-spacing: -0.03em;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 10px;
 }
 
 .fv_tagline {
@@ -120,7 +134,7 @@ nav ul li a:hover {
 
 .ev_heading {
   font-family: "Poppins", sans-serif;
-  font-size: 2.75rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 4rem;
@@ -164,7 +178,7 @@ nav ul li a:hover {
 
 @media only screen and (min-width: 1000px) {
   .first_view {
-    margin: 2rem;
+    margin: 0 2rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
