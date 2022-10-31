@@ -8,7 +8,7 @@ const Landing = () => {
   return (
     <>
       <div className={styles.main_container}>
-        <div className={styles.first_view_container} style={{height: "100vh"}}>
+        <div className={styles.first_view_container}>
           <nav>
             <Link to="/">
               <img
