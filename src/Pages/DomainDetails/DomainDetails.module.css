@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-header {
-  padding: 3.125rem 0;
-}
-
 .container {
   margin: 2rem;
 }
@@ -86,7 +82,7 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
-  
+  flex-wrap: wrap;
 }
 
 .year_active {
@@ -126,6 +122,9 @@ h1 {
 }
 
 @media only screen and (min-width: 1000px) {
+  header {
+    padding: 2rem 0;
+  }
   .container {
     align-items: center;
     display: flex;
