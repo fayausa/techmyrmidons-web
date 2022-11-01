@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import ReadMore from "../ReadMore/ReadMore";
 import "./Card.css";
 
@@ -23,6 +23,7 @@ const Card = ({
       {photo && (
         <div className="img-wrapper">
           <img
+            alt=""
             src={require(`../../../data/${id}/images/${photo}`)}
             onError={({ currentTarget }) => {
               currentTarget.onerror = null;

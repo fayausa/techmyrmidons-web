@@ -2,7 +2,6 @@ import styles from "./DomainDetails.module.css";
 import { useParams } from "react-router-dom";
 
 import Card from "../../Components/DomainDetails/Card/Card";
-import SectionBtn from "../../Components/DomainDetails/SectionBtn/SectionBtn";
 
 import Navbar from "../../Components/Navbar/Navbar";
 import { useEffect, useState } from "react";
@@ -41,7 +40,7 @@ const DomainDetails = () => {
     import(`../../data/${id}/follow.json`).then((response) => {
       setPeople(response["follow"]);
     });
-  }, []);
+  }, [id]);
 
   useEffect(() => {
     let result =
@@ -51,7 +50,7 @@ const DomainDetails = () => {
       );
     setLocalTools(result);
     console.log(result);
-  }, [search]);
+  }, [search, tools]);
 
   useEffect(() => {
     setYear(years && years[0].year);
@@ -69,7 +68,7 @@ const DomainDetails = () => {
     import(`../../data/${id}/${year}.json`).then((response) =>
       setLocalTools(response[year])
     );
-  }, [year]);
+  }, [year, id]);
 
   if (domain) {
     return (
@@ -121,7 +120,6 @@ const DomainDetails = () => {
                     />
                   ))}
               </div>
-              {/* <SectionBtn /> */}
             </div>
           </section>
           <section id="blogs">
@@ -137,7 +135,6 @@ const DomainDetails = () => {
                     />
                   ))}
               </div>
-              {/* <SectionBtn /> */}
             </div>
           </section>
           <section id="people">
