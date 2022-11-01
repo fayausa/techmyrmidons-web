@@ -90,7 +90,7 @@ const Landing = () => {
             />
             <Card
               image="/assets/landing/ai.png"
-              name="Articial Intelligence"
+              name="Artifcial Intelligence"
               link="/ai"
               description="AI which stands for artificial intelligence refers to systems or machines that mimic human intelligence to perform tasks."
             />
