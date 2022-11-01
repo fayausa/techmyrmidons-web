@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DomainDetails from "./Pages/DomainDetails/DomainDetails";
 import Landing from "./Pages/Landing/Landing";
 
-import Navbar from './Components/Navbar/Navbar.jsx'
 import React from "react";
 function App() {
   return (
