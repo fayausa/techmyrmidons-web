@@ -101,18 +101,20 @@ const Landing = () => {
               description="
             Augmented and virtual reality (AR/VR) are immersive technologies that enable users to experience digitally rendered content."
             />
-            <Card
-              image="/assets/landing/google.png"
-              name="Actions On Google"
-              link="/actions-on-google"
-              description="
-            The Actions console is the web-based tool used for developing Actions for registration, deployment, configuration, and analytics."
-            />
+
             <Card
               image="/assets/landing/qa.png"
               name="QA"
               link="/qa"
               description="Quality assurance (QA) is any systematic process of determining whether a product or service meets specified requirements."
+            />
+
+            <Card
+              image="/assets/landing/google.png"
+              name="Actions On Google"
+              link="#"
+              description="
+            The Actions console is the web-based tool used for developing Actions for registration, deployment, configuration, and analytics."
             />
 
             <Card
