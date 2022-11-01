@@ -9,7 +9,7 @@
     {
       "title": "Apache Spark MLlib",
       "description": "Apache Spark MLlib is a machine learning library, the primary objective of which is to make practical machine learning scalable and easy. It comprises common learning algorithms and utilities, including classification, regression, clustering, collaborative filtering, dimensionality reduction as well as lower-level optimisation primitives and higher-level pipeline APIs.Spark MLlib is regarded as a distributed machine learning framework on top of the Spark Core which, mainly due to the distributed memory-based Spark architecture, is almost nine times as fast as the disk-based implementation used by Apache Mahout.",
-      "url": "http://www.shogun-toolbox.org/",
+      "url": "https://spark.apache.org/mllib/",
       "morelink": "Shogun"
     },
     {
@@ -21,7 +21,7 @@
     {
       "title": "TensorFlow",
       "description": "TensorFlow is an open source software library for machine learning developed by the Google Brain Team for various sorts of perceptual and language understanding tasks, and to conduct sophisticated research on machine learning and deep neural networks. It is Google Brain’s second generation machine learning system and can run on multiple CPUs and GPUs. TensorFlow is deployed in various products of Google like speech recognition, Gmail, Google Photos and even Search.TensorFlow performs numerical computations using data flow graphs. These elaborate the mathematical computations with a directed graph of nodes and edges. Nodes implement mathematical operations and can also represent endpoints to feed in data, push out results or read/write persistent variables. Edges describe the input/output relationships between nodes. Data edges carry dynamically-sized multi-dimensional data arrays or tensors.",
-      "url": "http://gradle.org/getting-started-android/",
+      "url": "https://www.tensorflow.org/",
       "morelink": "gradle"
     },
 
@@ -45,12 +45,12 @@
     {
       "title": "Amazon Machine Learning (AML)",
       "description": "Amazon Machine Learning (AML) is a machine learning service for developers. It has many visualisation tools and wizards for creating high-end sophisticated and intelligent machine learning models without any need to learn complex ML algorithms and technologies. Via AML, predictions for applications can be obtained using simple APIs without using custom prediction generation code or complex infrastructure. AML is based on simple, scalable, dynamic and flexible ML technology used by Amazons Internal Scientists community professionals to create Amazon Cloud Services. AML connects to data stored in Amazon S3, Redshift or RDS, and can run binary classification, multi-class categorisation or regression on this data to create models.The key contents used in Amazon ML are listed below.",
-      "url": "https://romannurik.github.io/AndroidAssetStudio/"
+      "url": "https://aws.amazon.com/machine-learning/"
     },
     {
       "title": "Accord.NET",
       "description": "Accord.NET is a .NET open source machine learning framework for scientific computing, and consists of multiple libraries for diverse applications like statistical data processing, pattern recognition, linear algebra, artificial neural networks, image and signal processing, etc. The framework is divided into libraries via the installer, compressed archives and NuGet packages, which include Accord.Math, Accord.Statistics, Accord.MachineLearning, Accord.Neuro, Accord.Imaging, Accord.Audio, Accord.Vision, Accord.Controls, Accord.Controls.Imaging, Accord.Controls.Audio, Accord.Controls.Vision, etc.",
-      "url": "https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android/"
+      "url": "http://accord-framework.net/"
     },
     {
       "title": "Torch",
