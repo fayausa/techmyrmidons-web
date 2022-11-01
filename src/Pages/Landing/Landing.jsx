@@ -121,25 +121,25 @@ const Landing = () => {
               image="/assets/landing/iot.png"
               name="IoT"
               link="#"
-              description="Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the.."
+              description="IoT is the network of physical objects that are embedded with sensors, software etc.. for the purpose of connecting and exchanging data over the internet."
             />
             <Card
               image="/assets/landing/uiux.png"
               name="UI/UX"
               link="#"
-              description="Ever wondered how the vibrant apps and websites you see are designed? Wanna know how to?"
+              description="UI Design and UX Design are some of the most in-demand skills today. While UI deals with the graphical layout of an app, UX deals with the human experience."
             />
             <Card
               image="/assets/landing/cybersec.png"
               name="Cyber Security"
               link="#"
-              description="Having an extra layer of security is always an advantage in the current world. The best way to prevent a cyber attack is to learn how..."
+              description="Cyber Security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. "
             />
             <Card
               image="/assets/landing/pm.png"
               name="Product Management"
               link="#"
-              description="Are you interested in learning to build the right product and the product right?."
+              description="It is the process of planning, developing, launching, and managing a product."
             />
             <Card
               image="/assets/landing/cdesign.png"
@@ -151,7 +151,7 @@ const Landing = () => {
               image="/assets/landing/marketing.png"
               name="Marketing"
               link="#"
-              description="Think you have the skill to market any product? Join the Marketing Interest Group to learn latest marketing strategies."
+              description="Marketing is the process of promoting and selling goods and services. It involves understanding the product, target audience, and making plans to promote it. "
             />
           </div>
         </div>
