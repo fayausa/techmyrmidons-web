@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 2rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.25rem;
+  font-weight: 600;
+  line-height: 4rem;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+.tagline {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.search {
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 3.125rem;
+  display: flex;
+  flex-direction: row;
+  margin: 1.25rem auto;
+  max-width: 40rem;
+  padding: 0.93rem 2.5rem;
+}
+
+.search {
+  font-size: 1rem;
+  width: 20rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.cw_text {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+/* section {
+  margin: 3.125rem 0 3.125rem 0;
+} */
+
+/* Main cards */
+.cards_wrapper {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 2rem;
+  align-items: stretch;
+}
+
+.section_title {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.topics {
+  transition: 0.2s ease-in-out all;
+}
+
+.years {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.year_active {
+  align-items: center;
+  padding: 16px 32px;
+  gap: 4px;
+
+  background: #000000;
+  border-radius: 84.5px;
+  margin-right: 1rem;
+  color: white;
+  font-size: 1rem;
+  transition: 0.2s ease-in-out all;
+}
+
+.year {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  font-size: 0.95rem;
+  /* identical to box height, or 160% */
+
+  margin-right: 1rem;
+  color: #000000;
+
+  cursor: pointer;
+}
+
+/* Main cards */
+
+@media only screen and (min-width: 768px) {
+  .cards_wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  header {
+    padding: 2rem 0;
+  }
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .cards_wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .navbar_container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

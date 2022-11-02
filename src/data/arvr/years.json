@@ -1,6 +1,10 @@
 {
   "years": [
     {
+      "year": "2022",
+      "url": "data/arvr/2022.json"
+    },
+    {
       "year": "2021",
       "url": "data/arvr/2021.json"
     },
@@ -8,11 +12,6 @@
       "year": "2020",
       "url": "data/arvr/2020.json"
     },
-    {
-      "year": "2019",
-      "url": "data/arvr/2019.json"
-    },
-
     {
       "year": "2019",
       "url": "data/arvr/2019.json"
