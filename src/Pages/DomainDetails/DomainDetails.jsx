@@ -49,11 +49,12 @@ const DomainDetails = () => {
         f.title.toLowerCase().startsWith(search.toLowerCase())
       );
     setLocalTools(result);
-    console.log(result);
   }, [search, tools]);
 
   useEffect(() => {
-    setYear(years && years[0].year);
+    if (years) {
+      setYear(years && years[0] && years[0].year);
+    }
   }, [years]);
 
   useEffect(() => {
@@ -61,13 +62,15 @@ const DomainDetails = () => {
   }, [year]);
 
   useEffect(() => {
-    setSearch("");
-    import(`../../data/${id}/${year}.json`).then((response) =>
-      setTools(response[year])
-    );
-    import(`../../data/${id}/${year}.json`).then((response) =>
-      setLocalTools(response[year])
-    );
+    if (year && id) {
+      setSearch("");
+      import(`../../data/${id}/${year}.json`).then((response) =>
+        setTools(response[year])
+      );
+      import(`../../data/${id}/${year}.json`).then((response) =>
+        setLocalTools(response[year])
+      );
+    }
   }, [year, id]);
 
   if (domain) {
@@ -83,7 +86,7 @@ const DomainDetails = () => {
               The best guide for you to start the next world.
             </p>
 
-            {years && (
+            {years && years[0] && (
               <input
                 className={styles.search}
                 type="text"
