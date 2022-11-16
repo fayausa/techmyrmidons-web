@@ -51,6 +51,11 @@
       "folderName": "arvr"
     },
     {
+      "technology": "Product Management",
+      "logo": "pm.png",
+      "folderName": "pm"
+    },
+    {
       "technology": "Actions on Google",
       "logo": "actions-on-google.png",
       "folderName": "actions-on-google"

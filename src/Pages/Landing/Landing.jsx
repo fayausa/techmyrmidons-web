@@ -114,7 +114,18 @@ const Landing = () => {
               link="/qa"
               description="Quality assurance (QA) is any systematic process of determining whether a product or service meets specified requirements."
             />
-
+            <Card
+              image="/assets/landing/iot.png"
+              name="Quantum Computing"
+              link="/quantum-computing"
+              description="Our life, as well as the Internet, is full of amazing things."
+            />
+            <Card
+              image="/assets/landing/pm.png"
+              name="Product Management"
+              link="/pm"
+              description="Are you interested in learning to build the right product and the product right?."
+            />
             <Card
               image="/assets/landing/iot.png"
               name="IoT"
@@ -138,12 +149,6 @@ const Landing = () => {
               name="Cyber Security"
               link="#"
               description="Having an extra layer of security is always an advantage in the current world. The best way to prevent a cyber attack is to learn how..."
-            />
-            <Card
-              image="/assets/landing/pm.png"
-              name="Product Management"
-              link="#"
-              description="Are you interested in learning to build the right product and the product right?."
             />
             <Card
               image="/assets/landing/cdesign.png"
