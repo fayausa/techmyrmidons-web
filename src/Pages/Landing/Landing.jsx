@@ -122,6 +122,12 @@ const Landing = () => {
               description="Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the.."
             />
             <Card
+              image="/assets/landing/iot.png"
+              name="Quantum Computing"
+              link="/quantum-computing"
+              description="Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the.."
+            />
+            <Card
               image="/assets/landing/uiux.png"
               name="UI/UX"
               link="#"

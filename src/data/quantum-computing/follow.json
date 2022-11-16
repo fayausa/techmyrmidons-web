@@ -1,0 +1,44 @@
+{
+  "follow": [
+    {
+      "followLink": "https://twitter.com/HuangJunye",
+      "photo": "junye_huang.jpg",
+      "name": "Junye Huang"
+    },
+    {
+      "followLink": "https://twitter.com/zlatko_minev",
+      "photo": "zlatko_minev.jpg",
+      "name": "Zlatko Minev"
+    },
+    {
+      "followLink": "https://twitter.com/AmiraMorphism",
+      "photo": "amira_abbas.jpg",
+      "name": "Amira Abbas"
+    },
+    {
+      "followLink": "https://twitter.com/amarchenkova",
+      "photo": "anastasia_marchenkova.jpg",
+      "name": "Anastasia Marchenkova"
+    },
+    {
+      "followLink": "https://www.linkedin.com/in/maria-schuld-7857b070/",
+      "photo": "maria_schuld.jpeg",
+      "name": "Maria Schuld"
+    },
+    {
+      "followLink": "https://www.linkedin.com/in/ilyas-khan-ksg-2a899453/?originalSubdomain=uk",
+      "photo": "illyas_khan.jpeg",
+      "name": "Illyas Khan"
+    },
+    {
+      "followLink": "https://twitter.com/abe_asfaw",
+      "photo": "abraham_asfaw.jpg",
+      "name": "Abraham Asfaw"
+    },
+    {
+      "followLink": "https://twitter.com/Liv_Lanes",
+      "photo": "olivia_lanes.jpg",
+      "name": "Olivia Lanes"
+    }
+  ]
+}
