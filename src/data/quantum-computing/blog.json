@@ -1,0 +1,32 @@
+{
+  "blog": [
+    {
+      "blog": "https://qiskit.org/learn/",
+      "author": "Qiskit Textbook"
+    },
+    {
+      "blog": "https://www.youtube.com/c/qiskit",
+      "author": "Qiskit Youtube"
+    },
+    {
+      "blog": "https://quantum.country/",
+      "author": "Quantum Country"
+    },
+    {
+      "blog": "https://www.youtube.com/channel/UCVROlDxzfRrlRexJvvCuQeg",
+      "author": "Quantum Machine Learning MOOC "
+    },
+    {
+      "blog": "https://www.qmunity.tech/",
+      "author": "Q-munity"
+    },
+    {
+      "blog": "https://aws.amazon.com/blogs/quantum-computing/",
+      "author": "AWS Quantum Blog"
+    },
+    {
+      "blog": "https://www.quantumgrad.com/",
+      "author": "Quantum Grad"
+    }
+  ]
+}
