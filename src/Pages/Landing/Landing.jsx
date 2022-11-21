@@ -108,13 +108,6 @@ const Landing = () => {
               link="/qa"
               description="Quality assurance (QA) is any systematic process of determining whether a product or service meets specified requirements."
             />
-
-            <Card
-              image="/assets/landing/qa.png"
-              name="QA"
-              link="/qa"
-              description="Quality assurance (QA) is any systematic process of determining whether a product or service meets specified requirements."
-            />
             <Card
               image="/assets/landing/quantumcomputing.png"
               name="Quantum Computing"
