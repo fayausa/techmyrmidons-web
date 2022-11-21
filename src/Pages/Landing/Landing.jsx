@@ -110,13 +110,6 @@ const Landing = () => {
             />
 
             <Card
-              image="/assets/landing/google.png"
-              name="Actions On Google"
-              link="#"
-              description="
-            The Actions console is the web-based tool used for developing Actions for registration, deployment, configuration, and analytics."
-            />
-            <Card
               image="/assets/landing/qa.png"
               name="QA"
               link="/qa"
@@ -151,6 +144,13 @@ const Landing = () => {
               name="Cyber Security"
               link="#"
               description="Cyber Security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. "
+            />
+            <Card
+              image="/assets/landing/google.png"
+              name="Actions On Google"
+              link="#"
+              description="
+            The Actions console is the web-based tool used for developing Actions for registration, deployment, configuration, and analytics."
             />
             <Card
               image="/assets/landing/cdesign.png"
