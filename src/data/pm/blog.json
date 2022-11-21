@@ -1,0 +1,28 @@
+{
+  "blog": [
+    {
+      "blog": "https://www.appcues.com/blog",
+      "author": "AppCues Blog"
+    },
+    {
+      "blog": "https://www.productplan.com/blog/",
+      "author": "ProductPlan"
+    },
+    {
+      "blog": "https://quantum.country/",
+      "author": "Growth.Design"
+    },
+    {
+      "blog": "https://growth.design",
+      "author": "Quantum Machine Learning MOOC "
+    },
+    {
+      "blog": "https://amplitude.com/blog",
+      "author": "Amplitude Blog"
+    },
+    {
+      "blog": "https://bestpracticer.com/topic/product-management",
+      "author": "Best Practicer"
+    }
+  ]
+}

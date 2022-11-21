@@ -108,15 +108,18 @@ const Landing = () => {
               link="/qa"
               description="Quality assurance (QA) is any systematic process of determining whether a product or service meets specified requirements."
             />
-
             <Card
-              image="/assets/landing/google.png"
-              name="Actions On Google"
-              link="#"
-              description="
-            The Actions console is the web-based tool used for developing Actions for registration, deployment, configuration, and analytics."
+              image="/assets/landing/quantumcomputing.png"
+              name="Quantum Computing"
+              link="/quantum-computing"
+              description="A rapidly-emerging technology that harnesses the laws of quantum mechanics to solve issues too hard for computers."
             />
-
+            <Card
+              image="/assets/landing/pm.png"
+              name="Product Management"
+              link="/pm"
+              description="Are you interested in learning to build the right product and the product right?."
+            />
             <Card
               image="/assets/landing/iot.png"
               name="IoT"
@@ -136,10 +139,11 @@ const Landing = () => {
               description="Cyber Security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. "
             />
             <Card
-              image="/assets/landing/pm.png"
-              name="Product Management"
+              image="/assets/landing/google.png"
+              name="Actions On Google"
               link="#"
-              description="It is the process of planning, developing, launching, and managing a product."
+              description="
+            The Actions console is the web-based tool used for developing Actions for registration, deployment, configuration, and analytics."
             />
             <Card
               image="/assets/landing/cdesign.png"
