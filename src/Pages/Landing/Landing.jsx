@@ -118,7 +118,7 @@ const Landing = () => {
               image="/assets/landing/quantumcomputing.png"
               name="Quantum Computing"
               link="/quantum-computing"
-              description="Our life, as well as the Internet, is full of amazing things."
+              description="A rapidly-emerging technology that harnesses the laws of quantum mechanics to solve issues too hard for computers."
             />
             <Card
               image="/assets/landing/pm.png"
@@ -130,12 +130,6 @@ const Landing = () => {
               image="/assets/landing/iot.png"
               name="IoT"
               link="#"
-              description="Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the.."
-            />
-            <Card
-              image="/assets/landing/iot.png"
-              name="Quantum Computing"
-              link="/quantum-computing"
               description="Our life, as well as the Internet, is full of amazing things. From the device on which you are reading this to the.."
             />
             <Card
