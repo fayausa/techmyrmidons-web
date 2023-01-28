@@ -1,10 +1,10 @@
 {
   "2022": [
     {
-      "title": "ChatGPT",
-      "description": "ChatGPT (Chat Generative Pre-trained Transformer) is a chatbot launched by OpenAI in November 2022. It is built on top of OpenAI's GPT-3 family of large language models, and is fine-tuned (an approach to transfer learning) with both supervised and reinforcement learning techniques.",
-      "url": "https://chat.openai.com/chat",
-      "morelink": "https://openai.com/"
+      "title": "OpenAI API",
+      "description": "The OpenAI API can be applied to virtually any task that involves understanding or generating natural language or code. We offer a spectrum of models with different levels of power suitable for different tasks, as well as the ability to fine-tune your own custom models. These models can be used for everything from content generation to semantic search and classification.",
+      "url": "https://openai.com/api/",
+      "morelink": "OpenAI"
     },
     {
       "title": "Apache Singa",
