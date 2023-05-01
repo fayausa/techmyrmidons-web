@@ -1,7 +1,8 @@
 import React from "react";
 import "./Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 function Navbar() {
+  const { id } = useParams();
   return (
     <nav>
       <Link to="/">
@@ -15,6 +16,11 @@ function Navbar() {
         <li>
           <a href="#topics">Tools</a>
         </li>
+        {id === "ai" ? (
+          <li>
+            <a href="#categories">Categories</a>
+          </li>
+        ) : null}
         <li>
           <a href="#blogs">Blogs</a>
         </li>
