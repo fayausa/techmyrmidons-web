@@ -169,8 +169,8 @@ const DomainDetails = () => {
           {uniquecategories && (
             <section id="categories">
               <div className={styles.container}>
-                <h2 className={styles.section_title}>Categories</h2>
-                <div className={styles.years}>
+                <h2 className={styles.section_subtitle}>Categories</h2>
+                <div className={styles.categories}>
                   {uniquecategories &&
                     uniquecategories.map((category) => (
                       <p
@@ -201,7 +201,7 @@ const DomainDetails = () => {
 
           <section id="blogs">
             <div className={styles.container}>
-              <h2 className={styles.section_title}>Blogs to follow</h2>
+              <h2 className={styles.section_subtitle}>Blogs to follow</h2>
               <div className={styles.cards_wrapper}>
                 {blogs &&
                   blogs.map((blog) => (
@@ -216,7 +216,7 @@ const DomainDetails = () => {
           </section>
           <section id="people">
             <div className={styles.container}>
-              <h2 className={styles.section_title}>People to follow</h2>
+              <h2 className={styles.section_subtitle}>People to follow</h2>
               <div className={styles.cards_wrapper}>
                 {people &&
                   people.map((person) => (
