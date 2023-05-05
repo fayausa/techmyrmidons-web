@@ -26,17 +26,29 @@ function Navbar() {
       <nav ref={navRef} id="ll">
         {location.pathname === "/" ? (
           <>
-            <a href="#cards">Domains</a>
+            <a href="#cards" onClick={showNavBar}>
+              Domains
+            </a>
             <button className="nav-btn nav-close-btn">
               <FaTimes onClick={showNavBar} />
             </button>
           </>
         ) : (
           <>
-            <a href="#topics">Tools</a>
-            {id === "ai" ? <a href="#categories">Categories</a> : null}
-            <a href="#blogs">Blogs</a>
-            <a href="#people">People</a>
+            <a href="#topics" onClick={showNavBar}>
+              Tools
+            </a>
+            {id === "ai" ? (
+              <a href="#categories" onClick={showNavBar}>
+                Categories
+              </a>
+            ) : null}
+            <a href="#blogs" onClick={showNavBar}>
+              Blogs
+            </a>
+            <a href="#people" onClick={showNavBar}>
+              People
+            </a>
             <button className="nav-btn nav-close-btn">
               <FaTimes onClick={showNavBar} />
             </button>
