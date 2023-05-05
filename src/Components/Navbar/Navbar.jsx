@@ -10,6 +10,8 @@ function Navbar() {
 
   const showNavBar = () => {
     navRef.current.classList.toggle("nav_popout");
+    const body = document.querySelector("body");
+    body.classList.toggle("inactive");
   };
 
   return (
@@ -21,7 +23,7 @@ function Navbar() {
           alt="logo"
         ></img>
       </Link>
-      <nav ref={navRef}>
+      <nav ref={navRef} id="ll">
         {location.pathname === "/" ? (
           <>
             <a href="#cards">Domains</a>

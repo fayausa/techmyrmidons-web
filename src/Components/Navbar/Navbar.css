@@ -1,28 +1,34 @@
+/* * {
+  outline: 1px solid rgb(255, 53, 53) !important;
+} */
+
+.inative {
+  pointer-events: auto;
+}
+
+.header {
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .Navbar_image {
   width: 120px;
   height: auto;
   padding: 25px;
 }
 
-.header {
-  height: 180px;
-  padding: 0 20px;
+nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header nav {
-  position: absolute;
-  top: 55px;
-  right: 20px;
+  flex-direction: row;
 }
 
 nav a {
-  margin: 0 20px;
+  margin: 0 3.5rem;
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.1rem;
   color: black;
   text-decoration: none;
 }
@@ -32,13 +38,23 @@ nav a:hover {
   border-bottom: 2px solid black;
 }
 
-.header .nav-btn {
+.nav-btn {
+  display: none;
   visibility: hidden;
   opacity: 0;
 }
 
 @media only screen and (max-width: 768px) {
-  .header nav {
+  .inactive {
+    pointer-events: none;
+    overflow: hidden;
+  }
+
+  .inactive nav {
+    pointer-events: auto;
+  }
+
+  nav {
     position: fixed;
     top: 0;
     right: 0;
@@ -48,24 +64,29 @@ nav a:hover {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    background-color: rgb(228, 228, 228);
-    padding: 3rem 0.5rem;
+    background-color: rgba(241, 239, 239, 0.473);
+    padding: 3rem 0rem;
     gap: 1.5rem;
+    background-color: rgba(241, 239, 239, 0.473);
+    backdrop-filter: blur(10px);
     transition: 0.5s;
     transform: translateX(100%);
-    /* this transform code automatically pushes the nav to the inside making it collapsed when the screen is small */
   }
 
-  .header .nav_popout {
-    transform: none; /* reset any previous transformations applied to the nav, this making nav expanded again*/
-    /* pointer-events: none; */
+  nav a {
+    margin: 0 2.5rem;
   }
 
-  .header .nav-btn {
+  .nav_popout {
+    transform: none; /* reset any previous transformations applied to the nav, thus making nav expanded again*/
+  }
+
+  .nav-btn {
     -webkit-tap-highlight-color: transparent;
+    display: block;
     visibility: visible;
     opacity: 1;
-    padding: 5px;
+    margin-right: 1rem;
     cursor: pointer;
     font-size: 1.5rem;
     background: transparent;
@@ -74,9 +95,16 @@ nav a:hover {
     outline: none;
   }
 
-  .header nav .nav-close-btn {
+  .nav-close-btn {
+    margin-right: 0.5rem;
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  nav {
+    width: 60%;
   }
 }
