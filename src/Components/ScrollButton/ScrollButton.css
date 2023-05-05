@@ -6,6 +6,7 @@
   z-index: 1;
   cursor: pointer;
   color: rgb(49, 48, 48);
+  background: radial-gradient(rgb(255, 255, 255) 50%, transparent 50%);
   -webkit-tap-highlight-color: transparent;
 }
 
