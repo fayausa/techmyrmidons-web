@@ -1,33 +1,19 @@
 import React from "react";
 import Card from "../../Components/Landing/Card/Card";
 import styles from "./Landing.module.css";
-
-import { Link } from "react-router-dom";
+import Navbar from "../../Components/Navbar/Navbar";
 
 const Landing = () => {
   return (
     <>
       <div className={styles.main_container}>
         <div className={styles.first_view_container}>
-          <nav>
-            <Link to="/">
-              <img
-                src="/assets/tm-logo.png"
-                className="Navbar_image"
-                alt="logo"
-              ></img>
-            </Link>
-            <ul>
-              <li>
-                <a href="#cards">Domains</a>
-              </li>
-            </ul>
-          </nav>
+          <Navbar />
           <div className={styles.first_view}>
             <div className={styles.image_container}>
               <img
                 src="/assets/landing/fvimg.png"
-                alt=""
+                alt="image myrmidon"
                 className={styles.fvimage}
               />
             </div>
