@@ -23,7 +23,7 @@ const Card = ({
       {photo && (
         <div className="img-wrapper">
           <img
-            alt="domain image"
+            alt="domain"
             src={require(`../../../data/${id}/images/${photo}`)}
             onError={({ currentTarget }) => {
               currentTarget.onerror = null;

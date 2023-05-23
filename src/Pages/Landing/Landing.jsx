@@ -13,7 +13,7 @@ const Landing = () => {
             <div className={styles.image_container}>
               <img
                 src="/assets/landing/fvimg.png"
-                alt="image myrmidon"
+                alt="myrmidon"
                 className={styles.fvimage}
               />
             </div>
