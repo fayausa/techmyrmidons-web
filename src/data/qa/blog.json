@@ -12,11 +12,6 @@
     },
 
     {
-      "blog": "https://www.utest.com/utest-blog",
-      "author":"U Test"
-    },
-
-    {
       "blog": "http://www.cigniti.com/blog/",
       "author":"Cigniti"
     },
@@ -42,11 +37,6 @@
     },
 
     {
-      "blog": "http://www.gallop.net/blog/",
-      "author":"Gallop"
-    },
-
-    {
       "blog": "http://qablog.practitest.com/",
       "author":"PractiTest"
     },
@@ -59,11 +49,6 @@
     {
       "blog": "http://www.kualitee.com/blog/",
       "author":"Kualitee"
-    },
-
-    {
-      "blog": "http://tuppad.com/blog/",
-      "author":"Software Testing Blog"
     }
 
   ]

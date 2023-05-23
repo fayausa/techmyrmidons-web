@@ -134,6 +134,38 @@ const DomainDetails = () => {
         </header>
 
         <main>
+          {years && (
+            <section id="topics">
+              <div className={styles.container}>
+                <div className={styles.years}>
+                  {years &&
+                    years.map((year) => (
+                      <p
+                        onClick={() => setYear(year.year)}
+                        className={
+                          localyear === year.year
+                            ? styles.year_active
+                            : styles.year
+                        }
+                      >
+                        {year.year}
+                      </p>
+                    ))}
+                </div>
+                <div className={styles.cards_wrapper}>
+                  {localtools &&
+                    localtools.map((tool) => (
+                      <Card
+                        title={tool.title}
+                        desc={tool.description}
+                        link={tool.url}
+                      />
+                    ))}
+                </div>
+              </div>
+            </section>
+          )}
+
           {uniquecategories && (
             <section id="categories">
               <div className={styles.container}>
@@ -160,38 +192,6 @@ const DomainDetails = () => {
                         title={category.title}
                         desc={category.description}
                         link={category.url}
-                      />
-                    ))}
-                </div>
-              </div>
-              <br />
-            </section>
-          )}
-          {years && (
-            <section id="topics">
-              <div className={styles.container}>
-                <div className={styles.years}>
-                  {years &&
-                    years.map((year) => (
-                      <p
-                        onClick={() => setYear(year.year)}
-                        className={
-                          localyear === year.year
-                            ? styles.year_active
-                            : styles.year
-                        }
-                      >
-                        {year.year}
-                      </p>
-                    ))}
-                </div>
-                <div className={styles.cards_wrapper}>
-                  {localtools &&
-                    localtools.map((tool) => (
-                      <Card
-                        title={tool.title}
-                        desc={tool.description}
-                        link={tool.url}
                       />
                     ))}
                 </div>

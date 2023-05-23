@@ -10,6 +10,7 @@ export default function ReadMore({
 }) {
   const toggleModal = () => {
     setModal(!modal);
+    console.log(description)
   };
 
   return (
