@@ -27,13 +27,13 @@
       {
         "title": "Chef",
         "description":"Chef is a configuration management tool for dealing with machine setup on physical servers, virtual machines and in the cloud. Nowadays more companies prefer using chef to align,control and manage their infrastructure. With the use of chef you are benefitted with Accelerated cloud adoption, manage both data center and cloud environments, manage multiple cloud environments andmMaintain high availability.",
-        "url": "https://git-scm.com/downloads"
+        "url": "https://www.chef.io/products/chef-infra"
       },
 
       {
         "title": "Vagrant",
         "description":"Vagrant is an open-source software product for building and maintaining portable virtual development environments. Large projects need to cross the hurdles of multiple technical stacks. This is the core idea behind its creation. Vagrant manages all the necessary configurations for the developers in order to avoid the unnecessary maintenance and setup time, and increases development productivity. ",
-        "url": "https://git-scm.com/downloads"
+        "url": "https://www.vagrantup.com/"
       }
 
    ]

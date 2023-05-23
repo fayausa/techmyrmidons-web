@@ -33,7 +33,7 @@
     {
       "title": "Vagrant",
       "description": "Vagrant is an open-source software product for building and maintaining portable virtual development environments. Large projects need to cross the hurdles of multiple technical stacks. This is the core idea behind its creation. Vagrant manages all the necessary configurations for the developers in order to avoid the unnecessary maintenance and setup time, and increases development productivity. ",
-      "url": "https://git-scm.com/downloads"
+      "url": "https://www.vagrantup.com/"
     }
   ]
 }

@@ -45,17 +45,7 @@
       "blog": "http://www.bongizmo.com/blog/android-resources-each-developer-should-know/",
       "author":"bongizmo"
     },
-
-    {
-      "blog": "http://cloudrail.com/best-resources-to-learn-android-programming/",
-      "author":"CloudRAIL"
-    },
-
-    {
-      "blog": "http://therockncoder.blogspot.in/2015/04/getting-started-with-android.html",
-      "author":"The Rock n Coder"
-    },
-
+    
     {
       "blog": "https://developer.android.com/topic/libraries/support-library/index.html",
       "author":"Developers"
