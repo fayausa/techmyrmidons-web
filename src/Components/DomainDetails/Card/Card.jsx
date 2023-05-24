@@ -23,7 +23,7 @@ const Card = ({
       {photo && (
         <div className="img-wrapper">
           <img
-            alt=""
+            alt="domain"
             src={require(`../../../data/${id}/images/${photo}`)}
             onError={({ currentTarget }) => {
               currentTarget.onerror = null;
@@ -36,23 +36,27 @@ const Card = ({
       {desc && <p>{desc}</p>}
       {desc && (
         <div>
-          <span onClick={() => setModal(true)} className="link-text">
-            {linkText}
-          </span>
+          {link && link !== "#" && (
+            <>
+              <span onClick={() => setModal(true)} className="link-text">
+                {linkText}
+              </span>
 
-          <svg
-            className="svg-image"
-            width="12"
-            height="12"
-            viewBox="0 0 15 15"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M12.1711 3.983L2.12965 14.0245L0.47998 12.3748L10.5203 2.33333H1.67115V0H14.5045V12.8333H12.1711V3.983Z"
-              fill="#000738"
-            />
-          </svg>
+              <svg
+                className="svg-image"
+                width="12"
+                height="12"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12.1711 3.983L2.12965 14.0245L0.47998 12.3748L10.5203 2.33333H1.67115V0H14.5045V12.8333H12.1711V3.983Z"
+                  fill="#000738"
+                />
+              </svg>
+            </>
+          )}
         </div>
       )}
       {!desc && link && (

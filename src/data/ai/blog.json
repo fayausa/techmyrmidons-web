@@ -46,11 +46,6 @@
     },
 
     {
-      "blog": "https://blog.cloudrail.com/",
-      "author": "CloudRAIL"
-    },
-
-    {
       "blog": "https://developer.android.com/topic/libraries/support-library/index.html",
       "author": "Developers"
     },

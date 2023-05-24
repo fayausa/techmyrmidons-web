@@ -22,16 +22,6 @@
     },
 
     {
-      "blog": "http://www.iheavy.com/blog/",
-      "author":"Scalable Startups"
-    },
-
-    {
-      "blog": "http://www.iheavy.com/blog/",
-      "author":"Socialized Software"
-    },
-
-    {
       "blog": "http://www.andrewhay.ca/",
       "author":"Andrew Hay"
     },
@@ -39,15 +29,6 @@
     {
       "blog": "http://dev2ops.org/",
       "author":"dev2ops"
-    },
-
-    {
-      "blog": "http://blog.brattyredhead.com/",
-      "author":"Bratty Redhead Blog"
-    },
-    {
-      "blog": "http://www.agilesysadmin.net/",
-      "author":"Agile Sysadmin"
     },
     {
       "blog": "https://medium.com/netflix-techblog",
@@ -64,10 +45,6 @@
     {
       "blog": "https://kickstarter.engineering/",
       "author":"Backing and Hacking"
-    },
-    {
-      "blog": "http://devopsangle.com/",
-      "author":"SiliconANGLE"
     },
     {
       "blog": "https://www.quora.com/What-are-the-best-DevOps-blogs",

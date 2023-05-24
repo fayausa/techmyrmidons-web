@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollButton from "./Components/ScrollButton/ScrollButton";
 
 import DomainDetails from "./Pages/DomainDetails/DomainDetails";
 import Landing from "./Pages/Landing/Landing";
@@ -13,6 +14,7 @@ function App() {
           <Route path="/:id" element={<DomainDetails />} />
         </Routes>
       </Router>
+      <ScrollButton />
     </div>
   );
 }

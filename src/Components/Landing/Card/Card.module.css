@@ -20,7 +20,7 @@
 }
 .card:hover {
   transform: translateY(-7px);
-  
+
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
 }
 
@@ -29,8 +29,8 @@
   transform: translateX(30px);
 } */
 
-
-.card:hover span, .card:hover svg path {
+.card:hover span,
+.card:hover svg path {
   color: royalblue;
   fill: royalblue;
 }
@@ -72,7 +72,6 @@
   font-size: 16px;
   line-height: 22px;
 }
-
 
 .readmore {
   display: flex;

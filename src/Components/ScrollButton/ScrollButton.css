@@ -1,0 +1,18 @@
+.scroll-button {
+  position: fixed;
+  left: 48%;
+  bottom: 20px;
+  font-size: 2.5rem;
+  z-index: 1;
+  cursor: pointer;
+  color: rgb(49, 48, 48);
+  background: radial-gradient(rgb(255, 255, 255) 50%, transparent 50%);
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+  .scroll-button {
+    position: fixed;
+    left: 80%;
+  }
+}

@@ -10,14 +10,20 @@ import Domains from "../../data/home.json";
 
 const DomainDetails = () => {
   let { id } = useParams();
-  const [domain, setDomain] = useState();
-  const [years, setYears] = useState();
-  const [year, setYear] = useState();
-  const [localyear, setLocalYear] = useState();
-  const [tools, setTools] = useState();
-  const [localtools, setLocalTools] = useState();
+  const [domain, setDomain] = useState(); // holds the domain name from params
+  const [years, setYears] = useState(); // holds the years.json file
+  const [year, setYear] = useState(); // holds the selected year
+  const [localyear, setLocalYear] = useState(); // This is just a copy of the year state variable, and is used to highlight the selected year
+  const [tools, setTools] = useState(); // holds the all data of respective {year}.json file
+  const [localtools, setLocalTools] = useState(); // holds the filtered data of respective {year}.json file after search
 
   const [search, setSearch] = useState("");
+
+  const [categories, setCategories] = useState(); // holds the categories.json file
+  const [uniquecategories, setUniqueCategories] = useState(); // holds an array of unique categories
+  const [category, setCategory] = useState(); // holds the selected category
+  const [localcategory, setLocalCategory] = useState(); // This is just a copy of the category state variable, and is used to highlight the selected category
+  const [filteredcategory, setFilteredCategory] = useState(); // holds the filtered data of categories.json file
 
   const [blogs, setBlogs] = useState();
   const [people, setPeople] = useState();
@@ -33,12 +39,21 @@ const DomainDetails = () => {
       setYears(response.years)
     );
 
+    if (id === "ai") {
+      import(`../../data/${id}/categories.json`).then((response) => {
+        setCategories(response.categories);
+        setUniqueCategories([
+          ...new Set(response.categories.map((obj) => obj.category)),
+        ]);
+      });
+    }
+
     import(`../../data/${id}/blog.json`).then((response) => {
-      setBlogs(response["blog"]);
+      setBlogs(response.blog);
     });
 
     import(`../../data/${id}/follow.json`).then((response) => {
-      setPeople(response["follow"]);
+      setPeople(response.follow);
     });
   }, [id]);
 
@@ -48,10 +63,12 @@ const DomainDetails = () => {
       tools.filter((f) =>
         f.title.toLowerCase().startsWith(search.toLowerCase())
       );
+
     setLocalTools(result);
   }, [search, tools]);
 
   useEffect(() => {
+    // this code is to set the initial value of year state variable to 2022
     if (years) {
       setYear(years && years[0] && years[0].year);
     }
@@ -72,6 +89,25 @@ const DomainDetails = () => {
       );
     }
   }, [year, id]);
+
+  useEffect(() => {
+    if (uniquecategories) {
+      setCategory(uniquecategories && uniquecategories[0]);
+    }
+  }, [uniquecategories]);
+
+  useEffect(() => {
+    setLocalCategory(category);
+  }, [category]);
+
+  useEffect(() => {
+    if (category && id) {
+      let filter = categories.filter((obj) => {
+        return obj.category === category;
+      });
+      setFilteredCategory(filter);
+    }
+  }, [categories, category, id]);
 
   if (domain) {
     return (
@@ -129,9 +165,43 @@ const DomainDetails = () => {
               </div>
             </section>
           )}
+
+          {uniquecategories && (
+            <section id="categories">
+              <div className={styles.container}>
+                <h2 className={styles.section_subtitle}>Categories</h2>
+                <div className={styles.categories}>
+                  {uniquecategories &&
+                    uniquecategories.map((category) => (
+                      <p
+                        onClick={() => setCategory(category)}
+                        className={
+                          localcategory === category
+                            ? styles.year_active
+                            : styles.year
+                        }
+                      >
+                        {category}
+                      </p>
+                    ))}
+                </div>
+                <div className={styles.cards_wrapper}>
+                  {filteredcategory &&
+                    filteredcategory.map((category) => (
+                      <Card
+                        title={category.title}
+                        desc={category.description}
+                        link={category.url}
+                      />
+                    ))}
+                </div>
+              </div>
+            </section>
+          )}
+
           <section id="blogs">
             <div className={styles.container}>
-              <h2 className={styles.section_title}>Blogs to follow</h2>
+              <h2 className={styles.section_subtitle}>Blogs to follow</h2>
               <div className={styles.cards_wrapper}>
                 {blogs &&
                   blogs.map((blog) => (
@@ -146,7 +216,7 @@ const DomainDetails = () => {
           </section>
           <section id="people">
             <div className={styles.container}>
-              <h2 className={styles.section_title}>People to follow</h2>
+              <h2 className={styles.section_subtitle}>People to follow</h2>
               <div className={styles.cards_wrapper}>
                 {people &&
                   people.map((person) => (

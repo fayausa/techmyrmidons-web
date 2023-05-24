@@ -18,10 +18,11 @@ h1 {
 }
 
 .tagline {
+  margin-top: 1rem;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 300;
-  line-height: 1.5rem;
+  line-height: 2rem;
   letter-spacing: 0em;
   text-align: center;
 }
@@ -52,10 +53,6 @@ h1 {
   margin-bottom: 3rem;
 }
 
-/* section {
-  margin: 3.125rem 0 3.125rem 0;
-} */
-
 /* Main cards */
 .cards_wrapper {
   display: grid;
@@ -73,16 +70,40 @@ h1 {
   text-align: center;
 }
 
+.section_subtitle {
+  font-weight: 500;
+  font-size: 2.5rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 .topics {
   transition: 0.2s ease-in-out all;
 }
 
 .years {
+  -webkit-tap-highlight-color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
   flex-wrap: wrap;
+}
+
+.categories {
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 500px) {
+  .categories {
+    flex-direction: column;
+  }
 }
 
 .year_active {

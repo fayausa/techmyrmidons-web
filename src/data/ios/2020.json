@@ -63,7 +63,7 @@
     {
       "title": "SpriteKit",
       "description": "SpriteKit provides a graphics rendering and animation infrastructure that can be used to animate arbitrary textured images, or sprites. SpriteKit is optimized so that the positions of sprites can be changed arbitrarily in each frame of animation. It also provides other functionality that is useful for games, including basic sound playback support and physics simulation. The combination of framework and tools makes SpriteKit a good choice for games and other apps that require similar kinds of animation.",
-      "url": "https://developer.apple.com/SpriteKit_PG/Introduction/Introduction.html"
+      "url": "https://developer.apple.com/documentation/spritekit/"
     },
     {
       "title": "FIREBASE REALM",
