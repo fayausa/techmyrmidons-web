@@ -1,6 +1,12 @@
 {
   "2022": [
     {
+      "title": "OpenAI API",
+      "description": "The OpenAI API can be applied to virtually any task that involves understanding or generating natural language or code. We offer a spectrum of models with different levels of power suitable for different tasks, as well as the ability to fine-tune your own custom models. These models can be used for everything from content generation to semantic search and classification.",
+      "url": "https://openai.com/api/",
+      "morelink": "OpenAI"
+    },
+    {
       "title": "Apache Singa",
       "description": "The Singa Project was initiated by the DB System Group at the National University of Singapore in 2014, with a primary focus on distributed deep learning by partitioning the model and data onto nodes in a cluster and parallelising the training. Apache Singa provides a simple programming model and works across a cluster of machines. It is primarily used in natural language processing (NLP) and image recognition. A Singa prototype accepted by Apache Incubator in March 2015 provides a flexible architecture of scalable distributed training and is extendable to run over a wide range of hardware.",
       "url": "https://singa.incubator.apache.org/en/index.html",
