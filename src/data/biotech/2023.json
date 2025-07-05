@@ -1,0 +1,34 @@
+{
+  "2023": [
+    {
+      "title": "CRISPR therapy wins global approval",
+      "description": "2023 marked pivotal FDA and EMA approvals for CRISPR-based gene editing therapies, signaling the start of real-world gene editing in clinical practice.",
+      "url": "https://www.nature.com/articles/d41586-023-03685-9",
+      "morelink": "Nature"
+    },
+    {
+      "title": "AI expands in biotech drug discovery",
+      "description": "AI algorithms increasingly powered genomic analysis and compound screening, with platforms like DeepMind’s AlphaFold accelerating molecular research.",
+      "url": "https://www.deepmind.com/research/highlighted-research/alphafold",
+      "morelink": "DeepMind"
+    },
+    {
+      "title": "Synthetic biology drives lab-grown meat scale-up",
+      "description": "Companies like Upside Foods and Eat Just advanced FDA clearance for cultivated meat, thanks to CRISPR and fermentation innovation.",
+      "url": "https://www.foodnavigator-usa.com/Article/2023/06/05/Upside-Foods-and-Good-Meat-receive-final-FDA-clearance",
+      "morelink": "Food Navigator"
+    },
+    {
+      "title": "3D bioprinting matures",
+      "description": "3D-printed tissue and vascular scaffolds gained regulatory attention, with research expanding toward skin grafts and functional organ prototypes.",
+      "url": "https://www.labiotech.eu/medical/3d-bioprinting-organoids/",
+      "morelink": "Labiotech"
+    },
+    {
+      "title": "Agri-biotech enhances crop resilience",
+      "description": "Gene-edited and drought-resistant crops were commercialized in 2023 to address food security and climate adaptation.",
+      "url": "https://www.nature.com/articles/d41586-023-00945-1",
+      "morelink": "Nature"
+    }
+  ]
+}

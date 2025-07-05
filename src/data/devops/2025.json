@@ -1,0 +1,64 @@
+{
+  "2025": [
+    {
+      "title": "AIOps automation expands",
+      "description": "AIOps became integral, using ML for predictive analytics, anomaly detection, and automated incident remediation in CI/CD and monitoring stacks.",
+      "url": "https://spdload.com/blog/devops-trends/",
+      "morelink": "SpdLoad"
+    },
+    {
+      "title": "DevSecOps integrates AI",
+      "description": "AI-driven security tools powered DevSecOps, automating vulnerability detection, SAST/DAST, and compliance workflows within pipelines.",
+      "url": "https://graphite.dev/guides/devops-trends-2025-devsecops-aiops",
+      "morelink": "Graphite.dev"
+    },
+    {
+      "title": "GitOps and IaC converge",
+      "description": "GitOps maturity increased, enabling declarative infrastructure and automated deployments via Git-backed CI/CD with IaC tooling.",
+      "url": "https://codebridge.tech/articles/the-future-of-devops-trends-and-predictions-for-2024-and-beyond",
+      "morelink": "Codebridge"
+    },
+    {
+      "title": "Observability evolves",
+      "description": "Unified telemetry (metrics, logs, traces) advanced through AI correlation across stacks, improving root-cause analysis.",
+      "url": "https://www.n-ix.com/devops-trends/",
+      "morelink": "N-iX"
+    },
+    {
+      "title": "Sustainable DevOps emerges",
+      "description": "SusDevOps prioritized eco-friendly practices and energy-efficient pipelines, with minimal carbon footprint frameworks in research.",
+      "url": "https://arxiv.org/abs/2503.08845",
+      "morelink": "arXiv"
+    },
+    {
+      "title": "Infrastructure as Code standardizes",
+      "description": "IaC tools supported full automation of deployment pipelines, enabling reproducible and auditable infrastructure workflows.",
+      "url": "https://arxiv.org/abs/2503.16038",
+      "morelink": "arXiv"
+    },
+    {
+      "title": "MLOps and DevOps unified",
+      "description": "DevOps and MLOps pipelines merged, treating ML models as first-class CI/CD artifacts to streamline AI deployment.",
+      "url": "https://www.techradar.com/pro/breaking-silos-unifying-devops-and-mlops-into-a-unified-software-supply-chain",
+      "morelink": "TechRadar"
+    },
+    {
+      "title": "LADs: LLM-Driven Configuration",
+      "description": "LADs, a novel LLM-based framework, automated cloud config, deployment, and tuning via prompt chaining and feedback loops.",
+      "url": "https://arxiv.org/abs/2502.20825",
+      "morelink": "arXiv"
+    },
+    {
+      "title": "SonarQube enhances DevOps workflows",
+      "description": "SonarQube 2023 LTS and secrets-detection improved SAST support in cloud-native CI/CD across AWS, Azure, and GCP.",
+      "url": "https://en.wikipedia.org/wiki/Sonar_(company)",
+      "morelink": "Wikipedia Sonar"
+    },
+    {
+      "title": "Rise of Mobile DevOps",
+      "description": "Mobile DevOps gained traction for automating CI/CD in iOS/Android app development, recognizing mobile-specific delivery challenges.",
+      "url": "https://en.wikipedia.org/wiki/Mobile_DevOps",
+      "morelink": "Wikipedia Mobile DevOps"
+    }
+  ]
+}

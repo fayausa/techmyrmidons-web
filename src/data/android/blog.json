@@ -69,6 +69,31 @@
     {
       "blog": "http://android-developers.blogspot.in/",
       "author":"Developer Blog"
+    },
+
+    {
+      "blog": "https://medium.com/androiddevelopers",
+      "author": "Android Devs on Medium (2023–2025)"
+    },
+
+    {
+      "blog": "https://proandroiddev.com/",
+      "author": "ProAndroidDev (2023–2025)"
+    },
+
+    {
+      "blog": "https://www.youtube.com/c/androiddevelopers",
+      "author": "Android Developers YouTube (2023–2025)"
+    },
+
+    {
+      "blog": "https://www.youtube.com/c/PhilippLackner",
+      "author": "Philipp Lackner (Android Vlog, 2023–2025)"
+    },
+
+    {
+      "blog": "https://www.youtube.com/@StevdzaSan",
+      "author": "Stevdza-San (Jetpack Compose, 2023–2025)"
     }
 
   ]

@@ -56,9 +56,9 @@
       "folderName": "pm"
     },
     {
-      "technology": "Actions on Google",
-      "logo": "actions-on-google.png",
-      "folderName": "actions-on-google"
+      "technology": "IoT",
+      "logo": "iot.png",
+      "folderName": "iot"
     }
   ]
 }

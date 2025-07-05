@@ -1,0 +1,58 @@
+{
+    "2024": [
+        {
+            "title": "Apple Vision Pro release",
+            "description": "Released Feb–July 2024, this spatial computing headset features dual 4K+ Micro‑OLED displays, M2 + R1 chips, eye- and hand-tracking, and immersive passthrough, marking a major milestone in consumer mixed reality.",
+            "url": "https://en.wikipedia.org/wiki/Apple_Vision_Pro",
+            "morelink": "Apple Vision Pro"
+        },
+        {
+            "title": "Meta Quest 3 & Quest 3S launch",
+            "description": "Meta released Quest 3 in 2024 with mixed reality, pancake lenses, and Snapdragon XR2+ Gen 2 chip; followed by budget Quest 3S (Oct 2024) at $299/$399 price point, widening access to MR tech.",
+            "url": "https://en.wikipedia.org/wiki/Meta_Quest_3S",
+            "morelink": "Meta Quest 3S"
+        },
+        {
+            "title": "Qualcomm Snapdragon XR2+ Gen 2 chip unveiled",
+            "description": "At CES 2024 Qualcomm detailed the XR2+ Gen 2 platform, delivering up to 4.3K per‑eye displays, 8× AI performance boost, Wi‑Fi 7, 90 Hz refresh, aimed at next‑gen AR/VR headsets.",
+            "url": "https://www.techradar.com/computing/virtual-reality-augmented-reality/the-5-best-vr-headset-and-ar-glasses-announcements-at-ces-2024",
+            "morelink": "TechRadar CES 2024"
+        },
+        {
+            "title": "Meta Orion AR prototype revealed",
+            "description": "At Meta Connect 2024, CEO Zuckerberg unveiled Orion smart glasses prototype featuring hand/eye tracking, wrist nerve-interface control, highlighting next-gen AR vision.",
+            "url": "https://www.theguardian.com/technology/2024/sep/25/meta-connect-orion-glasses",
+            "morelink": "Meta Connect Orion"
+        },
+        {
+            "title": "Samsung & Google Project Moohan prototype",
+            "description": "In Dec 2024 Samsung and Google revealed Project Moohan AR glasses prototype powered by Snapdragon XR2+ and Android XR platform, aimed to rival Vision Pro.",
+            "url": "https://cincodias.elpais.com/smartlife/gadgets/2024-12-13/samsung-google-project-moohan-rival-vision-pro.html",
+            "morelink": "Project Moohan"
+        },
+        {
+            "title": "Industrial AR/VR integrations rise",
+            "description": "2024 saw rapid adoption of AR/VR for enterprise use: training simulators (FAA-approved flight sims), industrial metaverse for remote maintenance, spatial collaboration platforms.",
+            "url": "https://www.mindport.co/blog-articles/the-trends-of-virtual-and-augmented-reality-for-2024",
+            "morelink": "MindPort Trends"
+        },
+        {
+            "title": "AR and VR convergence via AI-driven environments",
+            "description": "AI-enabled VR spaces dynamically adapt to user behavior, while AR/VR convergence boosts immersive hybrid experiences in productivity, training, and entertainment.",
+            "url": "https://illumeably.net/posts/20-most-important-virtual-reality-breakthroughs-of-2024/",
+            "morelink": "Illumeably VR"
+        },
+        {
+            "title": "Smart glasses momentum grows",
+            "description": "Ray‑Ban Meta smart glasses led consumer smart eyewear in 2024; XREAL Air 2 Ultra offered 154″ virtual screen; market saw growing smart-lens and niche wearable innovations.",
+            "url": "https://www.wired.com/story/smart-glasses-all-the-way-down",
+            "morelink": "Wired Smart Glasses"
+        },
+        {
+            "title": "zSpace Inspire 2 & Imagine laptop debut",
+            "description": "zSpace launched Inspire 2 AR/VR desktop systems in Dec 2024 and Imagine AR/VR laptop in Jan 2025, targeting K‑12 education with headset-free spatial computing.",
+            "url": "https://en.wikipedia.org/wiki/ZSpace_%28company%29",
+            "morelink": "zSpace"
+        }
+    ]
+}

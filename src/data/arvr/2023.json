@@ -1,0 +1,44 @@
+{
+  "2023": [
+    {
+      "title": "Unreal Engine 5",
+      "description": "Unreal Engine 5 further solidified its place as a top-tier engine for VR/AR development in 2023. With enhancements like Lumen for dynamic global illumination and Nanite for highly detailed assets, developers can create photorealistic and performant VR experiences. It continues to support VR platforms natively and boasts a large asset marketplace and community.",
+      "url": "https://www.unrealengine.com/en-US/unreal-engine-5"
+    },
+    {
+      "title": "Unity 2023",
+      "description": "Unity remained a popular choice for AR/VR development in 2023 thanks to its ease of use, strong mobile support, and integration with AR Foundation, Vuforia, and XR SDK. Its asset store and large community make it ideal for beginners and pros alike.",
+      "url": "https://unity.com"
+    },
+    {
+      "title": "Blender 3.6",
+      "description": "Blender continued its rapid evolution in 2023 with updates focused on better GPU rendering and USD support. It remains a powerful, free 3D content creation suite used in VR pipelines for modeling, rigging, and animation, though not a full game engine itself.",
+      "url": "https://www.blender.org/"
+    },
+    {
+      "title": "Godot Engine 4",
+      "description": "Godot made huge strides in 2023 with the release of version 4.0. It now supports Vulkan rendering, improved 3D physics, and better VR plugins for open platforms. It’s a great open-source alternative for indie developers.",
+      "url": "https://godotengine.org/"
+    },
+    {
+      "title": "Lens Studio by Snap",
+      "description": "Lens Studio empowered AR creators in 2023 to build immersive experiences for Snapchat. With scripting, 3D asset integration, and AI tools, creators can easily build interactive AR lenses for mobile platforms.",
+      "url": "https://ar.snap.com/lens-studio"
+    },
+    {
+      "title": "Effect House by TikTok",
+      "description": "Effect House grew rapidly in 2023 as TikTok’s official AR creation tool. It enables creators to design filters and effects with scripting and interactive triggers, and is accessible even to beginners.",
+      "url": "https://effecthouse.tiktok.com/"
+    },
+    {
+      "title": "8thWall",
+      "description": "8thWall became a go-to platform for web-based AR experiences in 2023. It requires no app downloads and supports face, image, and world tracking in-browser, making it ideal for marketing and brand experiences.",
+      "url": "https://www.8thwall.com/"
+    },
+    {
+      "title": "Reality Composer Pro (Apple Vision)",
+      "description": "In 2023, Apple introduced Reality Composer Pro as part of the Vision Pro XR platform. It allows designers to prototype and simulate spatial experiences with ARKit and RealityKit in an intuitive workflow.",
+      "url": "https://developer.apple.com/augmented-reality/"
+    }
+  ]
+}

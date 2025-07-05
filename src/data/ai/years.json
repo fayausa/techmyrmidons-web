@@ -1,6 +1,18 @@
 {
   "years": [
     {
+      "year": "2025",
+      "url": "data/ai/2025.json"
+    },
+    {
+      "year": "2024",
+      "url": "data/ai/2024.json"
+    },
+    {
+      "year": "2023",
+      "url": "data/ai/2023.json"
+    },
+    {
       "year": "2022",
       "url": "data/ai/2022.json"
     },
@@ -20,6 +32,5 @@
       "year": "2018",
       "url": "data/ai/2018.json"
     }
-
   ]
 }

@@ -1,0 +1,58 @@
+{
+    "2025": [
+        {
+            "title": "Meta Quest 3S Xbox Edition release",
+            "description": "Meta and Xbox launched the limited‑edition Meta Quest 3S Xbox Edition on June 24 for $399, bundled with Xbox Series controller and Game Pass, optimized for Xbox Cloud Gaming on VR.",
+            "url": "https://www.theverge.com/hands-on/690978/meta-quest-3s-xbox-edition-vr-headset-release-date-pricing",
+            "morelink": "The Verge"
+        },
+        {
+            "title": "Google Android XR & Project Moohan unveiled",
+            "description": "At Google I/O 2025, Google unveiled Android XR platform featuring Gemini AI, hand/eye tracking, and showcased Project Moohan mixed‑reality headset co-developed with Samsung, launching mid‑2025.",
+            "url": "https://www.wired.com/story/google-android-xr-demo-smart-glasses-mixed-reality-headset-project-moohan",
+            "morelink": "Wired"
+        },
+        {
+            "title": "Samsung Project Moohan previewed at Galaxy Unpacked",
+            "description": "In July at Galaxy Unpacked, Samsung previewed its Android XR headset Project Moohan, featuring Snapdragon XR2+ Gen 2, high‑res OLED displays, launching in South Korea late 2025.",
+            "url": "https://www.tomsguide.com/computing/vr-ar/samsung-just-tipped-to-show-off-project-moohan-headset-during-galaxy-unpacked-in-july",
+            "morelink": "Tom’s Guide"
+        },
+        {
+            "title": "Samsung AR/VR headset to outshine Vision Pro",
+            "description": "A June supply‑chain leak suggests Samsung’s 2025 AR/VR headset will feature displays surpassing Apple Vision Pro, signaling high‑end hardware competition.",
+            "url": "https://www.macrumors.com/2025/06/25/samsung-headset-better-displays-than-vision-pro",
+            "morelink": "MacRumors"
+        },
+        {
+            "title": "Meta ‘Loma’ headset partnerships",
+            "description": "Meta is collaborating with Disney, A24, and Lightstorm to produce exclusive immersive content for its upcoming ‘Loma’ AR‑style headset targeted for 2026 release.",
+            "url": "https://www.wsj.com/business/media/meta-seeks-hollywood-deals-for-new-virtual-reality-headset-ef3db942",
+            "morelink": "WSJ"
+        },
+        {
+            "title": "AWE USA 2025 showcases AI-powered XR demos",
+            "description": "At AWE USA in June, exhibitors presented Qualcomm’s AR chip with on‑device AI, XREAL Android‑XR glasses, Sony XYN headset (3552 × 3840 resolution), NeuralDisplay eye‑tracking, and more.",
+            "url": "https://www.androidcentral.com/gaming/virtual-reality/best-of-awe-2025-coolest-xr-demos-niantic-viture-sony-android-xr",
+            "morelink": "Android Central"
+        },
+        {
+            "title": "Elsewhere Electric VR game launches",
+            "description": "Indie title Elsewhere Electric, an asymmetric co-op VR/mobile puzzle game, is scheduled for summer 2025 release on Meta Quest and SteamVR.",
+            "url": "https://en.wikipedia.org/wiki/Elsewhere_Electric",
+            "morelink": "Elsewhere Electric"
+        },
+        {
+            "title": "zSpace Imagine AR/VR laptop debuts",
+            "description": "In January 2025, zSpace launched the Imagine AR/VR laptop—an all‑in‑one spatial computer for K–12 education, continuing its headset‑free Inspire series.",
+            "url": "https://en.wikipedia.org/wiki/ZSpace_%28company%29",
+            "morelink": "zSpace"
+        },
+        {
+            "title": "AR/VR headset market grows 18% Q1 2025",
+            "description": "IDC reports AR/VR headset shipments rose by 18.1% year‑over‑year in Q1 2025, signaling recovery driven by mixed reality and enterprise adoption.",
+            "url": "https://telecomlead.com/smart-phone/ar-vr-headset-market-surges-18-as-meta-leads-and-innovation-drives-shift-to-mixed-and-extended-reality-121414",
+            "morelink": "TelecomLead"
+        }
+    ]
+}

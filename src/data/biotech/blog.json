@@ -1,24 +1,44 @@
-  {
-    "blog": [
-
-  {
-    "blog": "https://www.cell.com/trends/biotechnology/home",
-    "author": "Trends In Biotechnology"
-  },
-
-  {
-    "blog": "https://bioengineer.org/",
-    "author": "Bioengineer.org"
-  },
-
-  {
-    "blog": "https://www.fiercebiotech.com/",
-    "author": "Rebecca Willumson"
-  },
-
-  {
-    "blog": "https://biotechin.asia/",
-    "author": "Biotech Asia"
-  }
+{
+  "blog": [
+    {
+      "blog": "https://www.cell.com/trends/biotechnology/home",
+      "author": "Trends in Biotechnology"
+    },
+    {
+      "blog": "https://bioengineer.org/",
+      "author": "Bioengineer.org"
+    },
+    {
+      "blog": "https://www.fiercebiotech.com/",
+      "author": "Fierce Biotech"
+    },
+    {
+      "blog": "https://biotechin.asia/",
+      "author": "Biotech Asia"
+    },
+    {
+      "blog": "https://www.genengnews.com/",
+      "author": "Genetic Engineering & Biotechnology News (GEN)"
+    },
+    {
+      "blog": "https://www.labiotech.eu/",
+      "author": "Labiotech.eu"
+    },
+    {
+      "blog": "https://www.nature.com/nbt/",
+      "author": "Nature Biotechnology"
+    },
+    {
+      "blog": "https://synbiobeta.com/news/",
+      "author": "SynBioBeta"
+    },
+    {
+      "blog": "https://www.biopharmadive.com/",
+      "author": "BioPharma Dive"
+    },
+    {
+      "blog": "https://www.biotechniques.com/",
+      "author": "BioTechniques"
+    }
   ]
 }

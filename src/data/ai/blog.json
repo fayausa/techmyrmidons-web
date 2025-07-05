@@ -4,65 +4,81 @@
       "blog": "https://aitrends.com/",
       "author": "AiTrends"
     },
-
     {
-      "blog": "http://machinelearningmastery.com/blog/",
+      "blog": "https://machinelearningmastery.com/blog/",
       "author": "Machine Learning Mastery"
     },
-
     {
-      "blog": "http://info.algorithmia.com/",
+      "blog": "https://www.algorithmia.com/blog",
       "author": "Algorithmia"
     },
-
     {
       "blog": "https://aitopics.org/search",
       "author": "AITopics"
     },
-
     {
       "blog": "https://chatbotsmagazine.com/",
       "author": "Chatbot Magazine"
     },
-
     {
-      "blog": "https://openai.com/",
-      "author": "Open AI"
+      "blog": "https://openai.com/blog/",
+      "author": "OpenAI"
     },
-
     {
       "blog": "https://intelligence.org/blog/",
-      "author": "Newcircle"
+      "author": "Machine Intelligence Research Institute (MIRI)"
     },
-
     {
-      "blog": "https://www.lynda.com/Mobile-training-tutorials/55-0.html?utm_medium=ldc-partner&utm_source=SSPRC&utm_content=10848&utm_campaign=CD15021&bid=10848&aid=CD15021",
-      "author": "Lynda.com"
+      "blog": "https://www.deepmind.com/blog",
+      "author": "Google DeepMind"
     },
-
     {
-      "blog": "http://www.bongizmo.com/blog/android-resources-each-developer-should-know/",
-      "author": "bongizmo"
+      "blog": "https://www.anthropic.com/news",
+      "author": "Anthropic"
     },
-
     {
-      "blog": "https://developer.android.com/topic/libraries/support-library/index.html",
-      "author": "Developers"
+      "blog": "https://huggingface.co/blog",
+      "author": "Hugging Face"
     },
-
     {
-      "blog": "http://www.talkandroid.com/",
-      "author": "Talk Android"
+      "blog": "https://ai.googleblog.com/",
+      "author": "Google AI Blog"
     },
-
     {
-      "blog": "http://phandroid.com/",
-      "author": "Phandroid"
+      "blog": "https://blog.research.google/",
+      "author": "Google Research"
     },
-
     {
-      "blog": "http://android-developers.blogspot.in/",
-      "author": "Developer Blog"
+      "blog": "https://blog.mistral.ai/",
+      "author": "Mistral AI"
+    },
+    {
+      "blog": "https://x.ai/blog",
+      "author": "xAI (Elon Musk)"
+    },
+    {
+      "blog": "https://www.perplexity.ai/blog",
+      "author": "Perplexity AI"
+    },
+    {
+      "blog": "https://www.microsoft.com/en-us/research/blog/",
+      "author": "Microsoft Research"
+    },
+    {
+      "blog": "https://www.nvidia.com/en-us/research/",
+      "author": "NVIDIA Research"
+    },
+    {
+      "blog": "https://runwayml.com/blog",
+      "author": "Runway ML"
+    },
+    {
+      "blog": "https://medium.com/@AIEntrepreneurs",
+      "author": "AI Entrepreneurs"
+    },
+    {
+      "blog": "https://blogs.nvidia.com/",
+      "author": "NVIDIA Blog"
     }
   ]
 }

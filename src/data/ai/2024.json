@@ -1,0 +1,88 @@
+{
+  "2024": [
+    {
+      "title": "AlphaFold 3 announced",
+      "description": "On May 8, 2024, DeepMind unveiled AlphaFold 3, the latest version capable of predicting structures of protein complexes—proteins bound to DNA, RNA, ligands, and ions—marking a major milestone in structural biology.",
+      "url": "https://en.wikipedia.org/wiki/2024_in_artificial_intelligence",
+      "morelink": "Wikipedia 2024 AI"
+    },
+    {
+      "title": "EU AI Act comes into force",
+      "description": "On August 1, 2024, the European Union's Artificial Intelligence Act—establishing regulatory frameworks for high‑risk AI systems—became legally binding across member states, introducing strict compliance obligations.",
+      "url": "https://en.wikipedia.org/wiki/2024_in_artificial_intelligence",
+      "morelink": "Wikipedia 2024 AI"
+    },
+    {
+      "title": "India–UK sign Framework Convention on AI",
+      "description": "On September 5, 2024, the Council of Europe’s Framework Convention on AI and Human Rights was signed by more than 50 countries—including the UK, US, and EU—setting global standards for AI ethics and governance.",
+      "url": "https://www.npelitigation.com/en/latvia/insights/global-ai-regulatory-update-november-2024",
+      "morelink": "Framework Convention"
+    },
+    {
+      "title": "OpenAI launches GPT Store",
+      "description": "In January 2024, OpenAI released the GPT Store, a marketplace for custom GPTs, enabling users to build, share, and monetize tailored conversational AI applications via ChatGPT.",
+      "url": "https://www.kdnuggets.com/2024-biggest-moments-ai",
+      "morelink": "KDnuggets"
+    },
+    {
+      "title": "Google rebrands Bard to Gemini & releases Gemma and Gemini 1.5",
+      "description": "February 2024 saw Bard rebranded as Gemini, launch of community models Gemma 2B/7B, and Gemini 1.5 Pro with massive million‑token context window and early AI Search integration.",
+      "url": "https://www.techtarget.com/searchenterpriseai/feature/The-year-in-AI-Catch-up-on-the-top-AI-news-of-2024",
+      "morelink": "TechTarget"
+    },
+    {
+      "title": "OpenAI announces Sora (text‑to‑video)",
+      "description": "On February 15, 2024, OpenAI unveiled Sora—a text‑to‑video model generating up to one‑minute videos, pushing generative AI beyond images and text.",
+      "url": "https://www.hellojumble.com/p/24-ai-breakthroughs-that-made-2024-a-year-to-remember",
+      "morelink": "HelloJumble"
+    },
+    {
+      "title": "Perplexity AI raises $73M Series B",
+      "description": "In January 2024, Perplexity AI—an AI‑powered search engine—raised $73.6 million, intensifying the push towards conversational and citation‑based search tools.",
+      "url": "https://www.techtarget.com/searchenterpriseai/feature/The-year-in-AI-Catch-up-on-the-top-AI-news-of-2024",
+      "morelink": "TechTarget"
+    },
+    {
+      "title": "Nvidia unveils Blackwell at GTC 2024",
+      "description": "At Nvidia’s March 2024 GTC conference, the Blackwell platform was introduced alongside Project Groot (foundational robotics model) and first AI‑nurse demo, signaling a new computing era.",
+      "url": "https://standout.digital/post/biggest-ai-innovations-in-2024-and-whats-next-for-2025-2024-rewind-b775ef2412c7",
+      "morelink": "Standout"
+    },
+    {
+      "title": "Microsoft launches Copilot Pro and AI Browser",
+      "description": "In January 2024, Microsoft launched Copilot Pro ($20/mo) across Microsoft 365 and rebranded Edge as “AI Browser” with integrated GPT‑4 Turbo and DALL·E 3 generation.",
+      "url": "https://medium.com/@AIEntrepreneurs/biggest-ai-innovations-in-2024-and-whats-next-for-2025-2024-rewind-b775ef2412c7",
+      "morelink": "Medium AI Entrepreneurs"
+    },
+    {
+      "title": "Mistral debuts Mathstral & Codestral",
+      "description": "On July 17, 2024, Mistral AI released two open‑source specialist LLMs: Mathstral (for math/scientific reasoning) and Codestral (for code generation), each under Apache 2.0.",
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1e5o1am",
+      "morelink": "Reddit r/ArtificialInteligence"
+    },
+    {
+      "title": "Meta releases Llama 3.1 405B",
+      "description": "In July 2024, Meta launched Llama 3.1 405B—its largest open LLM with 405 billion parameters, rivaling GPT‑4 in benchmarks and freely available for research/commercial use.",
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1eafukyf",
+      "morelink": "Reddit r/ArtificialInteligence"
+    },
+    {
+      "title": "Anthropic introduces Claude 3.5 Sonnet",
+      "description": "On June 20, 2024, Anthropic released Claude 3.5 Sonnet—faster and more capable, with tools for collaboration and enhanced safety features.",
+      "url": "https://www.hellojumble.com/p/24-ai-breakthroughs-that-made-2024-a-year-to-remember",
+      "morelink": "HelloJumble"
+    },
+    {
+      "title": "Runway launches Gen‑3 Alpha video model",
+      "description": "In early July 2024, Runway made Gen‑3 Alpha—advanced text‑to‑video model with scene consistency and camera motion—publicly available under a $12/mo plan.",
+      "url": "https://www.reddit.com/r/ArtificialInteligence/comments/1dtqajl",
+      "morelink": "Reddit r/ArtificialInteligence"
+    },
+    {
+      "title": "China drafts AI watermark regulation",
+      "description": "In 2024, China’s Cyberspace Administration proposed mandatory watermarking of AI‑generated content (images/audio), with metadata tagging to curb misinformation.",
+      "url": "https://www.wired.com/story/china-wants-to-make-ai-watermarks-happen",
+      "morelink": "Wired"
+    }
+  ]
+}

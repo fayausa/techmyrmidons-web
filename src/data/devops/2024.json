@@ -1,0 +1,46 @@
+{
+  "2024": [
+    {
+      "title": "AI and ML integrated into DevOps",
+      "description": "AIOps tools started automating routine tasks like incident resolution and resource optimization in real time.",
+      "url": "https://phoenixnap.com/blog/devops-trends",
+      "morelink": "phoenixNAP"
+    },
+    {
+      "title": "GitOps adopts infrastructure control",
+      "description": "GitOps emerged as a mainstream practice, storing and managing infrastructure changes declaratively via Git repositories.",
+      "url": "https://devico.io/blog/8-devops-trends-shaping-the-industry-in-2024",
+      "morelink": "Devico"
+    },
+    {
+      "title": "DevSecOps mainstreamed",
+      "description": "Security-first DevOps became the norm—policy-as-code, scanning, and compliance checks were automated in pipelines.",
+      "url": "https://devops.com/from-machine-learning-to-devsecops-six-devops-trends-for-2024/",
+      "morelink": "DevOps.com"
+    },
+    {
+      "title": "Platform engineering strengthens",
+      "description": "ITPro Today highlights platform engineering as essential, improving productivity, security, and operational resilience.",
+      "url": "https://www.itprotoday.com/devops/top-10-devops-trends-of-2024-key-insights-and-innovations",
+      "morelink": "ITPro Today"
+    },
+    {
+      "title": "Serverless architectures expand",
+      "description": "Serverless computing gained traction for ephemeral workloads and microservices, reducing infrastructure overhead.",
+      "url": "https://devops.com/from-machine-learning-to-devsecops-six-devops-trends-for-2024/",
+      "morelink": "DevOps.com"
+    },
+    {
+      "title": "Compliance via infrastructure as code",
+      "description": "Teams enforced compliance and policy through IaC tools, integrating checks directly into CI pipelines.",
+      "url": "https://eficode.com/guides/devops-trends-2024",
+      "morelink": "Eficode"
+    },
+    {
+      "title": "Developer experience improves",
+      "description": "GitHub research shows better developer experience (DX) boosts productivity by ~30%; DevOps teams prioritized DX enhancements.",
+      "url": "https://www.itprotoday.com/devops/top-10-devops-trends-of-2024-key-insights-and-innovations",
+      "morelink": "ITPro Today"
+    }
+  ]
+}

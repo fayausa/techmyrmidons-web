@@ -1,0 +1,64 @@
+{
+  "2025": [
+    {
+      "title": "AI Action Summit in Paris",
+      "description": "Held on February 10–11, over 1,000 participants from 100+ countries—including Macron and Modi—gathered to set global AI investment (€200 B InvestAI), ethics, and regulation agendas.",
+      "url": "https://en.wikipedia.org/wiki/AI_Action_Summit",
+      "morelink": "AI Action Summit"
+    },
+    {
+      "title": "Stargate LLC $500 B US AI infra investment announced",
+      "description": "In Jan 2025, US government–backed Stargate LLC (OpenAI, SoftBank, Oracle, MGX) announced a $500 billion initiative—starting with $100 B—to build national-scale AI infrastructure by 2029.",
+      "url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+      "morelink": "Stargate LLC"
+    },
+    {
+      "title": "Nvidia unveils Blackwell Ultra & Vera Rubin chips at GTC",
+      "description": "At GTC Mar 2025, Nvidia revealed Blackwell Ultra (H2’25) and Vera Rubin (2026), plus robotics model Groot N1, Halos safety system, Isaac Groot for robotics, Cosmos synthetic-data platform, Newton physics engine.",
+      "url": "https://apnews.com/article/457e9260aa2a34c1bbcc07c98b7a0555",
+      "morelink": "Nvidia GTC"
+    },
+    {
+      "title": "xAI releases Grok‑3 & Grok‑3 mini",
+      "description": "On February 17, xAI launched Grok‑3, a multimodal reasoning LLM outperforming GPT‑4o on math and science benchmarks, plus Grok‑3 mini and DeepSearch web-agent.",
+      "url": "https://en.wikipedia.org/wiki/Grok_(chatbot)",
+      "morelink": "Grok‑3"
+    },
+    {
+      "title": "Amazon forms agentic AI group for warehouse robotics",
+      "description": "In June 2025, Amazon’s Lab126 created a dedicated agentic AI team to equip warehouse robots with natural‑language comprehension and autonomous task execution.",
+      "url": "https://www.investopedia.com/amazon-launches-agentic-ai-group-to-enhance-its-warehouse-robots-reports-say-11749004",
+      "morelink": "Amazon Agentic AI"
+    },
+    {
+      "title": "Microsoft Build 2025 highlights AI expansion",
+      "description": "At Build in May, Microsoft showcased new Copilot AI tools in Windows 11 & 365, autonomous agents, semantic search, developer tools, cancer treatment AI, Grok‑3.5 on Azure, and open‑sourced WSL.",
+      "url": "https://www.tomsguide.com/news/live/microsoft-build-2025",
+      "morelink": "MS Build 2025"
+    },
+    {
+      "title": "Google launches AI Mode in Search at I/O",
+      "description": "At Google I/O 2025, Sundar Pichai introduced AI Mode for Search—AI-generated overviews in results—called 'one of the most successful search launches in the last decade.'",
+      "url": "https://timesofindia.indiatimes.com/technology/tech-news/google-ceo-sundar-pichai-calls-this-as-one-of-the-most-successful-launches-in-search-in-last-10-years/articleshow/121300131.cms",
+      "morelink": "Google AI Mode"
+    },
+    {
+      "title": "CES 2025 spotlights AI-powered robots & chips",
+      "description": "At CES (Jan 2025), X showcased advertising AI, while Segway, Siemens, Unitree revealed humanoid robots, drones, and Nvidia chips—highlighting AI’s role in robotics and consumer tech.",
+      "url": "https://nypost.com/2025/01/07/business/ces-2025-x-ceo-linda-yaccarino-touts-holy-grail-feature-as-ai-powered-robots-gadgets-dominate-show-floor-2/",
+      "morelink": "CES 2025 AI"
+    },
+    {
+      "title": "Manus AI autonomous agent introduced",
+      "description": "In early 2025, Chinese startup Monica.im published a paper on Manus AI—an autonomous reasoning-to-action agent spanning healthcare, finance, manufacturing, robotics, and gaming.",
+      "url": "https://arxiv.org/abs/2505.02024",
+      "morelink": "Manus AI"
+    },
+    {
+      "title": "Sustainability research: Greening AI software engineering",
+      "description": "A June 2025 CECAM-Lorentz workshop released a research agenda on making AI systems energy-efficient, eco-friendly, and sustainability-aware through software engineering principles.",
+      "url": "https://arxiv.org/abs/2506.01774",
+      "morelink": "Greening AI"
+    }
+  ]
+}
