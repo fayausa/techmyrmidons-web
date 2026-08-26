@@ -1,0 +1,54 @@
+{
+    "2024": [
+        {
+            "title": "Gene‑Editing 2.0",
+            "description": "Next-gen CRISPR systems with improved precision and reduced off-target effects are advancing gene therapies and genetically modified crops, offering safer, more efficient applications in medicine and agriculture.",
+            "url": "https://digianalix.com/blog/top-innovations-from-leading-biotech-companies-in-2024/"
+        },
+        {
+            "title": "Synthetic Biology + AI",
+            "description": "AI-powered platforms like SynBioAI are designing microbes that produce biofuels and specialty chemicals, revolutionizing sustainable manufacturing through synthetic biology.",
+            "url": "https://digianalix.com/blog/top-innovations-from-leading-biotech-companies-in-2024/"
+        },
+        {
+            "title": "Personalized mRNA Cancer Vaccines",
+            "description": "Biotech companies like ImmunoGen are pioneering personalized mRNA vaccines tailored to individual tumor profiles, marking a major step in precision oncology.",
+            "url": "https://digianalix.com/blog/top-innovations-from-leading-biotech-companies-in-2024/"
+        },
+        {
+            "title": "Consumer-Facing Biotech Foods",
+            "description": "Biotech breakthroughs brought gene-edited apples, salt-tolerant crops, purple tomatoes, ocean-farming rice, and glowing petunias to market, blending novelty with nutrition.",
+            "url": "https://www.isaaa.org/blog/entry/default.asp?BlogDate=1%2F8%2F2025"
+        },
+        {
+            "title": "Eladocagene exuparvovec (Kebilidi)",
+            "description": "A gene therapy fast-tracked in 2024 for treating AADC deficiency, marking a milestone in rare disease treatment.",
+            "url": "https://pharmaboardroom.com/articles/2024-fda-approvals-oncology-wins-biotech-breakthroughs/"
+        },
+        {
+            "title": "AlphaFold 3",
+            "description": "Released in 2024, AlphaFold 3 predicts structures of proteins, DNA, RNA, and ligands with high accuracy, transforming computational biology.",
+            "url": "https://en.wikipedia.org/wiki/2024_in_science"
+        },
+        {
+            "title": "Plastics-Eating Microbes",
+            "description": "Colossal Biosciences introduced microbes capable of degrading plastic in under two years, addressing global waste problems through biotechnology.",
+            "url": "https://en.wikipedia.org/wiki/Colossal_Biosciences"
+        },
+        {
+            "title": "Eli Lilly Acquires Verve Therapeutics",
+            "description": "In a $1.3 billion deal, Eli Lilly acquired Verve to expand CRISPR-based cardiovascular therapies, reflecting big pharma's gene-editing investments.",
+            "url": "https://www.ft.com/content/53d021c9-d15f-4471-86ef-e9abfc3ae7db"
+        },
+        {
+            "title": "AstraZeneca Buys EsoBiotec",
+            "description": "AstraZeneca's $1 billion acquisition aims to advance in-body immune cell reprogramming for cancer and autoimmune disorders.",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/astrazeneca-buy-esobiotec-upto-1-billion-2025-03-17/"
+        },
+        {
+            "title": "Kerala’s Antibiotic Resistance Breakthrough",
+            "description": "RGCB, IIT Madras, and TIFR discovered a novel approach to fight drug-resistant bacteria by targeting porin proteins like CymAKp in Klebsiella pneumoniae.",
+            "url": "https://timesofindia.indiatimes.com/city/thiruvananthapuram/researchers-at-keralas-rajiv-gandhi-centre-for-biotechnology-discover-method-to-target-drug-resistance-in-bacteria/articleshow/121192771.cms"
+        }
+    ]
+}
