@@ -232,7 +232,7 @@ const DomainDetails = () => {
           </section>
         </main>
 
-        <div className={styles.cw_text}>© Copyright 2022 Tech Myrmidons</div>
+        <div className={styles.cw_text}>© Copyright 2025 Tech Myrmidons</div>
       </>
     );
   } else {

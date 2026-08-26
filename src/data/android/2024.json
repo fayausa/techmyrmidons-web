@@ -1,0 +1,54 @@
+{
+  "2024": [
+    {
+      "title": "Android Studio Koala Feature Drop (2024.1.2)",
+      "description": "Adds Google Play SDK Console warnings, Jetpack Compose Glance widget previews, default Live Edit in Compose, enhanced Profiler, USB speed detection, IntelliJ 2024.1 features like sticky lines and terminal improvements.",
+      "url": "https://android-developers.googleblog.com/2024/05/google-io-2024-whats-new-in-android-development-tools.html"
+    },
+    {
+      "title": "Android 15",
+      "description": "Released Sept 3 2024; emphasizes privacy, enhanced media & camera APIs, tablet/foldable UI improvements, ISO 21496 HDR support, redesigned credentials manager, and better desktop-mode multitasking.",
+      "url": "https://developer.android.com/about/versions/15"
+    },
+    {
+      "title": "Android 16 Developer Preview",
+      "description": "Preview released Dec 12 2024; introduces new photo-picker with cloud integration, Health Connect FHIR medical APIs, Privacy Sandbox, audio sharing via Bluetooth LE Auracast, notification cooldown, adaptive app autosizing.",
+      "url": "https://developer.android.com/latest-updates"
+    },
+    {
+      "title": "Jetpack Compose reaches Material 3 adaptive UIs",
+      "description": "In Sept 2024, stable Compose 1.0 APIs enable adaptive UI with Material 3; adoption grew to ~40% of top 1K Play Store apps by May 2024.",
+      "url": "https://en.wikipedia.org/wiki/Jetpack_Compose"
+    },
+    {
+      "title": "Gemini AI & Agentic AI in Android Studio",
+      "description": "Preview launched Jun 2025 I/O: Gemini-powered code suggestions, Agent Mode for multi-step tasks, UI image prompts, crash-report insights, and enterprise privacy via Gemini Code Assist.",
+      "url": "https://android-developers.googleblog.com/2025/06/top-3-updates-for-android-developer-productivity-google-io-25.html"
+    },
+    {
+      "title": "Android XR & smart glasses platform",
+      "description": "Announced Mid‑2024: Android XR for AR/VR devices, including AI‑powered smart glasses and mixed‑reality headsets with Gemini assistant, hand/eye tracking.",
+      "url": "https://www.wired.com/story/google-android-xr-demo-smart-glasses-mixed-reality-headset-project-moohan"
+    },
+    {
+      "title": "Firebase Studio (formerly Project IDX)",
+      "description": "Rebranded in Apr 2025; cloud‑based AI‑enabled IDE for Android/iOS with built‑in emulators released in open beta May 2024.",
+      "url": "https://en.wikipedia.org/wiki/Firebase_Studio"
+    },
+    {
+      "title": "LLM‑based tools: LLM‑CompDroid & GUPPY",
+      "description": "Academic breakthroughs using large‑language models to auto‑repair config bugs (LLM‑CompDroid) and update deprecated Android API calls (GUPPY) in early‑2024 research.",
+      "url": "https://arxiv.org/abs/2402.15078"
+    },
+    {
+      "title": "GrapheneOS security enhancements",
+      "description": "GrapheneOS (Apr 2025) adds revocable network/sensor permissions, secure browser, PIN scrambling, auto‑disable of hardware sensors and advanced privacy controls.",
+      "url": "https://en.wikipedia.org/wiki/GrapheneOS"
+    },
+    {
+      "title": "Android development trends: AI, 5G, foldables, KMM",
+      "description": "Industry trends emphasize AI/ML integration, 5G-optimized experiences, foldable & multi-screen UIs, Kotlin Multiplatform Mobile, instant apps, AR/VR, IoT, chatbots, cloud & voice UIs.",
+      "url": "https://appventurez.com/blog/android-app-development-trends"
+    }
+  ]
+}

@@ -1,17 +1,44 @@
 {
   "blog": [
     {
-      "blog": "http://gigantico.squarespace.com/",
-      "author":"Gigantico"
-    },
-    {
       "blog": "https://uploadvr.com/",
-      "author":"Upload VR"
+      "author": "Upload VR"
     },
     {
       "blog": "https://www.roadtovr.com",
-      "author":"Road Tovr"
+      "author": "Road to VR"
+    },
+    {
+      "blog": "https://mixed-news.com/en/",
+      "author": "MIXED"
+    },
+    {
+      "blog": "https://xr.today/",
+      "author": "XR Today"
+    },
+    {
+      "blog": "https://www.virtualreality-news.net/",
+      "author": "Virtual Reality News"
+    },
+    {
+      "blog": "https://www.androidcentral.com/gaming/virtual-reality",
+      "author": "Android Central VR/AR"
+    },
+    {
+      "blog": "https://venturebeat.com/category/ar-vr/",
+      "author": "VentureBeat AR/VR"
+    },
+    {
+      "blog": "https://www.forbes.com/vr/",
+      "author": "Forbes VR"
+    },
+    {
+      "blog": "https://techcrunch.com/tag/vr/",
+      "author": "TechCrunch VR"
+    },
+    {
+      "blog": "https://gigantico.squarespace.com/",
+      "author": "Gigantico"
     }
-
   ]
 }

@@ -1,0 +1,79 @@
+{
+  "follow": [
+    {
+      "followLink": "https://x.com/linus__torvalds",
+      "photo": "Linus-Torvalds.jpg",
+      "name": "Linus Torvalds"
+    },
+    {
+      "followLink": "https://x.com/q_richardstallm",
+      "photo": "Richard-Stallman.jpg",
+      "name": "Richard Stallman"
+    },
+    {
+      "followLink": "https://x.com/gregkh",
+      "photo": "Greg-Kroah-Hartman.jpg",
+      "name": "Greg Kroah-Hartman"
+    },
+    {
+      "followLink": "https://x.com/karenmsandler",
+      "photo": "Karen-Sandler.jpg",
+      "name": "Karen Sandler"
+    },
+    {
+      "followLink": "https://x.com/baconandcoconut",
+      "photo": "Deb-Nicholson.jpg",
+      "name": "Deb Nicholson"
+    },
+    {
+      "followLink": "https://x.com/rahulporuri",
+      "photo": "Rahul-Poruri.jpg",
+      "name": "Rahul Poruri"
+    },
+    {
+      "followLink": "https://x.com/wisharya",
+      "photo": "Vishal-Arya.jpg",
+      "name": "Vishal Arya"
+    },
+    {
+      "followLink": "https://x.com/ansharora28",
+      "photo": "Ansh-Arora.jpg",
+      "name": "Ansh Arora"
+    },
+    {
+      "followLink": "https://x.com/deepusnath",
+      "photo": "Deepu-S-Nath.jpg",
+      "name": "Deepu S. Nath"
+    },
+    {
+      "followLink": "https://x.com/meharmp",
+      "photo": "Moosa-Mehar.jpg",
+      "name": "Moosa Mehar MP"
+    },
+    {
+      "followLink": "https://x.com/rushabh_mehta",
+      "photo": "Rushabh-Mehta.jpg",
+      "name": "Rushabh Mehta"
+    },
+    {
+      "followLink": "https://x.com/migueldeicaza",
+      "photo": "Miguel-de-Icaza.jpg",
+      "name": "Miguel de Icaza"
+    },
+    {
+      "followLink": "https://x.com/sabdfl",
+      "photo": "Mark-Shuttleworth.jpg",
+      "name": "Mark Shuttleworth"
+    },
+    {
+      "followLink": "#",
+      "photo": "Satish-Babu.jpg",
+      "name": "Satish Babu"
+    },
+    {
+      "followLink": "https://x.com/SunilTT_ICFOSS",
+      "photo": "Sunil-TT.jpg",
+      "name": "Dr. Sunil T T"
+    }
+  ]
+}

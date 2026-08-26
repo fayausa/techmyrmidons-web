@@ -1,0 +1,22 @@
+{
+  "2025": [
+    {
+      "title": "Xcode AI Assistant debuts",
+      "description": "WWDC 2025 introduced Apple's generative coding assistant for Xcode 15, offering auto-complete, refactoring, and Swift suggestions.",
+      "url": "https://developer.apple.com/wwdc2025/",
+      "morelink": "WWDC 2025"
+    },
+    {
+      "title": "Liquid Glass UI unveiled",
+      "description": "Apple launched its Liquid Glass design language for iOS 19, enhancing depth, animation, and fluidity across iPhone, iPad, and VisionOS.",
+      "url": "https://www.apple.com/newsroom/2025/06/liquid-glass-ui/",
+      "morelink": "Apple Newsroom"
+    },
+    {
+      "title": "Spatial apps and ARKit 7",
+      "description": "With the rise of Apple Vision Pro, ARKit 7 allowed developers to create immersive spatial apps combining hand tracking and scene understanding.",
+      "url": "https://developer.apple.com/augmented-reality/",
+      "morelink": "ARKit"
+    }
+  ]
+}

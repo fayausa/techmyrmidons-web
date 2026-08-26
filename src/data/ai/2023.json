@@ -1,0 +1,94 @@
+{
+  "2023": [
+    {
+      "title": "ChatGPT iOS & Android apps launch",
+      "description": "OpenAI released official ChatGPT apps—iOS in May and Android in July—enabling on‑the‑go access, assistant integration, and default‑app options on mobile devices.",
+      "url": "https://en.wikipedia.org/wiki/ChatGPT",
+      "morelink": "ChatGPT App"
+    },
+    {
+      "title": "ChatGPT hits 100 M weekly users",
+      "description": "By late 2023, ChatGPT had over 100 million weekly active users, making it the fastest‑growing consumer app ever and solidifying generative AI’s mainstream presence.",
+      "url": "https://en.wikipedia.org/wiki/2023_in_artificial_intelligence",
+      "morelink": "Wikipedia 2023 AI"
+    },
+    {
+      "title": "GPT‑4 Turbo & GPT‑4V unveiled at OpenAI DevDay",
+      "description": "At its first DevDay in Nov 2023, OpenAI introduced GPT‑4 Turbo (faster, cheaper) and GPT‑4V (with vision capabilities) alongside user‑customizable “GPTs”.",
+      "url": "https://apnews.com/article/da850be425aaa269e2915e9e0b1c726a",
+      "morelink": "OpenAI DevDay"
+    },
+    {
+      "title": "Google launches Bard and Gemini announced",
+      "description": "February saw Bard roll out as OpenAI’s ChatGPT rival; in May, Google DeepMind revealed Gemini—a multimodal model handling text, images, audio, and video.",
+      "url": "https://en.wikipedia.org/wiki/2023_in_artificial_intelligence",
+      "morelink": "Gemini"
+    },
+    {
+      "title": "AutoGPT released",
+      "description": "On March 30, AutoGPT—an open‑source autonomous “AI agent” capable of task planning and self‑execution—was released, igniting the agentic AI movement.",
+      "url": "https://en.wikipedia.org/wiki/2023_in_artificial_intelligence",
+      "morelink": "AutoGPT"
+    },
+    {
+      "title": "Huawei launches PanGu‑Σ & PanGu 3.0",
+      "description": "In July, Huawei unveiled PanGu‑Σ (1.085 trillion parameters) and PanGu 3.0 for enterprise use, along with smart assistant Celia on HarmonyOS devices.",
+      "url": "https://en.wikipedia.org/wiki/Huawei_PanGu",
+      "morelink": "PanGu"
+    },
+    {
+      "title": "Adobe Firefly beta launch",
+      "description": "Adobe opened Firefly’s generative AI image‑and‑video capabilities in public beta (March), followed by an enterprise release in June integrated into Creative Cloud.",
+      "url": "https://en.wikipedia.org/wiki/Adobe_Firefly",
+      "morelink": "Adobe Firefly"
+    },
+    {
+      "title": "Mistral AI founded",
+      "description": "In April, Mistral AI—an open‑weight LLM startup from France—founded, rapidly gaining attention for its mixture‑of‑expert model architecture.",
+      "url": "https://en.wikipedia.org/wiki/2023_in_artificial_intelligence",
+      "morelink": "Mistral AI"
+    },
+    {
+      "title": "Microsoft invests $10 B in OpenAI",
+      "description": "Microsoft announced a record $10 billion investment in OpenAI, deepening their partnership and embedding AI across Microsoft’s cloud and app ecosystem.",
+      "url": "https://www.geeky-gadgets.com/major-ai-developments-in-2023/",
+      "morelink": "Geeky‑Gadgets"
+    },
+    {
+      "title": "ElevenLabs beta text‑to‑speech",
+      "description": "ElevenLabs launched its next-generation TTS beta in 2023, offering highly expressive, humanlike voice synthesis tuned for narration and dialogue.",
+      "url": "https://www.geeky-gadgets.com/major-ai-developments-in-2023/",
+      "morelink": "ElevenLabs"
+    },
+    {
+      "title": "Instruct Pix2Pix open‑source",
+      "description": "The Instruct Pix2Pix model, enabling guided image edits via textual instructions, was released open-source in 2023.",
+      "url": "https://www.geeky-gadgets.com/major-ai-developments-in-2023/",
+      "morelink": "Pix2Pix"
+    },
+    {
+      "title": "Midjourney v5 and ControlNet",
+      "description": "Midjourney v5 improved ultra‑realistic image generation; ControlNet enabled fine‑pose and layout control in generated visuals.",
+      "url": "https://www.geeky-gadgets.com/major-ai-developments-in-2023/",
+      "morelink": "Midjourney v5 & ControlNet"
+    },
+    {
+      "title": "NVIDIA reaches $1T valuation",
+      "description": "Nvidia’s market value surpassed $1 trillion in 2023, propelled by surging demand for its AI GPUs powering LLM training and inference.",
+      "url": "https://theaitrack.com/2023-ai-recap-pivotal-moments/",
+      "morelink": "The AI Track"
+    },
+    {
+      "title": "Generative AI governance & policy push",
+      "description": "2023 saw major policy activity: EU AI Act progressed; U.S. Executive Order set guardrails; and ~100 AI leaders signed a global AI safety statement.",
+      "url": "https://theaitrack.com/2023-ai-recap-pivotal-moments/",
+      "morelink": "Global Policy"
+    },
+    {
+      "title": "Multimodal & Constitutional AI",
+      "description": "Advances included multimodal models like GPT‑4V and Gemini, and Constitutional AI from Anthropic—embedding value‑aligned principles for safer outputs.",
+      "url": "https://time.com/6547982/3-big-ai-innovations-from-2023/",
+      "morelink": "Time"
+    }
+  ]
+}

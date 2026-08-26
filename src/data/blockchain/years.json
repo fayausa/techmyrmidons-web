@@ -1,6 +1,18 @@
 {
   "years": [
     {
+      "year": "2025",
+      "url": "/data/blockchain/2025.json"
+    },
+    {
+      "year": "2024",
+      "url": "/data/blockchain/2024.json"
+    },
+    {
+      "year": "2023",
+      "url": "/data/blockchain/2023.json"
+    },
+    {
       "year": "2022",
       "url": "/data/blockchain/2022.json"
     },
@@ -16,12 +28,10 @@
       "year": "2019",
       "url": "/data/blockchain/2019.json"
     },
-
     {
       "year": "2018",
       "url": "/data/blockchain/2018.json"
     },
-
     {
       "year": "2017",
       "url": "/data/blockchain/2017.json"

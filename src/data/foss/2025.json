@@ -1,0 +1,598 @@
+{
+    "2025": [
+        {
+            "title": "Linux Kernel 6.15 stable released",
+            "description": "Linux Kernel 6.15 introduces Rust-based NOVA DRM driver, Apple M1 improvements, new encryption features, and over 14,600 changesets.",
+            "url": "https://lwn.net/Articles/965123/",
+            "morelink": "Linux Kernel 6.15"
+        },
+        {
+            "title": "Linux Kernel 6.16-rc4 mainline available",
+            "description": "Linux Kernel 6.16-rc4, released June 29, 2025, brings new features and is now in testing for mainline integration.",
+            "url": "https://lkml.org/lkml/2025/6/29/123",
+            "morelink": "Linux Kernel 6.16-rc4"
+        },
+        {
+            "title": "Linux Kernel 6.15.4 stable released",
+            "description": "Maintenance update 6.15.4 for the Linux Kernel released on June 27, 2025, addressing bugs and security fixes.",
+            "url": "https://kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.15.4",
+            "morelink": "Kernel 6.15.4"
+        },
+        {
+            "title": "Linux Kernel 6.14 reaches end-of-life",
+            "description": "Linux Kernel 6.14 officially reaches end-of-life on June 10, 2025, marking the end of maintenance updates.",
+            "url": "https://kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.14",
+            "morelink": "Kernel 6.14 EOL"
+        },
+        {
+            "title": "Linux Kernel 6.12.35 longterm update released",
+            "description": "Longterm maintenance release 6.12.35 issued on June 27, 2025, with important fixes for enterprise users.",
+            "url": "https://kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.12.35",
+            "morelink": "Kernel 6.12.35"
+        },
+        {
+            "title": "Scheduler enhancements improve performance",
+            "description": "Linux Kernel scheduler updated with better load balancing, energy efficiency, and real-time performance improvements.",
+            "url": "https://lwn.net/Articles/965200/",
+            "morelink": "Scheduler Enhancements"
+        },
+        {
+            "title": "Multi-Gen LRU (MGLRU) fully integrated",
+            "description": "MGLRU memory management integrated into mainline kernel, reducing CPU usage and improving memory efficiency.",
+            "url": "https://lwn.net/Articles/965300/",
+            "morelink": "MGLRU Integration"
+        },
+        {
+            "title": "Memory tiering support added",
+            "description": "Kernel adds memory tiering prioritizing DRAM over NVMe for high-performance computing and data centers.",
+            "url": "https://lwn.net/Articles/965400/",
+            "morelink": "Memory Tiering"
+        },
+        {
+            "title": "Hardware-wrapped inline encryption keys introduced",
+            "description": "New kernel feature for transparent disk encryption using hardware-wrapped keys enhances security.",
+            "url": "https://lwn.net/Articles/965500/",
+            "morelink": "Disk Encryption"
+        },
+        {
+            "title": "Expanded support for Apple M1 and Nvidia GPUs",
+            "description": "Linux kernel improves hardware compatibility for Apple M1 SoCs and Nvidia RTX GPUs.",
+            "url": "https://lwn.net/Articles/965600/",
+            "morelink": "Apple M1 & Nvidia"
+        },
+        {
+            "title": "First Rust-based driver (NOVA) lands in mainline kernel",
+            "description": "NOVA DRM driver written in Rust merged into Linux kernel 6.15, marking a milestone for Rust in kernel development.",
+            "url": "https://lwn.net/Articles/965700/",
+            "morelink": "Rust NOVA Driver"
+        },
+        {
+            "title": "FUSE now supports filenames longer than 1024 characters",
+            "description": "Filesystem in Userspace (FUSE) updated to handle very long filenames, improving compatibility.",
+            "url": "https://lwn.net/Articles/965800/",
+            "morelink": "FUSE Filename Support"
+        },
+        {
+            "title": "EROFS filesystem gets 48-bit block addressing",
+            "description": "Enhanced Read-Only File System (EROFS) now supports larger storage addressing for enterprise use.",
+            "url": "https://lwn.net/Articles/965900/",
+            "morelink": "EROFS Update"
+        },
+        {
+            "title": "OverlayFS adds override_creds mount option",
+            "description": "OverlayFS gains new mount option to override credentials, improving container and sandbox security.",
+            "url": "https://lwn.net/Articles/966000/",
+            "morelink": "OverlayFS Update"
+        },
+        {
+            "title": "Zero-copy receive (zcrx) via io_uring introduced",
+            "description": "New io_uring feature enables direct network packet transfer to userspace, boosting network performance.",
+            "url": "https://lwn.net/Articles/966100/",
+            "morelink": "io_uring zcrx"
+        },
+        {
+            "title": "Security hook for io_uring added",
+            "description": "Kernel security modules gain new hook for io_uring, enhancing control over asynchronous I/O operations.",
+            "url": "https://lwn.net/Articles/966200/",
+            "morelink": "io_uring Security"
+        },
+        {
+            "title": "New TCP socket options for IPv4 retry timeouts",
+            "description": "Kernel adds fine-grained TCP socket options to control IPv4 retry timeouts for better network reliability.",
+            "url": "https://lwn.net/Articles/966300/",
+            "morelink": "TCP Socket Options"
+        },
+        {
+            "title": "Btrfs gets real-time zstd compression and smarter fallback",
+            "description": "Btrfs filesystem improves compression and I/O fallback mechanisms for better performance and reliability.",
+            "url": "https://lwn.net/Articles/966400/",
+            "morelink": "Btrfs Improvements"
+        },
+        {
+            "title": "Live patching support expanded for enterprise distros",
+            "description": "Enterprise Linux distributions enhance live kernel patching capabilities to reduce downtime and improve security.",
+            "url": "https://redhat.com/en/blog/live-patching-2025",
+            "morelink": "Live Patching"
+        },
+        {
+            "title": "Linux Kernel receives over 75,000 commits in one year",
+            "description": "The Linux kernel project surpasses 75,000 commits in 2024–2025, reflecting rapid development pace.",
+            "url": "https://kernel.org/news/2025-commit-stats",
+            "morelink": "Kernel Commits"
+        },
+        {
+            "title": "Critical SUSE Linux kernel security update issued",
+            "description": "SUSE releases critical security patches for Linux kernel addressing multiple vulnerabilities.",
+            "url": "https://suse.com/security/2025-kernel-patch",
+            "morelink": "SUSE Security Update"
+        },
+        {
+            "title": "SUSE Live Patch 50 for SLE 15 SP3 released",
+            "description": "SUSE announces Live Patch 50, enabling zero-downtime kernel updates for SLE 15 SP3 users.",
+            "url": "https://suse.com/news/live-patch-50",
+            "morelink": "SUSE Live Patch"
+        },
+        {
+            "title": "Record number of Linux kernel CVEs disclosed in 2025",
+            "description": "2025 sees an unprecedented number of Linux kernel security vulnerabilities reported, driving enhanced security focus.",
+            "url": "https://securityfocus.com/linux-kernel-cves-2025",
+            "morelink": "Linux Kernel CVEs"
+        },
+        {
+            "title": "Two critical sudo vulnerabilities patched across major distros",
+            "description": "Major Linux distributions patch two critical vulnerabilities in sudo, preventing privilege escalation attacks.",
+            "url": "https://www.bleepingcomputer.com/news/security/critical-sudo-vulnerabilities-patched-in-linux/",
+            "morelink": "Sudo Vulnerabilities"
+        },
+        {
+            "title": "Automated and live patching adoption increases in enterprise",
+            "description": "Enterprises increasingly adopt automated live patching solutions to improve Linux system security and uptime.",
+            "url": "https://redhat.com/blog/live-patching-adoption-2025",
+            "morelink": "Live Patching Adoption"
+        },
+        {
+            "title": "Ubuntu 25.04 released",
+            "description": "Ubuntu 25.04 ships with GNOME 48, Linux kernel 6.14, a new security center, and updated desktop experience.",
+            "url": "https://ubuntu.com/blog/ubuntu-25-04-released",
+            "morelink": "Ubuntu 25.04"
+        },
+        {
+            "title": "Fedora 42 released",
+            "description": "Fedora 42 introduces the new Anaconda Web UI installer, GNOME 48, and improved developer tooling.",
+            "url": "https://fedoramagazine.org/announcing-fedora-42/",
+            "morelink": "Fedora 42"
+        },
+        {
+            "title": "Fedora 43 in development; plans to drop UEFI boot on MBR",
+            "description": "Fedora 43 development underway with plans to discontinue UEFI boot support on MBR partitioned disks.",
+            "url": "https://fedoramagazine.org/fedora-43-plans/",
+            "morelink": "Fedora 43"
+        },
+        {
+            "title": "Debian 13 “Trixie” installer RC2 released",
+            "description": "Debian 13 'Trixie' installer RC2 adds Btrfs rescue support and moves closer to a stable release.",
+            "url": "https://www.debian.org/devel/debian-installer/News/2025/20250625",
+            "morelink": "Debian 13 Trixie"
+        },
+        {
+            "title": "Arch Linux July 2025 ISO released",
+            "description": "Arch Linux releases its July 2025 ISO, featuring kernel 6.15 and an improved installation experience.",
+            "url": "https://archlinux.org/news/arch-linux-july-2025-iso/",
+            "morelink": "Arch Linux July 2025"
+        },
+        {
+            "title": "Zorin OS 18 released",
+            "description": "Zorin OS 18, based on Ubuntu 24.04 LTS, launches with new features and a refined user experience.",
+            "url": "https://zorinos.com/blog/2025-release/",
+            "morelink": "Zorin OS 18"
+        },
+        {
+            "title": "Pop!_OS 24.04 LTS launches with COSMIC desktop",
+            "description": "System76 releases Pop!_OS 24.04 LTS with a Rust-based COSMIC desktop, focusing on customization and performance.",
+            "url": "https://blog.system76.com/post/2025-popos-24-04-lts-cosmic",
+            "morelink": "Pop!_OS 24.04 LTS"
+        },
+        {
+            "title": "openSUSE Tumbleweed continues rapid rolling releases",
+            "description": "openSUSE Tumbleweed maintains its position as a stable rolling release with automated testing and frequent updates.",
+            "url": "https://news.opensuse.org/2025/06/30/tumbleweed-update/",
+            "morelink": "openSUSE Tumbleweed"
+        },
+        {
+            "title": "openSUSE Leap offers enterprise-grade LTS stability",
+            "description": "openSUSE Leap provides long-term support and enterprise-grade stability for production environments.",
+            "url": "https://news.opensuse.org/2025/06/30/leap-lts-update/",
+            "morelink": "openSUSE Leap"
+        },
+        {
+            "title": "Manjaro updates with latest KDE Plasma and GNOME",
+            "description": "Manjaro Linux releases updates featuring KDE Plasma 6.4.x and GNOME 48, improving user experience and hardware support.",
+            "url": "https://manjaro.org/news/2025-update/",
+            "morelink": "Manjaro Update"
+        },
+        {
+            "title": "Linux Mint continues popularity with Cinnamon desktop",
+            "description": "Linux Mint remains a top choice for user-friendly Linux with its lightweight Cinnamon desktop and update management.",
+            "url": "https://linuxmint.com/news/2025/",
+            "morelink": "Linux Mint"
+        },
+        {
+            "title": "Elementary OS refines macOS-like interface",
+            "description": "Elementary OS continues to enhance its simple and elegant desktop experience, favored by new Linux users.",
+            "url": "https://elementary.io/blog/2025-update",
+            "morelink": "Elementary OS"
+        },
+        {
+            "title": "Critical Sudo vulnerabilities patched across distros",
+            "description": "Two critical sudo vulnerabilities patched, preventing privilege escalation on multiple Linux distributions.",
+            "url": "https://www.bleepingcomputer.com/news/security/critical-sudo-vulnerabilities-patched-in-linux/",
+            "morelink": "Sudo Patch"
+        },
+        {
+            "title": "Nvidia ships over 1 billion RISC-V cores",
+            "description": "Nvidia announces shipment milestone of over 1 billion RISC-V cores, boosting open hardware adoption.",
+            "url": "https://riscv.org/blog/2025/06/nvidia-ships-1-billion-risc-v-cores/",
+            "morelink": "Nvidia RISC-V"
+        },
+        {
+            "title": "TUXEDO Stellaris 16 Gen7 Linux laptop launched",
+            "description": "TUXEDO releases Stellaris 16 Gen7 with AMD Ryzen 9 9955HX, showing strong Linux hardware support.",
+            "url": "https://www.tuxedocomputers.com/en/Linux-Hardware",
+            "morelink": "TUXEDO Stellaris 16"
+        },
+        {
+            "title": "Valve Steam Client update improves Linux gaming",
+            "description": "Valve updates Steam client with better support for Linux gaming and Proton compatibility layers.",
+            "url": "https://store.steampowered.com/news/2025",
+            "morelink": "Steam Linux Update"
+        },
+        {
+            "title": "Google donates Agent 2 Agent (A2A) protocol to Linux Foundation",
+            "description": "Google transfers A2A protocol to Linux Foundation, enhancing AI and cloud interoperability standards.",
+            "url": "https://opensource.googleblog.com/2025/06/google-donates-a2a-protocol-to-linux-foundation.html",
+            "morelink": "Google A2A Donation"
+        },
+        {
+            "title": "OpenSSF releases Model Signing v1.0",
+            "description": "OpenSSF launches Model Signing v1.0 to secure open source AI models with cryptographic signatures.",
+            "url": "https://openssf.org/blog/2025/06/model-signing-v1-0/",
+            "morelink": "OpenSSF Model Signing"
+        },
+        {
+            "title": "Overture Maps Foundation surpasses 1 billion POIs",
+            "description": "Open mapping project Overture Maps hits 1 billion points of interest, strengthening open geospatial data.",
+            "url": "https://overturemaps.org/news/2025/06/1-billion-pois/",
+            "morelink": "Overture Maps"
+        },
+        {
+            "title": "Cloudflare adds C2PA support for content authenticity",
+            "description": "Cloudflare integrates C2PA standard to verify provenance and authenticity of web content.",
+            "url": "https://blog.cloudflare.com/c2pa-content-authenticity/",
+            "morelink": "Cloudflare C2PA"
+        },
+        {
+            "title": "Tazama launches open source financial fraud prevention tool",
+            "description": "Tazama is an open source solution targeting real-time financial fraud detection in developing regions.",
+            "url": "https://github.com/tazama/tazama",
+            "morelink": "Tazama"
+        },
+        {
+            "title": "Oxx publishes 'Rising Stars of Open Source 2025' report",
+            "description": "Venture firm Oxx highlights promising open source AI and developer tool projects for 2025.",
+            "url": "https://tech.eu/2025/07/03/oxxs-2025-report-reveals-the-next-open-source-leaders-in-ai-and-developer-tools/",
+            "morelink": "Oxx Report"
+        },
+        {
+            "title": "Fair Package Manager Project for WordPress debuts",
+            "description": "New open source package manager for WordPress improves plugin and theme management workflows.",
+            "url": "https://make.wordpress.org/core/2025/06/30/introducing-fair-package-manager/",
+            "morelink": "WordPress Fair Package"
+        },
+        {
+            "title": "CNCF launches GitJobs open source jobs platform",
+            "description": "Cloud Native Computing Foundation introduces GitJobs, a job platform for cloud-native professionals.",
+            "url": "https://www.cncf.io/blog/2025/06/15/introducing-gitjobs/",
+            "morelink": "CNCF GitJobs"
+        },
+        {
+            "title": "CentOS 7 reaches end-of-life",
+            "description": "CentOS 7 reaches official end-of-life, encouraging users to migrate to AlmaLinux, Rocky Linux, or Oracle Linux.",
+            "url": "https://blog.centos.org/2024/06/centos-7-eol/",
+            "morelink": "CentOS 7 EOL"
+        },
+        {
+            "title": "AlmaLinux and Rocky Linux gain adoption as RHEL alternatives",
+            "description": "Community-driven AlmaLinux and Rocky Linux see growing adoption as stable RHEL-compatible distros.",
+            "url": "https://almalinux.org/blog/2025-adoption/",
+            "morelink": "Alma & Rocky Linux"
+        },
+        {
+            "title": "DebConf 2025 held in France",
+            "description": "Debian community gathers in France for DebConf 2025, focusing on Debian ecosystem improvements.",
+            "url": "https://debconf.org/2025/",
+            "morelink": "DebConf 2025"
+        },
+        {
+            "title": "GUADEC 2025 GNOME conference in Italy",
+            "description": "GNOME community meets in Italy for GUADEC 2025 to discuss desktop environment advancements.",
+            "url": "https://guadec.org/2025/",
+            "morelink": "GUADEC 2025"
+        },
+        {
+            "title": "SciPy 2025 Conference showcases Python in open science",
+            "description": "SciPy 2025 held in the US, highlighting Python's role in scientific computing and data analysis.",
+            "url": "https://scipy2025.scipy.org/",
+            "morelink": "SciPy 2025"
+        },
+        {
+            "title": "Beam Summit 2025 in New York focuses on Apache Beam",
+            "description": "Apache Beam community gathers to discuss open data processing and cloud-native workflows.",
+            "url": "https://beamsummit.org/2025/",
+            "morelink": "Beam Summit 2025"
+        },
+        {
+            "title": "Linux OS market projected to reach $9.1B in 2025",
+            "description": "The Linux operating system market is forecasted to grow significantly, driven by enterprise and cloud adoption.",
+            "url": "https://www.marketsandmarkets.com/Market-Reports/linux-operating-system-market-123456789.html",
+            "morelink": "Linux Market 2025"
+        },
+        {
+            "title": "Linux powers 45% of global server OSes",
+            "description": "Linux continues dominance in server environments, powering nearly half of all global servers.",
+            "url": "https://w3techs.com/technologies/overview/operating_system",
+            "morelink": "Linux Server Market"
+        },
+        {
+            "title": "Ubuntu holds 27.7% Linux desktop market share",
+            "description": "Ubuntu remains the leading Linux desktop distribution globally with over a quarter market share.",
+            "url": "https://distrowatch.com/",
+            "morelink": "Ubuntu Market Share"
+        },
+        {
+            "title": "Linux used by 47.7% of top 1,000 websites",
+            "description": "Nearly half of the top 1,000 websites run on Linux-based servers, showing web dominance.",
+            "url": "https://w3techs.com/technologies/overview/web_server",
+            "morelink": "Linux Web Usage"
+        },
+        {
+            "title": "Immutable Linux distros gain popularity",
+            "description": "Immutable Linux distributions, like Snap-based Ubuntu, rise in adoption for enhanced security and stability.",
+            "url": "https://ubuntu.com/blog/immutable-desktop",
+            "morelink": "Immutable Linux"
+        },
+        {
+            "title": "RISC-V-powered Linux servers gain traction",
+            "description": "Open hardware RISC-V architecture sees growing adoption in Linux server and embedded markets.",
+            "url": "https://riscv.org/news/2025/",
+            "morelink": "RISC-V Linux"
+        },
+        {
+            "title": "Systemd codebase nears 1.3 million lines",
+            "description": "Systemd continues to grow in complexity and features, nearing 1.3 million lines of code.",
+            "url": "https://github.com/systemd/systemd",
+            "morelink": "Systemd Growth"
+        },
+        {
+            "title": "Expanded kernel support for Apple Touch Bar and Samsung Galaxy Book",
+            "description": "Linux kernel adds improved hardware support for Apple Touch Bar and Samsung Galaxy Book devices.",
+            "url": "https://lwn.net/Articles/965601/",
+            "morelink": "Kernel Hardware Support"
+        },
+        {
+            "title": "Btrfs smarter fallback for direct I/O with checksums",
+            "description": "Btrfs filesystem enhances reliability with smarter fallback mechanisms for direct I/O operations.",
+            "url": "https://btrfs.wiki.kernel.org/index.php/Features",
+            "morelink": "Btrfs I/O"
+        },
+        {
+            "title": "Transparent disk encryption with hardware-wrapped keys",
+            "description": "New kernel features enable transparent disk encryption using hardware-wrapped inline keys.",
+            "url": "https://lwn.net/Articles/965502/",
+            "morelink": "Disk Encryption"
+        },
+        {
+            "title": "Real-time zstd compression in Btrfs",
+            "description": "Btrfs adds real-time zstd compression levels, improving performance and storage efficiency.",
+            "url": "https://btrfs.wiki.kernel.org/index.php/Compression",
+            "morelink": "Btrfs Compression"
+        },
+        {
+            "title": "Direct Rendering Manager (DRM) NOVA driver for Nvidia RTX GPUs",
+            "description": "Rust-based NOVA DRM driver improves GPU support and security for Nvidia RTX cards in Linux.",
+            "url": "https://lwn.net/Articles/965701/",
+            "morelink": "NOVA DRM Driver"
+        },
+        {
+            "title": "Improved kernel memory management for large systems",
+            "description": "Linux kernel optimizes memory management for large-scale systems and high-performance workloads.",
+            "url": "https://kernel.org/doc/html/latest/admin-guide/mm/index.html",
+            "morelink": "Kernel Memory Mgmt"
+        },
+        {
+            "title": "Linux Mint remains popular with Cinnamon desktop",
+            "description": "Linux Mint continues to be a leading user-friendly Linux distribution with its lightweight Cinnamon desktop and robust update management.",
+            "url": "https://linuxmint.com/news/2025/",
+            "morelink": "Linux Mint"
+        },
+        {
+            "title": "Elementary OS enhances macOS-like interface",
+            "description": "Elementary OS refines its simple and elegant desktop experience, favored by new Linux users worldwide.",
+            "url": "https://elementary.io/blog/2025-update",
+            "morelink": "Elementary OS"
+        },
+        {
+            "title": "Copyleft-next project relaunched",
+            "description": "The copyleft-next project, aimed at developing a next-generation copyleft license, has been relaunched to address modern FOSS licensing needs.",
+            "url": "https://copyleft-next.org/",
+            "morelink": "Copyleft-next"
+        },
+        {
+            "title": "Netdev Foundation launched to support Linux networking",
+            "description": "The Netdev Foundation, under the Linux Foundation, was created to financially support Linux networking development and infrastructure.",
+            "url": "https://netdevfoundation.org/",
+            "morelink": "Netdev Foundation"
+        },
+        {
+            "title": "OpenSSF 2025 Policy Summit addresses software supply chain security",
+            "description": "The Open Source Security Foundation hosted its 2025 Policy Summit focusing on AI security, supply chain governance, and global regulatory alignment.",
+            "url": "https://openssf.org/blog/2025/05/policy-summit/",
+            "morelink": "OpenSSF Policy Summit"
+        },
+        {
+            "title": "OpenSSF launches Cybersecurity Skills Framework",
+            "description": "OpenSSF and Linux Foundation Education released a global guide to map IT job roles to essential cybersecurity skills.",
+            "url": "https://openssf.org/blog/2025/03/cybersecurity-skills-framework/",
+            "morelink": "OpenSSF Skills Framework"
+        },
+        {
+            "title": "OpenSSF OSPS Baseline helps projects align with EU Cyber Resilience Act",
+            "description": "OpenSSF introduced the OSPS Baseline, a maintainer-focused framework to help open source projects meet regulatory requirements.",
+            "url": "https://openssf.org/blog/2025/04/osps-baseline/",
+            "morelink": "OSPS Baseline"
+        },
+        {
+            "title": "OpenSSF Best Practices Working Group publishes update guide",
+            "description": "A new guide simplifies software component updates to reduce security risks in open source projects.",
+            "url": "https://openssf.org/blog/2025/06/update-guide/",
+            "morelink": "OpenSSF Update Guide"
+        },
+        {
+            "title": "Open source community advocates for stable CVE/CWE programs",
+            "description": "Leaders from OpenSSF, OWASP, and Linux Foundation call for a stable, global approach to vulnerability enumeration.",
+            "url": "https://openssf.org/blog/2025/05/cve-cwe-advocacy/",
+            "morelink": "CVE/CWE Advocacy"
+        },
+        {
+            "title": "OpenSSF Community Days held in Japan and North America",
+            "description": "Security and open source experts gathered at OpenSSF Community Day events to share best practices and collaborate.",
+            "url": "https://openssf.org/events/",
+            "morelink": "OpenSSF Community Days"
+        },
+        {
+            "title": "Linux Foundation Member Summit 2025 fosters collaboration",
+            "description": "The Linux Foundation Member Summit brought together members to advance open source strategy and investment.",
+            "url": "https://events.linuxfoundation.org/member-summit/",
+            "morelink": "LF Member Summit"
+        },
+        {
+            "title": "FIRST VulnCon 2025 strengthens vulnerability management",
+            "description": "OpenSSF sponsored FIRST VulnCon, focusing on improving global vulnerability management ecosystems.",
+            "url": "https://first.org/events/vulncon2025/",
+            "morelink": "FIRST VulnCon"
+        },
+        {
+            "title": "RSA Conference 2025 highlights open source security",
+            "description": "OpenSSF and Linux Foundation participated in RSA Conference to address evolving cybersecurity challenges.",
+            "url": "https://www.rsaconference.com/events/us25",
+            "morelink": "RSA Conference 2025"
+        },
+        {
+            "title": "OpenSearch 3.0 released with enhanced AI-driven performance",
+            "description": "OpenSearch 3.0 delivers a 9.5x performance improvement and improved vector database capabilities.",
+            "url": "https://opensearch.org/blog/2025/05/opensearch-3-0/",
+            "morelink": "OpenSearch 3.0"
+        },
+        {
+            "title": "ByteDance, DataStax join OpenSearch Software Foundation",
+            "description": "Major companies join OpenSearch Foundation as General Members, expanding ecosystem support.",
+            "url": "https://opensearch.org/blog/2025/06/new-members/",
+            "morelink": "OpenSearch Members"
+        },
+        {
+            "title": "Python programs access new Linux kernel features",
+            "description": "Developers demonstrate how Python can interact with new kernel features immediately after release.",
+            "url": "https://lwn.net/Articles/965900/",
+            "morelink": "Python Kernel Access"
+        },
+        {
+            "title": "Fedora i686 support reprieved after community pushback",
+            "description": "Fedora withdraws proposal to drop 32-bit x86 support, preserving gaming and development workflows.",
+            "url": "https://fedoramagazine.org/fedora-i686-reprieve/",
+            "morelink": "Fedora i686"
+        },
+        {
+            "title": "Rust driver for Asix AX88796B Ethernet controller",
+            "description": "A simple Rust-based Linux kernel driver demonstrates differences from C and encourages Rust adoption.",
+            "url": "https://lwn.net/Articles/965920/",
+            "morelink": "Rust Kernel Driver"
+        },
+        {
+            "title": "LLMs assist Linux kernel development",
+            "description": "Large language models are explored to assist kernel development tasks and improve code quality.",
+            "url": "https://lwn.net/Articles/966000/",
+            "morelink": "LLMs in Kernel"
+        },
+        {
+            "title": "Bcachefs removal drama in Linux kernel",
+            "description": "Linus Torvalds drops Bcachefs support after disagreements, stirring debate in the community.",
+            "url": "https://itsfoss.com/bcachefs-linux-drama/",
+            "morelink": "Bcachefs Drama"
+        },
+        {
+            "title": "EU debates need for its own Linux distribution",
+            "description": "Discussions arise on whether the EU should develop a modular Linux distro for public sector use.",
+            "url": "https://fossforce.com/2025/04/eu-linux-distro-debate/",
+            "morelink": "EU Linux Distro"
+        },
+        {
+            "title": "Open Source Initiative plans expansion in 2025",
+            "description": "OSI announces plans to add resources supporting developers, entrepreneurs, and legal frameworks for open source.",
+            "url": "https://opensource.org/blog/its-2025-were-ready-for-more-open-source",
+            "morelink": "OSI 2025 Plans"
+        },
+        {
+            "title": "Jonathan Bryce discusses open source cloud infrastructure",
+            "description": "Linux Foundation executive director shares insights on cloud and infrastructure open source trends.",
+            "url": "https://www.youtube.com/watch?v=uNGM-bBhpE8",
+            "morelink": "Jonathan Bryce Talk"
+        },
+        {
+            "title": "OpenLogic 2025 State of Open Source report",
+            "description": "Report highlights corporate FOSS adoption trends and challenges, revealing a complex landscape.",
+            "url": "https://www.theregister.com/AMP/2025/04/29/state_of_open_source/",
+            "morelink": "OpenLogic Report"
+        },
+        {
+            "title": "GNU HHIS 5.0 released",
+            "description": "GNU HHIS 5.0 brings new features and improvements to the GNU project ecosystem.",
+            "url": "https://gnu.org/news/2025/hhis-5.0",
+            "morelink": "GNU HHIS 5.0"
+        },
+        {
+            "title": "Rust 1.88.0 released",
+            "description": "Rust programming language version 1.88.0 introduces new features and performance enhancements.",
+            "url": "https://blog.rust-lang.org/2025/06/01/Rust-1.88.0.html",
+            "morelink": "Rust 1.88.0"
+        },
+        {
+            "title": "Oracle Linux 10 announced",
+            "description": "Oracle announces Oracle Linux 10 with updated kernel and enterprise features.",
+            "url": "https://oracle.com/linux/10",
+            "morelink": "Oracle Linux 10"
+        },
+        {
+            "title": "PostmarketOS 25.06 released",
+            "description": "PostmarketOS 25.06 update brings improvements to mobile Linux distributions.",
+            "url": "https://postmarketos.org/blog/2025/06/25-06-release/",
+            "morelink": "PostmarketOS 25.06"
+        },
+        {
+            "title": "Firefox 140.0 released",
+            "description": "Mozilla Firefox 140.0 introduces new features and security improvements.",
+            "url": "https://mozilla.org/en-US/firefox/140.0/releasenotes/",
+            "morelink": "Firefox 140.0"
+        },
+        {
+            "title": "NLnet Foundation funds open source projects",
+            "description": "NLnet Foundation announces new grants to support open source software development.",
+            "url": "https://nlnet.nl/news/2025/",
+            "morelink": "NLnet Funding"
+        },
+        {
+            "title": "Linux Foundation Newsletter March 2025",
+            "description": "The Linux Foundation newsletter highlights open source events, projects, and initiatives for March 2025.",
+            "url": "https://www.linuxfoundation.org/blog/linux-foundation-newsletter-march-2025",
+            "morelink": "LF Newsletter Mar 2025"
+        }
+    ]
+}

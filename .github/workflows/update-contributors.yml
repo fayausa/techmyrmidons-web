@@ -1,0 +1,36 @@
+name: 🤖 Update CONTRIBUTORS.md
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Every Sunday
+  workflow_dispatch:    # Allow manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repo
+        uses: actions/checkout@v3
+
+      - name: 🛠 Generate CONTRIBUTORS.md
+        run: |
+          REPO="${{ github.repository }}"
+          echo "## 🤝 Contributors" > CONTRIBUTORS.md
+          echo "" >> CONTRIBUTORS.md
+          echo "Thanks to these awesome people:" >> CONTRIBUTORS.md
+          echo "" >> CONTRIBUTORS.md
+          echo "<p align=\"left\">" >> CONTRIBUTORS.md
+
+          curl -s "https://api.github.com/repos/$REPO/contributors?per_page=100" |
+          jq -r '.[] | "<a href=\"" + .html_url + "\"><img src=\"" + .avatar_url + "\" width=\"80\" alt=\"" + .login + "\" title=\"" + .login + "\"/></a>"' >> CONTRIBUTORS.md
+
+          echo "</p>" >> CONTRIBUTORS.md
+
+      - name: ✅ Commit & Push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add CONTRIBUTORS.md
+          git diff --cached --quiet || git commit -m "🤖 Auto-update CONTRIBUTORS.md"
+          git push

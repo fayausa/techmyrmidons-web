@@ -1,0 +1,54 @@
+{
+  "2025": [
+    {
+      "title": "Android Studio Koala",
+      "description": "Android Studio Koala is the latest IDE version in 2025, focusing on improved performance, Kotlin Multiplatform support, and integrated AI assistance via Gemini in Android Studio. It introduces an upgraded Compose UI preview, live editing, and enhanced emulator tools.",
+      "url": "https://android-developers.googleblog.com/2024/12/android-studio-koala.html"
+    },
+    {
+      "title": "Kotlin Multiplatform Mobile (KMM)",
+      "description": "KMM is now stable in 2025, allowing developers to write shared business logic for Android and iOS in Kotlin. Integrated deeply into Android Studio with templates and Gradle support, it's a go-to for cross-platform teams.",
+      "url": "https://kotlinlang.org/lp/mobile/"
+    },
+    {
+      "title": "Jetpack Compose 1.6",
+      "description": "Jetpack Compose has matured into the primary UI toolkit in Android with version 1.6, introducing performance optimizations, Wear OS enhancements, and Compose for TV and tablets.",
+      "url": "https://developer.android.com/jetpack/compose"
+    },
+    {
+      "title": "Gemini AI in Android Studio",
+      "description": "Gemini AI has been embedded into Android Studio to assist with code suggestions, documentation lookup, refactoring, and even Jetpack Compose layout generation, greatly accelerating development.",
+      "url": "https://developer.android.com/studio/ai"
+    },
+    {
+      "title": "Firebase Genkit",
+      "description": "Firebase Genkit integrates GenAI into Android apps via Firebase, enabling smart replies, summarization, content generation, and personalization within mobile apps using LLMs like Gemini or PaLM.",
+      "url": "https://firebase.google.com/genkit"
+    },
+    {
+      "title": "Baseline Profiles + Perfetto",
+      "description": "Android now mandates optimized startup performance using Baseline Profiles, with integrated performance profiling via Perfetto, giving developers precise visibility into jank, startup, and power use.",
+      "url": "https://developer.android.com/topic/performance/baselineprofiles"
+    },
+    {
+      "title": "App Quality Insights",
+      "description": "Integrated with Firebase Crashlytics, App Quality Insights in Android Studio gives real-time crash data, stack traces, and contextual device info inside the IDE, streamlining bug fixing workflows.",
+      "url": "https://developer.android.com/studio/preview/features#quality"
+    },
+    {
+      "title": "Now in Android (Open Source App)",
+      "description": "Google’s flagship open source app, Now in Android, is updated in 2025 to showcase best practices for architecture (Modular, MVI), Jetpack libraries, Compose, KMM, and AI tool integrations.",
+      "url": "https://github.com/android/nowinandroid"
+    },
+    {
+      "title": "TachiyomiSY",
+      "description": "An advanced open-source manga reader app rebuilt in 2025 using Compose Multiplatform, demonstrating cross-platform design, navigation patterns, and ML-powered recommendations.",
+      "url": "https://github.com/jobobby04/TachiyomiSY"
+    },
+    {
+      "title": "OpenAI Whisper Integration for Voice UX",
+      "description": "Whisper by OpenAI is now being used in Android apps for real-time transcription and speech-to-text in accessibility, podcasting, and language learning apps.",
+      "url": "https://openai.com/research/whisper"
+    }
+  ]
+}

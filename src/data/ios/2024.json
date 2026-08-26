@@ -1,0 +1,22 @@
+{
+  "2024": [
+    {
+      "title": "Swift 6 and SwiftUI 3.0 released",
+      "description": "2024 brought performance boosts and ergonomics improvements in Swift 6 and SwiftUI 3.0, optimizing animation and multi-platform compatibility.",
+      "url": "https://www.swift.org/blog/",
+      "morelink": "Swift.org"
+    },
+    {
+      "title": "AI-integrated apps rise",
+      "description": "Developers used Core ML and Create ML to personalize app experiences using voice, vision, and natural language models.",
+      "url": "https://developer.apple.com/machine-learning/",
+      "morelink": "Core ML"
+    },
+    {
+      "title": "HomeKit expands IoT ecosystem",
+      "description": "iOS developers adopted HomeKit APIs to integrate smart appliances and automation workflows using Matter protocol.",
+      "url": "https://developer.apple.com/homekit/",
+      "morelink": "Apple HomeKit"
+    }
+  ]
+}

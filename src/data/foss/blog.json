@@ -1,0 +1,164 @@
+{
+  "blog": [
+    {
+      "blog": "https://lwn.net/",
+      "author": "LWN.net"
+    },
+    {
+      "blog": "https://linuxfoundation.org/blog",
+      "author": "Linux Foundation"
+    },
+    {
+      "blog": "https://www.phoronix.com/",
+      "author": "Phoronix"
+    },
+    {
+      "blog": "https://itsfoss.com/news/",
+      "author": "It's FOSS News"
+    },
+    {
+      "blog": "https://www.linuxtoday.com/",
+      "author": "Linux Today"
+    },
+    {
+      "blog": "https://distrowatch.com/",
+      "author": "DistroWatch"
+    },
+    {
+      "blog": "https://omgubuntu.co.uk/",
+      "author": "OMG! Ubuntu!"
+    },
+    {
+      "blog": "https://www.tecmint.com/",
+      "author": "Tecmint"
+    },
+    {
+      "blog": "https://www.unixmen.com/",
+      "author": "Unixmen"
+    },
+    {
+      "blog": "https://www.linuxmint.com/blog/",
+      "author": "Linux Mint Team"
+    },
+    {
+      "blog": "https://blog.suse.com/",
+      "author": "SUSE"
+    },
+    {
+      "blog": "https://www.gamingonlinux.com/",
+      "author": "GamingOnLinux"
+    },
+    {
+      "blog": "https://archlinux.org/news/",
+      "author": "Arch Linux Team"
+    },
+    {
+      "blog": "https://www.redhat.com/en/blog",
+      "author": "Red Hat"
+    },
+    {
+      "blog": "https://www.debian.org/News/",
+      "author": "Debian Project"
+    },
+    {
+      "blog": "https://news.opensuse.org/",
+      "author": "openSUSE Project"
+    },
+    {
+      "blog": "https://blog.system76.com/",
+      "author": "System76"
+    },
+    {
+      "blog": "https://www.zdnet.com/topic/open-source/",
+      "author": "ZDNet Open Source"
+    },
+    {
+      "blog": "https://opensource.com/",
+      "author": "Opensource.com (Red Hat)"
+    },
+    {
+      "blog": "https://www.9to5linux.com/",
+      "author": "9to5Linux"
+    },
+    {
+      "blog": "https://nixcraft.com/blog/",
+      "author": "nixCraft"
+    },
+    {
+      "blog": "https://www.howtoforge.com/",
+      "author": "HowtoForge"
+    },
+    {
+      "blog": "https://elementary.io/blog",
+      "author": "elementary OS Team"
+    },
+    {
+      "blog": "https://www.fosslife.org/",
+      "author": "FOSSlife"
+    },
+    {
+      "blog": "https://www.linuxjournal.com/",
+      "author": "Linux Journal"
+    },
+    {
+      "blog": "https://www.linuxandubuntu.com/",
+      "author": "LinuxAndUbuntu"
+    },
+    {
+      "blog": "https://www.xmodulo.com/",
+      "author": "Xmodulo"
+    },
+    {
+      "blog": "https://www.linuxuprising.com/",
+      "author": "Linux Uprising"
+    },
+    {
+      "blog": "https://www.fossforce.com/",
+      "author": "FOSS Force"
+    },
+    {
+      "blog": "https://www.linux.com/news/",
+      "author": "Linux.com"
+    },
+    {
+      "blog": "https://www.fossmint.com/",
+      "author": "FOSSMint"
+    },
+    {
+      "blog": "https://www.linuxlinks.com/",
+      "author": "LinuxLinks"
+    },
+    {
+      "blog": "https://www.linuxbabe.com/",
+      "author": "LinuxBabe"
+    },
+    {
+      "blog": "https://www.linuxshelltips.com/",
+      "author": "LinuxShellTips"
+    },
+    {
+      "blog": "https://www.debugpoint.com/",
+      "author": "DebugPoint"
+    },
+    {
+      "blog": "https://www.fossbytes.com/",
+      "author": "Fossbytes"
+    },
+    {
+      "blog": "https://www.cyberciti.biz/tips/",
+      "author": "nixCraft"
+    },
+    {
+      "blog": "https://www.linux-magazine.com/Online/News",
+      "author": "Linux Magazine"
+    },
+    {
+      "blog": "https://www.linuxhint.com/",
+      "author": "LinuxHint"
+    },
+    {
+      "blog": "https://www.linuxcapable.com/",
+      "author": "LinuxCapable"
+    }
+  ]
+}

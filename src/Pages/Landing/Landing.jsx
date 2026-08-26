@@ -109,44 +109,44 @@ const Landing = () => {
             <Card
               image="/assets/landing/iot.png"
               name="IoT"
-              link="#"
+              link="/iot"
               description="IoT is the network of physical objects that are embedded with sensors, software etc.. for the purpose of connecting and exchanging data over the internet."
             />
             <Card
               image="/assets/landing/uiux.png"
               name="UI/UX"
-              link="#"
+              link="/uiux"
               description="UI Design and UX Design are some of the most in-demand skills today. While UI deals with the graphical layout of an app, UX deals with the human experience."
             />
             <Card
               image="/assets/landing/cybersec.png"
               name="Cyber Security"
-              link="#"
+              link="/cybersecurity"
               description="Cyber Security is the practice of defending computers, servers, mobile devices, electronic systems, networks, and data from malicious attacks. "
-            />
-            <Card
-              image="/assets/landing/google.png"
-              name="Actions On Google"
-              link="#"
-              description="
-            The Actions console is the web-based tool used for developing Actions for registration, deployment, configuration, and analytics."
             />
             <Card
               image="/assets/landing/cdesign.png"
               name="Creative Design"
-              link="#"
+              link="/creativedesgin"
               description="Creative Design helps to portray ideas in the best fashion and requires an expertise in designing and a certain level of creativity. "
             />
             <Card
               image="/assets/landing/marketing.png"
               name="Marketing"
-              link="#"
+              link="/marketing"
               description="Marketing is the process of promoting and selling goods and services. It involves understanding the product, target audience, and making plans to promote it. "
+            />
+          <Card
+              image="/assets/landing/foss.png"
+              name="Foss"
+              link="/foss"
+              description="FOSS (Free and Open Source Software) is software that anyone can use, modify, and share freely. It promotes collaboration, transparency, and community-driven development.
+ "
             />
           </div>
         </div>
 
-        <div className={styles.cw_text}>© Copyright 2022 Tech Myrmidons</div>
+        <div className={styles.cw_text}>© Copyright 2025 Tech Myrmidons</div>
       </div>
     </>
   );

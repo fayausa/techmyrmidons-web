@@ -1,0 +1,22 @@
+{
+  "2023": [
+    {
+      "title": "SwiftUI adoption surges",
+      "description": "Apple developers increasingly migrated to SwiftUI for declarative UI, leveraging improved async/await support in iOS 16+.",
+      "url": "https://developer.apple.com/xcode/swiftui/",
+      "morelink": "Apple Developer"
+    },
+    {
+      "title": "ARKit & RealityKit gain adoption",
+      "description": "AR-based experiences were built using Apple's ARKit 6 and Reality Composer Pro, fostering interactive retail and education tools.",
+      "url": "https://developer.apple.com/augmented-reality/",
+      "morelink": "Apple AR"
+    },
+    {
+      "title": "Core ML powers on-device AI",
+      "description": "iOS developers adopted Core ML for image classification, sentiment analysis, and object detection, improving app privacy and performance.",
+      "url": "https://developer.apple.com/machine-learning/",
+      "morelink": "Core ML"
+    }
+  ]
+}

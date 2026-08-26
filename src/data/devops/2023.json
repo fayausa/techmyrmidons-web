@@ -1,0 +1,46 @@
+{
+  "2023": [
+    {
+      "title": "Microservices drive DevOps adoption",
+      "description": "Microservice architectures became foundational, enabling faster deployment, better scalability, and independent service development.",
+      "url": "https://community.nasscom.in/communities/devops/top-10-devops-trends-2023",
+      "morelink": "NASSCOM"
+    },
+    {
+      "title": "AIOps emerges for anomaly detection",
+      "description": "AI/ML began powering DevOps pipelines to detect anomalies, predict infrastructure issues, and automatically remediate problems.",
+      "url": "https://medium.com/@apica.io/top-7-devops-trends-in-2023-db68a05afd1",
+      "morelink": "Apica"
+    },
+    {
+      "title": "DevSecOps gains momentum",
+      "description": "Security shifted left; integrating automated security checks and vulnerability scanning into CI/CD became standard practice.",
+      "url": "https://devops.com/three-trends-that-will-transform-devops-in-2023/",
+      "morelink": "DevOps.com"
+    },
+    {
+      "title": "Cloud-native and Kubernetes growth",
+      "description": "Kubernetes and container orchestration became essential parts of DevOps toolchains, with widespread adoption across industries.",
+      "url": "https://www.cloudthat.com/resources/blog/the-future-of-devops-prediction-and-trends-for-2024-and-beyond",
+      "morelink": "CloudThat"
+    },
+    {
+      "title": "Observability becomes critical",
+      "description": "Teams invested in observability platforms to monitor distributed systems, logs, and traces for faster incident response.",
+      "url": "https://devopscube.com/devops-trends/",
+      "morelink": "DevOpsCube"
+    },
+    {
+      "title": "CI/CD pipelines evolve",
+      "description": "Pipelines enhanced with more automation, including automated testing, canary deployments, and blue-green rollouts.",
+      "url": "https://community.nasscom.in/communities/devops/top-10-devops-trends-2023",
+      "morelink": "NASSCOM"
+    },
+    {
+      "title": "Platform engineering rises",
+      "description": "Internal developer platforms emerged, simplifying self-service deployments and reducing friction between dev and ops teams.",
+      "url": "https://www.itprotoday.com/devops/top-10-devops-trends-of-2024-key-insights-and-innovations",
+      "morelink": "ITPro Today"
+    }
+  ]
+}

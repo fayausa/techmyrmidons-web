@@ -68,6 +68,17 @@ In case you are not familiar with JSON format, you can learn it real quick with 
 ### Once Completed
 - After you are done, raise a Pull Request to the repository.
 
+## 👥 Contributors
+
+Meet the amazing people who made this project possible!  
+View the full contributor list in [CONTRIBUTORS.md](./CONTRIBUTORS.md).
+
+<p align="left">
+  <!-- Auto-generated contributor avatars -->
+  <!-- Will be updated by GitHub Actions -->
+</p>
+
+
 ## Guidelines
 - Try to avoid duplicates.
 - Please try to make sure that all the links and images are legit as well as working before raising the pull request.
