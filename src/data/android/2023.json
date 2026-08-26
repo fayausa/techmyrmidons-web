@@ -1,0 +1,39 @@
+{
+  "2023": [
+    {
+      "title": "Android Studio Giraffe (2022.3.1) & Hedgehog (2023.1.1)",
+      "description": "Giraffe (2022.3.1 Patch 4 in Nov 2023) delivered bug fixes and stability enhancements; Hedgehog (2023.1.1 in Nov 2023) introduced Compact Mode, distraction‑free improvements, vertical/horizontal splits, macOS project tabs, and advanced tool‑window actions.",
+      "url": "https://developer.android.com/studio/releases/past-releases"
+    },
+    {
+      "title": "Android Studio Iguana (2023.2.1 Beta/Canary)",
+      "description": "Iguana preview builds throughout late‑2023 added IntelliJ 2023.2 platform improvements, gRPC support in Network Inspector, enhanced Espresso Recorder, updates to Layout/Navigation Inspectors, and introduced App development with Gemini Pro via Google AI SDK.",
+      "url": "https://androidstudio.googleblog.com/2023/"
+    },
+    {
+      "title": "Jetpack Compose enhancements",
+      "description": "Compose Animation Preview was updated in Giraffe to support animate\*AsState, CrossFade, rememberInfiniteTransition and AnimatedContent (with Compose 1.4.0‑alpha04+). Compose continues to be the recommended UI toolkit.",
+      "url": "https://developer.android.com/studio/releases/past-releases/as-giraffe-release-notes"
+    },
+    {
+      "title": "SDK & Build Tools updates for Android 14",
+      "description": "Build‑Tools 34.0.0 (Feb 2023) added support for Android 14 preview APIs. SDK Platform‑Tools and Platform updates throughout 2023 ensured full compatibility with Android 14.",
+      "url": "https://developer.android.com/tools/releases/build-tools"
+    },
+    {
+      "title": "Android Studio Studio Bot & SDK Upgrade Assistant",
+      "description": "Giraffe introduced an Android SDK Upgrade Assistant to guide targetSdkVersion upgrades. Studio Bot (I/O ’23) offered AI‑powered in‑IDE suggestions and guided migrations.",
+      "url": "https://android-developers.googleblog.com/2023/05/android-studio-io-23-announcing-studio-bot.html"
+    },
+    {
+      "title": "AI & Gemini integration",
+      "description": "By late 2023, Canary builds of Iguana previewed integrating Gemini Pro (Google AI) into Android Studio, enabling AI‑driven coding assistance, code completion, and productivity tools.",
+      "url": "https://androidstudio.googleblog.com/2023/"
+    },
+    {
+      "title": "Key productivity tools: ADB over Wi‑Fi, Firebase Device Streaming",
+      "description": "Community reports (Reddit/r/androiddev) highlighted reworked persistent ADB over Wi‑Fi (auto‑reconnect), and Firebase Device Streaming from real devices in OEM labs.",
+      "url": "https://www.reddit.com/r/androiddev/comments/1kttrkp/whats_new_in_android_development_tools/"
+    }
+  ]
+}
